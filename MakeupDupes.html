@@ -25,45 +25,52 @@
 
 <!-- Sort By--><!--Button-->
 <div id= sortby > Sort by </div><br>
-<!--face button-->
-<button onclick="myFunction()"> Face </button>
 
-<p id="Face"></p>
-
+<div id= Face >
+<button onclick="FunctionFace()"> Face </button>
+<br>
 <script>
-function myFunction() {
+function FunctionFace() {
   document.getElementById("Face").innerHTML =
   "<p> contour </p> NYX highlight and contour HD palette $25 compares to Kat Von D contour pallete $46. <p> foundation </p> Foundation stick; Revol photoready instafix foundation stick $11, compared to bobby browns 46$ "
 ;}
-  </script>
+  </script><br>
 
 
       <!-- CHEEKS-->
-<br>
-<div id= cheeks >
-  <h4> highlighter </h4>
+<div id= Cheeks >
+  <button onclick="FunctionCheeks()"> Cheeks </button>
+  <br>
+  <script>
+  function FunctionCheeks() {
+    document.getElementById("Cheeks").innerHTML =
+    "<p> highlighter </p> <p> Blush </p> <p> Bronze </p> "
+  ;}
+    </script><br>
 
-  <h4> Blush </h4>
-
-  <h4> Bronze </h4>
 
   <!-- LIPS -->
 <div id= "Lips" >
-  <h4>Matte </h4>
+  <button onclick="FunctionLips()"> Lips </button>
+  <br>
+  <script>
+  function FunctionLips() {
+    document.getElementById("Lips").innerHTML =
+    "<p> matte lipcream </p> <p> lip gloss </p> <p> metallic </p> <p> lipstick </p>"
+  ;}
+    </script><br>
 
-  <h4> Gloss </h4>
-
-  <h4> Metallic </h4>
-
-  <h4> Lip Stick </h4>
 
     <!-- EYES-->
 <div id= "Eyes">
-  <h4> Eyeshadow </h4>
-
-  <h4> Eyeliner </h4>
-
-  <h4> Mascara </h4>
+  <button onclick="FunctionEyes()"> Eyes </button>
+  <br>
+  <script>
+  function FunctionEyes() {
+    document.getElementById("Eyes").innerHTML =
+    "<p> eyeshadow </p> <p> eyeliner </p> <p> mascara </p> <p> primer </p>"
+  ;}
+    </script><br>
 
 
 </body>
