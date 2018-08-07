@@ -20,16 +20,7 @@ background-color: #81F7BE;
   cursor: pointer;
   position: relative;
   }
-.hidedisplay {
-  display:none
-}
-/*.Changecolor{
- background-color:#81F7BE ;*/
-}
-.SurveyQuestions{
-  display: inline;
 
-}
 }
 .center{
   text-align:center;
