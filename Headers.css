@@ -1,10 +1,32 @@
+/* all the pages header*/
+h1{
+  font-family: 'Fugaz One', cursive;
+  font-style: italic;
+  text-align: center;
+  font-size: 43px;
+}
+
+.bar{
+  background-color: black;
+  overflow: hidden;
+}
+
+.bar a{
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 20px;
+  width: 10.5%
+}
+
 /* Skin care*/
 
 h1{
 text-align: center;
 display:block;
 padding: 15px 32px;
-background-color: #81F7BE;
 }
 
 .SurveyButton {
@@ -40,26 +62,3 @@ background-color: #81F7BE;
 /* Awarness*/
 
 /* About Us*/
-
-/* all the pages header*/
-h1{
-  font-family: 'Fugaz One', cursive;
-  font-style: italic;
-  text-align: center;
-  font-size: 43px;
-}
-
-.bar{
-  background-color: black;
-  overflow: hidden;
-}
-
-.bar a{
-  float: left;
-  color: white;
-  text-align: center;
-  padding: 10px 12px;
-  text-decoration: none;
-  font-size: 20px;
-  width: 10.5%
-}
