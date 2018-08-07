@@ -1,0 +1,149 @@
+head, body, {background-color: black}
+
+
+h1{
+  font-family: 'Fugaz One', cursive;
+  font-style: italic;
+  text-align: center;
+}
+
+
+/* .header {
+  background-color: #ffffff;
+  text-align: center;
+  display: inline-block;
+  width: 1250px;
+}
+
+.header a {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+  width: 100px;
+  margin-left: 8px;
+  margin-right: 8px;
+} */
+
+
+
+  .parallax{
+  background-image: url("cleansers.jpg");
+
+  height: 250px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+ #cleansers{
+  width: 100px;
+  height: 250px;
+  title: "Skin Care";
+}
+
+#textTwo{
+  height: 200px;
+  background: white;
+}
+
+.parallax2{
+  background-image: url("makeup.jpg");
+
+  height: 250px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ #makeup{
+  width: 100px;
+  height: 250px;
+}
+
+
+.parallax3{
+  background-image: url("dupes.png");
+
+  height: 250px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ #makeupdupes{
+  width: 100px;
+  height: 250px;
+}
+
+.parallax4{
+  background-image: url("testingmakeup.jpg");
+
+  height: 250px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ #testitout{
+  width: 100px;
+  height: 250px;
+}
+
+/*buttom for images*/
+/* Container needed to position the button. Adjust the width as needed */
+/* .container {
+  position: relative;
+  width: 40%;
+  display: inline-block;
+  margin: 0;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+} */
+
+/* Style the button and place it in the middle of the container/image */
+  /* .btn {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  color: white;
+  font-size: 18px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+} */
+ /* how the link in the button looks  */
+/* .btn a{
+  color: black;
+
+
+}
+
+.container .btn:hover {
+  background-color: black;
+} */
