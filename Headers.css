@@ -1,0 +1,51 @@
+/* Skin care*/
+
+h1{
+text-align: center;
+display:block;
+padding: 15px 32px;
+background-color: #81F7BE;
+}
+
+.SurveyButton {
+  background-color:#D358F7 ; /*purple/pinkish*/
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display:inline-block;
+  font-size: 18px;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  }
+.hidedisplay {
+  display:none
+}
+/*.Changecolor{
+ background-color:#81F7BE ;*/
+}
+.SurveyQuestions{
+  display: inline;
+
+}
+}
+.center{
+  text-align:center;
+
+}
+
+/* Makeup*/
+
+/* MakeupDupes*/
+
+
+/*Test it out*/
+
+
+/*Tutorials*/
+
+/* Awarness*/
+
+/* About Us*/

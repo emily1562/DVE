@@ -1,11 +1,50 @@
 <!DOCTYPE html>
 
 <html>
+ <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <link rel= "StyleSheet"; href = "Headers.css">
 <head>
 </head>
-
+<!-- title-->
+<h1> Skin Care </h1>
 <body>
+<!-- survey -->
+<p>
+  <!--survey words--> <h4 class="center"> Would you like to take a Survey! </h4>
+</P>
+
+
+<button class="SurveyButton" onclick="myFunction()">Survey</button>
+
+<p id="Questions"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("Questions").innerHTML = "lets start!";}
+  </script>
+
+  <div id="Surveyy">
+
+    what type of skin do you have?
+  <form action="/action_page.php" method="get">
+  <input type="radio" name="skincare" id="oily" value="oily"> oily<br>
+  <input type="radio" name="skincare" id="dry" value="dry" checked="checked"> dry<br>
+  <input type="radio" name="skincare" id="combination" value="combination"> combination <br><br>
+
+
+  What are your major concerns?
+  <form action="/action_page.php" method="get"><br>
+  <input type="radio" name="skincare" id="acneandblemishes" value="acneandblemishes"> acne and blemishes<br>
+  <input type="radio" name="skincare" id="anti-aging" value="anti-aging" checked="checked"> anti-aging <br>
+  <input type="radio" name="skincare" id="other" value="other"> other(pores,dullness)<br><br>
+
+  <br>
+  <input type="submit" value="Submit">
+  
+</div>
+</form>
 
 
 
 </body>
+</html>
