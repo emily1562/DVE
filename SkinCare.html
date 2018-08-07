@@ -1,11 +1,64 @@
 <!DOCTYPE html>
 
 <html>
+ <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+ <link rel= "StyleSheet"; href = "Headers.css">
+ <script src="java.js"></script>
 <head>
 </head>
-
+<!-- title-->
 <body>
+
+<!-- Bar -->
+<div class = "bar">
+<a id="Home" href="finalprojectdg.html" onmouseover="makeGrey(Home)" onmouseout="makeBlack(Home)">Home</a>
+<a id="SkinCare" href="SkinCare.html" onmouseover="makeGrey(SkinCare)" onmouseout="makeBlack(SkinCare)">Skin Care</a>
+<a id="Makeup" href="Makeup.html" onmouseover="makeGrey(Makeup)" onmouseout="makeBlack(Makeup)">Makeup</a>
+<a id="MakeupDupes" href="MakeupDupes.html" onmouseover="makeGrey(MakeupDupes)" onmouseout="makeBlack(MakeupDupes)">Makeup Dupes</a>
+<a id="TestItOut" href="TestItOut.html" onmouseover="makeGrey(TestItOut)" onmouseout="makeBlack(TestItOut)">Test It Out</a>
+<a id="Tutorials" href="Tutorials.html" onmouseover="makeGrey(Tutorials)" onmouseout="makeBlack(Tutorials)">Tutorials</a>
+<a id="News" href="News.html" onmouseover="makeGrey(News)" onmouseout="makeBlack(News)">News</a>
+<a id="AboutUs" href="aboutus.html" onmouseover="makeGrey(AboutUs)" onmouseout="makeBlack(AboutUs)">About Us</a>
+</div>
+<h1> Skin Care </h1>
+
+
+<!-- survey -->
+<!--survey words--> <h3 class="center"> Would you like to take a Survey? </h3>
+</P>
+
+
+<button class="SurveyButton" onclick="myFunction()">Survey</button>
+
+<p id="Questions"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("Questions").innerHTML = "lets start!";}
+  </script>
+
+  <div id="Survey">
+
+  What is your skin type?
+  <form action="/action_page.php" method="get">
+  <input type="radio" name="skincare" id="oily" value="oily"> oily<br>
+  <input type="radio" name="skincare" id="dry" value="dry" checked="checked"> dry<br>
+  <input type="radio" name="skincare" id="combination" value="combination"> combination <br><br>
+
+
+  What are your major concerns?
+  <form action="/action_page.php" method="get"><br>
+  <input type="radio" name="skincare" id="acneandblemishes" value="acneandblemishes"> acne and blemishes<br>
+  <input type="radio" name="skincare" id="anti-aging" value="anti-aging" checked="checked"> anti-aging <br>
+  <input type="radio" name="skincare" id="other" value="other"> other(pores,dullness)<br><br>
+
+  <br>
+  <input type="submit" value="Submit">
+
+</div>
+</form>
 
 
 
 </body>
+</html>

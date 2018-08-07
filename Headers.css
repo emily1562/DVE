@@ -1,0 +1,64 @@
+/* all the pages header*/
+h1{
+  font-family: 'Fugaz One', cursive;
+  font-style: italic;
+  text-align: center;
+  font-size: 43px;
+}
+
+.bar{
+  background-color: black;
+  overflow: hidden;
+}
+
+.bar a{
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 20px;
+  width: 10.5%
+}
+
+/* Skin care*/
+
+h1{
+text-align: center;
+display:block;
+padding: 15px 32px;
+}
+
+.SurveyButton {
+  background-color:#D358F7 ; /*purple/pinkish*/
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display:inline-block;
+  font-size: 18px;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  }
+
+}
+.center{
+  text-align:center;
+
+}
+
+/* Makeup*/
+
+/* MakeupDupes*/
+
+
+/*Test it out*/
+
+
+/*Tutorials*/
+
+/* Awarness*/
+
+/* About Us*/
