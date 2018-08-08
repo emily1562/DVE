@@ -1,79 +1,64 @@
 <!DOCTYPE html>
 
 <html>
-<link rel= "stylesheet"; href = "Headers.css">
-<script src="java.js"></script>
-
+ <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+ <link rel= "StyleSheet"; href = "Headers.css">
+ <script src="java.js"></script>
 <head>
-  <title>  Final Project </title>
 </head>
-
+<!-- title-->
 <body>
-<!-- Link Bar -->
+
+<!-- Bar -->
 <div class = "bar">
-  <a id="Home" href="aboutus.html" onmouseover="makeGrey(Home)" onmouseout="makeBlack(Home)">Home</a>
-  <a id="SkinCare" href="SkinCare.html" onmouseover="makeGrey(SkinCare)" onmouseout="makeBlack(SkinCare)">Skin Care</a>
-  <a id="Makeup" href="Makeup.html" onmouseover="makeGrey(Makeup)" onmouseout="makeBlack(Makeup)">Makeup</a>
-  <a id="MakeupDupes" href="MakeupDupes.html" onmouseover="makeGrey(MakeupDupes)" onmouseout="makeBlack(MakeupDupes)">Makeup Dupes</a>
-  <a id="TestItOut" href="TestItOut.html" onmouseover="makeGrey(TestItOut)" onmouseout="makeBlack(TestItOut)">Test It Out</a>
-  <a id="Tutorials" href="Tutorials.html" onmouseover="makeGrey(Tutorials)" onmouseout="makeBlack(Tutorials)">Tutorials</a>
-  <a id="News" href="News.html" onmouseover="makeGrey(News)" onmouseout="makeBlack(News)">News</a>
-  <a id="AboutUs" href="aboutus.html" onmouseover="makeGrey(AboutUs)" onmouseout="makeBlack(AboutUs)">About Us</a>
+<a id="Home" href="finalprojectdg.html" onmouseover="makeGrey(Home)" onmouseout="makeBlack(Home)">Home</a>
+<a id="SkinCare" href="SkinCare.html" onmouseover="makeGrey(SkinCare)" onmouseout="makeBlack(SkinCare)">Skin Care</a>
+<a id="Makeup" href="Makeup.html" onmouseover="makeGrey(Makeup)" onmouseout="makeBlack(Makeup)">Makeup</a>
+<a id="MakeupDupes" href="MakeupDupes.html" onmouseover="makeGrey(MakeupDupes)" onmouseout="makeBlack(MakeupDupes)">Makeup Dupes</a>
+<a id="TestItOut" href="TestItOut.html" onmouseover="makeGrey(TestItOut)" onmouseout="makeBlack(TestItOut)">Test It Out</a>
+<a id="Tutorials" href="Tutorials.html" onmouseover="makeGrey(Tutorials)" onmouseout="makeBlack(Tutorials)">Tutorials</a>
+<a id="News" href="News.html" onmouseover="makeGrey(News)" onmouseout="makeBlack(News)">News</a>
+<a id="AboutUs" href="aboutus.html" onmouseover="makeGrey(AboutUs)" onmouseout="makeBlack(AboutUs)">About Us</a>
 </div>
-<h1> Makeup Dupes </h1>
+<h1> Skin Care </h1>
 
 
-<!-- Sort By--><!--Button-->
-<div id= sortby > Sort by </div><br>
+<!-- survey -->
+<!--survey words--> <h3 class="center"> Would you like to take a Survey? </h3>
+</P>
 
-<div id= Face >
-<button onclick="FunctionFace()"> Face </button>
-<br>
+
+<button class="SurveyButton" onclick="myFunction()">Survey</button>
+
+<p id="Questions"></p>
+
 <script>
-function FunctionFace() {
-  document.getElementById("Face").innerHTML =
-  "<p> contour </p> NYX highlight and contour HD palette $25 compares to Kat Von D contour pallete $46. <p> foundation </p> Foundation stick; Revol photoready instafix foundation stick $11, compared to bobby browns 46$ "
-;}
-  </script><br>
+function myFunction() {
+  document.getElementById("Questions").innerHTML = "lets start!";}
+  </script>
+
+  <div id="Surveyy">
+
+  What is your skin type?
+  <form action="/action_page.php" method="get">
+  <input type="radio" name="skincare" id="oily" value="oily"> oily<br>
+  <input type="radio" name="skincare" id="dry" value="dry" checked="checked"> dry<br>
+  <input type="radio" name="skincare" id="combination" value="combination"> combination <br><br>
 
 
-      <!-- CHEEKS-->
-<div id= Cheeks >
-  <button onclick="FunctionCheeks()"> Cheeks </button>
+  What are your major concerns?
+  <form action="/action_page.php" method="get"><br>
+  <input type="radio" name="skincare" id="acneandblemishes" value="acneandblemishes"> acne and blemishes<br>
+  <input type="radio" name="skincare" id="anti-aging" value="anti-aging" checked="checked"> anti-aging <br>
+  <input type="radio" name="skincare" id="other" value="other"> other(pores,dullness)<br><br>
+
   <br>
-  <script>
-  function FunctionCheeks() {
-    document.getElementById("Cheeks").innerHTML =
-    "<p> highlighter </p> <p> Blush </p> <p> Bronze </p> "
-  ;}
-    </script><br>
+  <input type="submit" value="Submit">
 
+</div>
+</form>
 
-  <!-- LIPS -->
-<div id= "Lips" >
-  <button onclick="FunctionLips()"> Lips </button>
-  <br>
-  <script>
-  function FunctionLips() {
-    document.getElementById("Lips").innerHTML =
-    "<p> matte lipcream </p> <p> lip gloss </p> <p> metallic </p> <p> lipstick </p>"
-  ;}
-    </script><br>
-
-
-    <!-- EYES-->
-<div id= "Eyes">
-  <button onclick="FunctionEyes()"> Eyes </button>
-  <br>
-  <script>
-  function FunctionEyes() {
-    document.getElementById("Eyes").innerHTML =
-    "<p> eyeshadow </p> <p> eyeliner </p> <p> mascara </p> <p> primer </p>"
-  ;}
-    </script><br>
 
 
 </body>
-
-
 </html>
