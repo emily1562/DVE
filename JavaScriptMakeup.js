@@ -1,13 +1,12 @@
 //test
 
-function FunctionTest() {
-  //if (document.getElementById("TestText").innerHTML != ""){
-//  document.getElementById("TestText").innerHTML = "";
-  //}
-//  else{
-
-  document.getElementById("TestText").innerHTML = "test";
+/*function FunctionTest() {
+  if (document.getElementById("TestText").innerHTML != ""){
+ document.getElementById("TestText").innerHTML = "";
+  }
+else{document.getElementById("TestText").innerHTML = "test";
 }
+}*/
 
 //Face
 function FunctionFace() {
