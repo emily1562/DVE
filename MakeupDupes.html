@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 
 <html>
-<link rel= "stylesheet"; href = "Headers.css">
-<script src="java.js"></script>
-
+ <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+ <link rel= "StyleSheet"; href = "Headers.css">
+ <script src="java.js"></script>
 <head>
-  <title>  Final Project </title>
 </head>
-
+<!-- title-->
 <body>
-<!-- Link Bar -->
+
+<!-- Bar -->
 <div class = "bar">
-  <a id="Home" href="aboutus.html" onmouseover="makeGrey(Home)" onmouseout="makeBlack(Home)">Home</a>
-  <a id="SkinCare" href="SkinCare.html" onmouseover="makeGrey(SkinCare)" onmouseout="makeBlack(SkinCare)">Skin Care</a>
-  <a id="Makeup" href="Makeup.html" onmouseover="makeGrey(Makeup)" onmouseout="makeBlack(Makeup)">Makeup</a>
-  <a id="MakeupDupes" href="MakeupDupes.html" onmouseover="makeGrey(MakeupDupes)" onmouseout="makeBlack(MakeupDupes)">Makeup Dupes</a>
-  <a id="TestItOut" href="TestItOut.html" onmouseover="makeGrey(TestItOut)" onmouseout="makeBlack(TestItOut)">Test It Out</a>
-  <a id="Tutorials" href="Tutorials.html" onmouseover="makeGrey(Tutorials)" onmouseout="makeBlack(Tutorials)">Tutorials</a>
-  <a id="News" href="News.html" onmouseover="makeGrey(News)" onmouseout="makeBlack(News)">News</a>
-  <a id="AboutUs" href="aboutus.html" onmouseover="makeGrey(AboutUs)" onmouseout="makeBlack(AboutUs)">About Us</a>
+<a id="Home" href="finalprojectdg.html" onmouseover="makeGrey(Home)" onmouseout="makeBlack(Home)">Home</a>
+<a id="SkinCare" href="SkinCare.html" onmouseover="makeGrey(SkinCare)" onmouseout="makeBlack(SkinCare)">Skin Care</a>
+<a id="Makeup" href="Makeup.html" onmouseover="makeGrey(Makeup)" onmouseout="makeBlack(Makeup)">Makeup</a>
+<a id="MakeupDupes" href="MakeupDupes.html" onmouseover="makeGrey(MakeupDupes)" onmouseout="makeBlack(MakeupDupes)">Makeup Dupes</a>
+<a id="TestItOut" href="TestItOut.html" onmouseover="makeGrey(TestItOut)" onmouseout="makeBlack(TestItOut)">Test It Out</a>
+<a id="Tutorials" href="Tutorials.html" onmouseover="makeGrey(Tutorials)" onmouseout="makeBlack(Tutorials)">Tutorials</a>
+<a id="News" href="News.html" onmouseover="makeGrey(News)" onmouseout="makeBlack(News)">News</a>
+<a id="AboutUs" href="aboutus.html" onmouseover="makeGrey(AboutUs)" onmouseout="makeBlack(AboutUs)">About Us</a>
 </div>
-<h1> Makeup Dupes </h1>
+<h1> Skin Care </h1>
 
 
-<!-- Sort By--><!--Button-->
-<div id= sortby > Sort by </div><br>
+<!-- survey -->
+<!--survey words--> <h3 class="center"> Would you like to take a Survey? </h3>
+</P>
 
 <div id= Face >
 <button onclick="FunctionFace()"> Face </button>
@@ -36,17 +37,14 @@ function FunctionFace() {
 ;}
   </script><br>
 
+<button class="SurveyButton" onclick="myFunction()">Survey</button>
 
-      <!-- CHEEKS-->
-<div id= Cheeks >
-  <button onclick="FunctionCheeks()"> Cheeks </button>
-  <br>
-  <script>
-  function FunctionCheeks() {
-    document.getElementById("Cheeks").innerHTML =
-    "<p> highlighter </p> <p> Blush </p> <p> Bronze </p> "
-  ;}
-    </script><br>
+<p id="Questions"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("Questions").innerHTML = "lets start!";}
+  </script>
 
 
   <!-- LIPS -->
@@ -61,19 +59,10 @@ function FunctionFace() {
     </script><br>
 
 
-    <!-- EYES-->
-<div id= "Eyes">
-  <button onclick="FunctionEyes()"> Eyes </button>
-  <br>
-  <script>
-  function FunctionEyes() {
-    document.getElementById("Eyes").innerHTML =
-    "<p> eyeshadow </p> <p> eyeliner </p> <p> mascara </p> <p> primer </p>"
-  ;}
-    </script><br>
+</div>
+</form>
+
 
 
 </body>
-
-
 </html>
