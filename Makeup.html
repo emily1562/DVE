@@ -3,7 +3,7 @@
 <html>
 <link rel ="stylesheet"; href = "Headers.css">
 <script src="java.js"></script>
-
+<script src="JavaScriptMakeup.js"></scrip>
 <head>
 </head>
 
@@ -23,52 +23,37 @@
 <h1> Makeup </h1>
 
 <!-- Buttons -->
-<div id= sortby > Sort by </div><br>
+<div> Sort by </div><br>
+
+
+<!-- test -->
+<div id="Test">
+  <button onclick="FunctionTest()"> Test </button>
+  <div id="TestText"></div><br></div>
 
 <!-- Face -->
-<div id= Face >
-<button onclick="FunctionFace()"> Face </button>
-<br>
-<script>
-function FunctionFace() {
-  document.getElementById("Face").innerHTML =
-  "<p><h3> contour </h3></p> <p><h3> foundation </h3></p><p><h3> concealer </h3></p> <p><h3> Setting Spray </h3></p>"
-;}
-  </script><br>
+<div id="Face" >
+  <button onclick="FunctionFace()"> Face </button>
+  <div id="FaceText"></div><br></div>
+
 
 <!--cheek-->
-<div id= Cheeks >
+<div id= "Cheeks" >
   <button onclick="FunctionCheeks()"> Cheeks </button>
-  <br>
-  <script>
-  function FunctionCheeks() {
-    document.getElementById("Cheeks").innerHTML =
-    "<p> highlighter </p> <p> Blush </p> <p> Bronze </p> "
-  ;}
-    </script><br>
+  <div id="CheeksText"></div><br></div>
+
 
 
 <!--lips-->
 <div id= "Lips" >
   <button onclick="FunctionLips()"> Lips </button>
-  <br>
-  <script>
-  function FunctionLips() {
-    document.getElementById("Lips").innerHTML =
-    "<p><h3> matter </p> </h3>"
-  ;}
-    </script><br>
+  <div id="LipsText"></div><br></div>
+
 
     <!-- EYES-->
 <div id= "Eyes">
   <button onclick="FunctionEyes()"> Eyes </button>
-  <br>
-  <script>
-  function FunctionEyes() {
-    document.getElementById("Eyes").innerHTML =
-    "<p> eyeshadow </p> <p> eyeliner </p> <p> mascara </p> <p> primer </p>"
-  ;}
-    </script><br>
+  <div id="EyesText"></div><br></div>
 
 </body>
 
