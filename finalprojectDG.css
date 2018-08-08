@@ -1,5 +1,11 @@
 head, body, {background-color: black}
 
+body, a{
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+  color: black;
+}
 
 /*logo*/
 .center2{
@@ -39,7 +45,7 @@ head, body, {background-color: black}
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  /*background-size: cover;*/
+  background-size: 800px 400px;
 }
 
 
@@ -69,7 +75,7 @@ head, body, {background-color: black}
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  /* background-size: cover; */
+  background-size: 800px 700px;
 }
 
  #makeup{
@@ -86,7 +92,7 @@ head, body, {background-color: black}
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  /* background-size: cover; */
+  background-size: 800px 700px;
 }
 
  #makeupdupes{
@@ -102,7 +108,7 @@ head, body, {background-color: black}
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  /* background-size: cover; */
+  background-size: 800px 400px;
 }
 
  #testitout{
@@ -118,7 +124,7 @@ head, body, {background-color: black}
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  /* background-size: cover; */
+  background-size: 800px 400px;
 }
 
  #tutorial{
@@ -135,7 +141,7 @@ head, body, {background-color: black}
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  /* background-size: cover; */
+  background-size: 800px 400px;
 }
 
  #aboutus{
