@@ -1,10 +1,12 @@
 head, body, {background-color: black}
 
 
-h1{
-  font-family: 'Fugaz One', cursive;
-  font-style: italic;
-  text-align: center;
+/*logo*/
+.center2{
+  display: block;
+  margin: auto;
+  width: 150px;
+  height: 150px;
 }
 
 
@@ -30,14 +32,14 @@ h1{
 
 
   .parallax{
-  background-image: url("cleansers.jpg");
+  background-image: url("cleansers.jpeg");
 
   height: 250px;
 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  /*background-size: cover;*/
 }
 
 
@@ -60,14 +62,14 @@ h1{
 }
 
 .parallax2{
-  background-image: url("makeup.jpg");
+  background-image: url("makeup.jpeg");
 
   height: 250px;
 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  /* background-size: cover; */
 }
 
  #makeup{
@@ -77,14 +79,14 @@ h1{
 
 
 .parallax3{
-  background-image: url("dupes.png");
+  background-image: url("dupes.jpeg");
 
   height: 250px;
 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  /* background-size: cover; */
 }
 
  #makeupdupes{
@@ -93,14 +95,14 @@ h1{
 }
 
 .parallax4{
-  background-image: url("testingmakeup.jpg");
+  background-image: url("testingmakeup.jpeg");
 
   height: 250px;
 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  /* background-size: cover; */
 }
 
  #testitout{
@@ -109,17 +111,34 @@ h1{
 }
 
 .parallax5{
-  background-image: url("tutorial.jpg");
+  background-image: url("tutorial.jpeg");
 
   height: 250px;
 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  /* background-size: cover; */
 }
 
  #tutorial{
+  width: 100px;
+  height: 250px;
+}
+
+
+.parallax6{
+  background-image: url("aboutus.jpeg");
+
+  height: 250px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+}
+
+ #aboutus{
   width: 100px;
   height: 250px;
 }
