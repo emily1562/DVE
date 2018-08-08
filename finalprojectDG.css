@@ -108,6 +108,22 @@ h1{
   height: 250px;
 }
 
+.parallax5{
+  background-image: url("tutorial.jpg");
+
+  height: 250px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ #tutorial{
+  width: 100px;
+  height: 250px;
+}
+
 /*buttom for images*/
 /* Container needed to position the button. Adjust the width as needed */
 /* .container {
