@@ -30,23 +30,33 @@ padding: 15px 32px;
 }
 
 .SurveyButton {
+  display: block; margin: 0 auto;
   background-color:#D358F7 ; /*purple/pinkish*/
   border: none;
   color: white;
+  padding: 15px 20px;
   padding: 15px 32px;
   text-decoration: none;
-  display:inline-block;
   font-size: 18px;
   font-family: 'Lobster', cursive;
   text-align: center;
   cursor: pointer;
-  position: relative;
   }
 
 }
 .center{
   text-align:center;
 
+}
+
+.surveycenter{
+margin: auto;
+width: 50%;
+padding: 10px;
+}
+
+#myDIV{
+  display: none;
 }
 
 /* Makeup*/

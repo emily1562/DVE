@@ -4,6 +4,7 @@
  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
  <link rel= "StyleSheet"; href = "Headers.css">
  <script src="java.js"></script>
+ <script src="SkinCarejavascript.js"></script>
 <head>
 </head>
 <!-- title-->
@@ -22,41 +23,28 @@
 </div>
 <h1> Skin Care </h1>
 
-
 <!-- survey -->
-<!--survey words--> <h3 class="center"> Would you like to take a Survey? </h3>
-</P>
+<!--survey words <h3 class="center"> Would you like to take a Survey? </h3>-->
 
-
-<button class="SurveyButton" onclick="myFunction()">Survey</button>
-
-<p id="Questions"></p>
-
-<script>
-function myFunction() {
-  document.getElementById("Questions").innerHTML = "lets start!";}
-  </script>
-
-  <div id="Surveyy">
-
-  What is your skin type?
-  <form action="/action_page.php" method="get">
-  <input type="radio" name="skincare" id="oily" value="oily"> oily<br>
-  <input type="radio" name="skincare" id="dry" value="dry" checked="checked"> dry<br>
-  <input type="radio" name="skincare" id="combination" value="combination"> combination <br><br>
-
-
-  What are your major concerns?
-  <form action="/action_page.php" method="get"><br>
-  <input type="radio" name="skincare" id="acneandblemishes" value="acneandblemishes"> acne and blemishes<br>
-  <input type="radio" name="skincare" id="anti-aging" value="anti-aging" checked="checked"> anti-aging <br>
-  <input type="radio" name="skincare" id="other" value="other"> other(pores,dullness)<br><br>
-
-  <br>
-  <input type="submit" value="Submit">
-
+<!--survey button-->
+<div class="surveycenter">
+<button class="SurveyButton" onclick="SurveyButton()">Survey</button>
+  <div id="myDIV">
+    What is your skin type?
+    <form action="/action_page.php" method="get">
+    <input type="radio" name="skincare" id="ily" value="oily"> Oily<br>
+    <input type="radio" name="skincare" id="dry" value="dry" checked="checked"> Dry<br>
+    <input type="radio" name="skincare" id="combination" value="combination"> Combination <br><br> </form>
+    What are your major concerns?
+    <form action="/action_page.php" method="get">
+    <input type="radio" name="skincare" id="acneandblemishes" value="acneandblemishes"> Acne & Blemishes<br>
+    <input type="radio" name="skincare" id="anti-aging" value="anti-aging" checked="checked"> Anti-Aging <br>
+    <input type="radio" name="skincare" id="other" value="other"> Other(Pores, Dullness, etc.)<br><br>
+    <input type="submit" value="Submit"></form>
+  </div>
 </div>
-</form>
+
+<br></br>
 
   <!--buttons/sort by -->
   <!--concerns -->
@@ -102,13 +90,14 @@ function myFunction() {
 
 
   <div id= "Others">
-  <button onclick="FunctionOthers()"> Others (toners,masks) </button>
+  <button onclick="FunctionOthers()"> Others (toners,masks,wipes) </button>
   <br>
   <script>
     function FunctionOthers() {
        document.getElementById("Others").innerHTML =
     "<p><h3>Acne and Blemishes</h3></p> <p><h3>Anti Aging</h3></p> <p><h3>Others</h3></p>"
       ;}
+
          </script><br>
 
 
