@@ -73,6 +73,10 @@ padding: 10px;
   text-align:center;
 }
 
+.skintype{
+  display: inline-block;
+}
+
 /* Makeup*/
 
 /* MakeupDupes*/
