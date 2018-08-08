@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 
 <html>
-<link rel= "stylesheet"; href = "Headers.css">
-<script src="java.js"></script>
-
+ <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+ <link rel= "StyleSheet"; href = "Headers.css">
+ <script src="java.js"></script>
 <head>
-  <title>  Final Project </title>
 </head>
-
+<!-- title-->
 <body>
-<!-- Link Bar -->
+
+<!-- Bar -->
 <div class = "bar">
-  <a id="Home" href="aboutus.html" onmouseover="makeGrey(Home)" onmouseout="makeBlack(Home)">Home</a>
-  <a id="SkinCare" href="SkinCare.html" onmouseover="makeGrey(SkinCare)" onmouseout="makeBlack(SkinCare)">Skin Care</a>
-  <a id="Makeup" href="Makeup.html" onmouseover="makeGrey(Makeup)" onmouseout="makeBlack(Makeup)">Makeup</a>
-  <a id="MakeupDupes" href="MakeupDupes.html" onmouseover="makeGrey(MakeupDupes)" onmouseout="makeBlack(MakeupDupes)">Makeup Dupes</a>
-  <a id="TestItOut" href="TestItOut.html" onmouseover="makeGrey(TestItOut)" onmouseout="makeBlack(TestItOut)">Test It Out</a>
-  <a id="Tutorials" href="Tutorials.html" onmouseover="makeGrey(Tutorials)" onmouseout="makeBlack(Tutorials)">Tutorials</a>
-  <a id="News" href="News.html" onmouseover="makeGrey(News)" onmouseout="makeBlack(News)">News</a>
-  <a id="AboutUs" href="aboutus.html" onmouseover="makeGrey(AboutUs)" onmouseout="makeBlack(AboutUs)">About Us</a>
+<a id="Home" href="finalprojectdg.html" onmouseover="makeGrey(Home)" onmouseout="makeBlack(Home)">Home</a>
+<a id="SkinCare" href="SkinCare.html" onmouseover="makeGrey(SkinCare)" onmouseout="makeBlack(SkinCare)">Skin Care</a>
+<a id="Makeup" href="Makeup.html" onmouseover="makeGrey(Makeup)" onmouseout="makeBlack(Makeup)">Makeup</a>
+<a id="MakeupDupes" href="MakeupDupes.html" onmouseover="makeGrey(MakeupDupes)" onmouseout="makeBlack(MakeupDupes)">Makeup Dupes</a>
+<a id="TestItOut" href="TestItOut.html" onmouseover="makeGrey(TestItOut)" onmouseout="makeBlack(TestItOut)">Test It Out</a>
+<a id="Tutorials" href="Tutorials.html" onmouseover="makeGrey(Tutorials)" onmouseout="makeBlack(Tutorials)">Tutorials</a>
+<a id="News" href="News.html" onmouseover="makeGrey(News)" onmouseout="makeBlack(News)">News</a>
+<a id="AboutUs" href="aboutus.html" onmouseover="makeGrey(AboutUs)" onmouseout="makeBlack(AboutUs)">About Us</a>
 </div>
-<h1> Makeup Dupes </h1>
+<h1> Skin Care </h1>
 
 
-<!-- Sort By--><!--Button-->
-<div id= sortby > Sort by </div><br>
+<!-- survey -->
+<!--survey words--> <h3 class="center"> Would you like to take a Survey? </h3>
+</P>
 
 <div id= Face >
 <button onclick="FunctionFace()"> Face </button>
@@ -32,21 +33,18 @@
 <script>
 function FunctionFace() {
   document.getElementById("Face").innerHTML =
-  "<p> contour </p> NYX highlight and contour HD palette $25 compares to Kat Von D contour pallete $46. <p> foundation </p> Foundation stick; Revol photoready instafix foundation stick $11, compared to bobby browns 46$ "
+  "<p><h3> contour </h3> </p> NYX highlight and contour HD palette $25 compares to Kat Von D contour pallete $46. <p><h3> foundation </h3></p> Foundation stick Revol photoready instafix foundation stick $11, compared to bobby browns 46$ <br> maybelline fit me foundation $7.99, compared to mac foundation $20 <p><h3> concealer </h3></p> Revlon Makeup revolution concealer 7$, compared to Tarte shape tate concealer $27 <p><h3> contour </p></h3> NYX highlight and contour HD palette $25 compares to Kat Von D contour pallete $46 <br> Maybelline master fiz setting powder 7.99$, instead of makeup forever HD microfinishing powder $23  <p><h3> Setting Spray </h3></p> Loreal paria infallible setting spray $14 compared to urban decay all nighter makeup setting spray $30 "
 ;}
   </script><br>
 
+<button class="SurveyButton" onclick="myFunction()">Survey</button>
 
-      <!-- CHEEKS-->
-<div id= Cheeks >
-  <button onclick="FunctionCheeks()"> Cheeks </button>
-  <br>
-  <script>
-  function FunctionCheeks() {
-    document.getElementById("Cheeks").innerHTML =
-    "<p> highlighter </p> <p> Blush </p> <p> Bronze </p> "
-  ;}
-    </script><br>
+<p id="Questions"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("Questions").innerHTML = "lets start!";}
+  </script>
 
 
   <!-- LIPS -->
@@ -56,24 +54,15 @@ function FunctionFace() {
   <script>
   function FunctionLips() {
     document.getElementById("Lips").innerHTML =
-    "<p> matte lipcream </p> <p> lip gloss </p> <p> metallic </p> <p> lipstick </p>"
+    "<p><h3> matte lipcream </h3></p> maybelline fuschsia ectasy $8,colorpop mars $6, compared to too faced its happening $21 <br> Colour pop matte lip cream $6 compared to kiley jenners 30$ lip kit <br> nyx soft matte lip creams $6 Compared to Kat Von D liquid lipstick in Lolita $20 <br> Nyx tres mechas $6 compared to koko k $30 <br> NYX monte Carlo $7, compared to Kat Von D outlaw $20 <br> Maybelline gone greige $7.49 compared to Huda flirt $20 <h3><p> lip liner</h3></p> rimmel London 1000 kisses lip liner $3,compared to smash box always sharp lip liner $20 <h3><p>matte lipstick</h3></p> NYX matte lipstick in indie flick $6 compared to MAC lipstick in lady danger $17 <p><h3> lip gloss </h3></p> Colourpop bad habit compared to dose of colors  berry me <br> Colour pop dopey, compared to Stila patina <p><h3> metallic</h3></p> Color pop lights out $6 compared to anastasias beverly hills gilded $16 <br> milani chromatic addict $9, compared to kiley jenners king K $18 <br> milani materialistic $9, compared to kiley jenners reign $18 <br>  NYX enamored $6.50 compared to Gerard underworld $20"
   ;}
     </script><br>
 
 
-    <!-- EYES-->
-<div id= "Eyes">
-  <button onclick="FunctionEyes()"> Eyes </button>
-  <br>
-  <script>
-  function FunctionEyes() {
-    document.getElementById("Eyes").innerHTML =
-    "<p> eyeshadow </p> <p> eyeliner </p> <p> mascara </p> <p> primer </p>"
-  ;}
-    </script><br>
+</div>
+</form>
+
 
 
 </body>
-
-
 </html>
