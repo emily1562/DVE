@@ -3,6 +3,7 @@
 <html>
  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
  <link rel= "StyleSheet"; href = "Headers.css">
+ <script src="JavaScript.js"></script>
  <script src="java.js"></script>
 <head>
 </head>
@@ -22,48 +23,34 @@
 </div>
 <h1> Makeup Dupes </h1>
 
-<div id= Face >
-<button onclick="FunctionFace()"> Face </button>
-<br>
-<script>
-function FunctionFace() {
-  document.getElementById("Face").innerHTML =
-  "<p><h3> contour </h3> </p> NYX highlight and contour HD palette $25 compares to Kat Von D contour pallete $46. <p><h3> foundation </h3></p> Foundation stick Revol photoready instafix foundation stick $11, compared to bobby browns 46$ <br> maybelline fit me foundation $7.99, compared to mac foundation $20 <p><h3> concealer </h3></p> Revlon Makeup revolution concealer 7$, compared to Tarte shape tate concealer $27 <p><h3> contour </p></h3> NYX highlight and contour HD palette $25 compares to Kat Von D contour pallete $46 <br> Maybelline master fiz setting powder 7.99$, instead of makeup forever HD microfinishing powder $23  <p><h3> Setting Spray </h3></p> Loreal paria infallible setting spray $14 compared to urban decay all nighter makeup setting spray $30 "
-;}
-  </script><br>
+<!--Face-->
+<div id= "Face" >
+  <button onclick="FunctionFace()"> Face </button>
+  <div id="FaceText">
+  <br>
+  </div></div>
 
   <!-- cheeks -->
-  <div id= Cheeks >
+  <div id= "Cheeks">
     <button onclick="FunctionCheeks()"> Cheeks </button>
+    <div id="CheeksText">
     <br>
-    <script>
-    function FunctionCheeks() {
-      document.getElementById("Cheeks").innerHTML =
-      "<p> highlighter </p> <p> Blush </p> <p> Bronze </p> "
-    ;}
-      </script><br>
+    </div></div>
+
 
   <!-- LIPS -->
-<div id= "Lips" >
-  <button onclick="FunctionLips()"> Lips </button>
+<div id="Lips">
+  <button onclick= "FunctionLips()"> Lips </button>
+  <div id="LipText">
   <br>
-  <script>
-  function FunctionLips() {
-    document.getElementById("Lips").innerHTML =
-    "<p><h3> matte lipcream </h3></p> maybelline fuschsia ectasy $8,colorpop mars $6, compared to too faced its happening $21 <br> Colour pop matte lip cream $6 compared to kiley jenners 30$ lip kit <br> nyx soft matte lip creams $6 Compared to Kat Von D liquid lipstick in Lolita $20 <br> Nyx tres mechas $6 compared to koko k $30 <br> NYX monte Carlo $7, compared to Kat Von D outlaw $20 <br> Maybelline gone greige $7.49 compared to Huda flirt $20 <h3><p> lip liner</h3></p> rimmel London 1000 kisses lip liner $3,compared to smash box always sharp lip liner $20 <h3><p>matte lipstick</h3></p> NYX matte lipstick in indie flick $6 compared to MAC lipstick in lady danger $17 <p><h3> lip gloss </h3></p> Colourpop bad habit compared to dose of colors  berry me <br> Colour pop dopey, compared to Stila patina <p><h3> metallic</h3></p> Color pop lights out $6 compared to anastasias beverly hills gilded $16 <br> milani chromatic addict $9, compared to kiley jenners king K $18 <br> milani materialistic $9, compared to kiley jenners reign $18 <br>  NYX enamored $6.50 compared to Gerard underworld $20"
-  ;}
-    </script><br>
+  </div></div>
 
     <!-- EYES-->
 <div id= "Eyes">
   <button onclick="FunctionEyes()"> Eyes </button>
+  <div id="EyesText">
   <br>
-  <script>
-  function FunctionEyes() {
-    document.getElementById("Eyes").innerHTML =
-    "<p> eyeshadow </p> <p> eyeliner </p> <p> mascara </p> <p> primer </p>"
-  ;}
-    </script><br>
+  </div></div>
 
 </body>
 </html>
