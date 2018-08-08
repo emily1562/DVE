@@ -20,12 +20,7 @@
 <a id="News" href="News.html" onmouseover="makeGrey(News)" onmouseout="makeBlack(News)">News</a>
 <a id="AboutUs" href="aboutus.html" onmouseover="makeGrey(AboutUs)" onmouseout="makeBlack(AboutUs)">About Us</a>
 </div>
-<h1> Skin Care </h1>
-
-
-<!-- survey -->
-<!--survey words--> <h3 class="center"> Would you like to take a Survey? </h3>
-</P>
+<h1> Makeup Dupes </h1>
 
 <div id= Face >
 <button onclick="FunctionFace()"> Face </button>
@@ -37,15 +32,16 @@ function FunctionFace() {
 ;}
   </script><br>
 
-<button class="SurveyButton" onclick="myFunction()">Survey</button>
-
-<p id="Questions"></p>
-
-<script>
-function myFunction() {
-  document.getElementById("Questions").innerHTML = "lets start!";}
-  </script>
-
+  <!-- cheeks -->
+  <div id= Cheeks >
+    <button onclick="FunctionCheeks()"> Cheeks </button>
+    <br>
+    <script>
+    function FunctionCheeks() {
+      document.getElementById("Cheeks").innerHTML =
+      "<p> highlighter </p> <p> Blush </p> <p> Bronze </p> "
+    ;}
+      </script><br>
 
   <!-- LIPS -->
 <div id= "Lips" >
@@ -58,11 +54,16 @@ function myFunction() {
   ;}
     </script><br>
 
-
-</div>
-</form>
-
-
+    <!-- EYES-->
+<div id= "Eyes">
+  <button onclick="FunctionEyes()"> Eyes </button>
+  <br>
+  <script>
+  function FunctionEyes() {
+    document.getElementById("Eyes").innerHTML =
+    "<p> eyeshadow </p> <p> eyeliner </p> <p> mascara </p> <p> primer </p>"
+  ;}
+    </script><br>
 
 </body>
 </html>
