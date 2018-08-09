@@ -13,7 +13,13 @@ function SurveyButton() {
 //   x.style.backgroundColor= "#8585ad"; //Dark Grey color//
 // }
 
-// To make the questions variables
-// function Question1(){
+// var SkinType = ;
 //
+// oily(){
+//
+// }
+
+// var oily = Oily;
+// function OilyButton(){
+//   var oily = document.getElementById("");
 // }
