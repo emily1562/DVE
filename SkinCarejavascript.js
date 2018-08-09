@@ -13,13 +13,9 @@ function SurveyButton() {
 //   x.style.backgroundColor= "#8585ad"; //Dark Grey color//
 // }
 
-// var SkinType = ;
-//
-// oily(){
-//
-// }
+var SkinType = "";
+var Concern = "";
 
-// var oily = Oily;
-// function OilyButton(){
-//   var oily = document.getElementById("");
-// }
+function Oily(){
+if SkinType = "Oily";
+}
