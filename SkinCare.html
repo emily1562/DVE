@@ -10,34 +10,34 @@
 <!-- title-->
 <body>
 
-<!-- Bar -->
-<div class = "bar">
-<a id="Home" href="finalprojectdg.html" onmouseover="makeGrey(Home)" onmouseout="makeBlack(Home)">Home</a>
-<a id="SkinCare" href="SkinCare.html" onmouseover="makeGrey(SkinCare)" onmouseout="makeBlack(SkinCare)">Skin Care</a>
-<a id="Makeup" href="Makeup.html" onmouseover="makeGrey(Makeup)" onmouseout="makeBlack(Makeup)">Makeup</a>
-<a id="MakeupDupes" href="MakeupDupes.html" onmouseover="makeGrey(MakeupDupes)" onmouseout="makeBlack(MakeupDupes)">Makeup Dupes</a>
-<a id="TestItOut" href="TestItOut.html" onmouseover="makeGrey(TestItOut)" onmouseout="makeBlack(TestItOut)">Test It Out</a>
-<a id="Tutorials" href="Tutorials.html" onmouseover="makeGrey(Tutorials)" onmouseout="makeBlack(Tutorials)">Tutorials</a>
-<a id="News" href="News.html" onmouseover="makeGrey(News)" onmouseout="makeBlack(News)">News</a>
-<a id="AboutUs" href="aboutus.html" onmouseover="makeGrey(AboutUs)" onmouseout="makeBlack(AboutUs)">About Us</a>
-</div>
-<h1> Skin Care </h1>
+  <!-- Bar -->
+  <div class = "bar">
+  <a id="Home" href="finalprojectdg.html" onmouseover="makeGrey(Home)" onmouseout="makeBlack(Home)">Home</a>
+  <a id="SkinCare" href="SkinCare.html" onmouseover="makeGrey(SkinCare)" onmouseout="makeBlack(SkinCare)">Skin Care</a>
+  <a id="Makeup" href="Makeup.html" onmouseover="makeGrey(Makeup)" onmouseout="makeBlack(Makeup)">Makeup</a>
+  <a id="MakeupDupes" href="MakeupDupes.html" onmouseover="makeGrey(MakeupDupes)" onmouseout="makeBlack(MakeupDupes)">Makeup Dupes</a>
+  <a id="TestItOut" href="TestItOut.html" onmouseover="makeGrey(TestItOut)" onmouseout="makeBlack(TestItOut)">Test It Out</a>
+  <a id="Tutorials" href="Tutorials.html" onmouseover="makeGrey(Tutorials)" onmouseout="makeBlack(Tutorials)">Tutorials</a>
+  <a id="News" href="News.html" onmouseover="makeGrey(News)" onmouseout="makeBlack(News)">News</a>
+  <a id="AboutUs" href="aboutus.html" onmouseover="makeGrey(AboutUs)" onmouseout="makeBlack(AboutUs)">About Us</a>
+  </div>
+  <h1> Skin Care </h1>
 
-<!-- survey -->
-<!--survey words <h3 class="center"> Would you like to take a Survey? </h3>-->
+  <!-- survey -->
+  <!--survey words <h3 class="center"> Would you like to take a Survey? </h3>-->
 
-<!--survey button-->
+  <!--survey button-->
 <div class="surveycenter">
   <button class="SurveyButton" onclick="SurveyButton()">Survey</button>
 <div id="myDIV">
   What is your skin type? (Choose One)<br>
-    <button class="questionbutton"></button> <span class= "skintypesurvey">Oily</span><br>
-    <button class="questionbutton"></button> Dry<br>
-    <button class="questionbutton"></button> Combination<br>
+    <button class="questionbutton" onclick="Oily()"></button> <span class= "skintypesurvey">Oily</span><br>
+    <button class="questionbutton" onclick="Dry()"></button> Dry<br>
+    <button class="questionbutton" onclick="Combination()"></button> Combination<br>
   What are your major concerns? (Choose One)<br>
-    <button class="questionbutton"></button> <span class= "skintypesurvey">Acne & Blemishes</span><br>
-    <button class="questionbutton"></button> Anti-Aging<br>
-    <button class="questionbutton"></button>Others (Pores, Dullness, etc.)<br>
+    <button class="questionbutton" onclick="AcneBlemishes()"></button> <span class= "skintypesurvey">Acne & Blemishes</span><br>
+    <button class="questionbutton" onclick="AntiAging()"></button> Anti-Aging<br>
+    <button class="questionbutton" onclick="Others()"></button>Others (Pores, Dullness, etc.)<br>
 
     <!-- What is your skin type?
     <action="/action_page.php" method="get">
@@ -49,9 +49,13 @@
     <input type="radio" name="skincare" id="acneandblemishes" value="acneandblemishes"> Acne & Blemishes<br>
     <input type="radio" name="skincare" id="anti-aging" value="anti-aging" checked="checked"> Anti-Aging <br>
     <input type="radio" name="skincare" id="other" value="other"> Other(Pores, Dullness, etc.)<br><br> -->
-    <input type="submit" value="Submit"></form>
+    <input type="submit" value="Submit" onclick="Submit()"></form>  <br>
+
+    <div id="Results">
+    </div>
   </div>
 </div>
+
 
 <br></br>
 
