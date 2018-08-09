@@ -17,5 +17,25 @@ var SkinType = "";
 var Concern = "";
 
 function Oily(){
-if SkinType = "Oily";
+// if (SkinType = "Oily"; Concern = "Acne & Blemishes") {
+}
+
+function Dry(){
+
+}
+
+function Combination(){
+
+}
+
+function AcneBlemishes(){
+
+}
+
+function AntiAging(){
+
+}
+
+function Others(){
+
 }
