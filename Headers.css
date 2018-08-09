@@ -44,11 +44,11 @@ padding: 15px 32px;
   cursor: pointer;
   }
 
-.button {
+.questionbutton {
   background-color: #d6d6c2; /* Grey */
   border: none;
   color: white;
-  padding: 5px;
+  padding: 7px;
   text-align: center;
   text-decoration: none;
   display: inline-block;

@@ -1,3 +1,4 @@
+// To get it to show under the survey button//
 function SurveyButton() {
     var x = document.getElementById("myDIV");
     if (x.style.display === "block") {
@@ -6,3 +7,13 @@ function SurveyButton() {
         x.style.display = "block";
     }
 }
+
+// // To get it to turn dark when clicked on
+// function makeDarkGrey(x){
+//   x.style.backgroundColor= "#8585ad"; //Dark Grey color//
+// }
+
+// To make the questions variables
+// function Question1(){
+//
+// }
