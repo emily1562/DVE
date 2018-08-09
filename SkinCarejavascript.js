@@ -89,7 +89,38 @@ function FunctionCleanser() {
   if (document.getElementById("CleanserTexts").innerHTML != ""){
  document.getElementById("CleanserTexts").innerHTML = "";
   }
-else{document.getElementById("CleanserTexts").innerHTML = `CLEANSER`;
+else{document.getElementById("CleanserTexts").innerHTML = `
+<p><h3>Acne and Blemishes</p></h3>
+<img src="BosciaCleanOil.jpg">
+<br>Boscia Makeup Breakup Cool Cleansing Oil, Price $10-$32
+<br>Find it at <a href="https://www.sephora.com/product/makeup-breakup-cool-cleansing-oil-P254604?skuId=1227891&icid2=products%20grid:p254604">Sephora</a>.
+<br><br><img src="BioreCharcoal.jpg">
+<br>Biore Deep Charcoal Cleanser, Price $6
+<br>Find it at <a href="https://www.target.com/p/biore-deep-charcoal-cleanser-6-7-oz/-/A-14934060">Target</a>.
+<br><br><img src="NeutrogenaAcne.jxr">
+<br>Neutrogena Oil Free Acne Wash, Price $5-$7
+<br>Find it at <a href="https://www.target.com/p/neutrogena-174-oil-free-acne-wash-9-1oz/-/A-12921121">Target</a>.
+
+
+<p><h3>Anti-Aging</p></h3>
+<img src="Aveeno.jpg">
+<br>Aveeno Absolutely Ageless Facial Nourishing Anti-Aging Cleanser, Price $8
+<br>Find it at <a href="https://www.target.com/p/aveeno-174-absolutely-ageless-153-facial-nourishing-anti-aging-cleanser-5-2-fl-oz/-/A-49119447">Target</a>.
+<br><br><img src="Renewal.jpg">
+<br>Burt’s Bees Renewal Cleanser, Price $9
+<br>Find it at <a href="https://www.target.com/p/burt-s-bees-renewal-cleanser-6-oz/-/A-16367046">Target</a>.
+
+<p><h3>other(redness)</p></h3>
+<img src="CeraVeFoam.jpg">
+<br>CeraVe Foaming Facial Cleanser, Price $11
+<br>Find it at <a href="https://www.target.com/p/cerave-foaming-facial-cleanser-for-normal-to-oily-skin-fragrance-free-16oz/-/A-51148110 ">Target</a>.
+<br><br><img src="CeraVeHydrating.jpg">
+<br>CeraVe Hydrating Facial Cleanser, Price $11
+<br>Find it at <a href="https://www.target.com/p/cerave-hydrating-facial-cleanser-for-normal-to-dry-skin-fragrance-free-12oz/-/A-13977968">Target</a>.
+<br><br><img src="AveenoUltra.jpg">
+<br>Aveeno Ultra Calming Foaming Cleanser for Sensitive Skin, Price $7
+<br>Find it at <a href="https://www.target.com/p/aveeno-174-ultra-calming-174-foaming-cleanser-for-sensitive-skin-6-fl-oz/-/A-11537197">Target</a>.
+`;
 }
 }
 
@@ -98,8 +129,25 @@ function FunctionExfoliators() {
   if (document.getElementById("ExfoliatorsText").innerHTML != ""){
  document.getElementById("ExfoliatorsText").innerHTML = "";
   }
-else{document.getElementById("ExfoliatorsText").innerHTML = `EXFOLIATOR`;
-}
+else{document.getElementById("ExfoliatorsText").innerHTML = `
+
+<p><h3>Acne and Blemishes</p></h3>
+<img src="KateEx.jxr">
+<br>Kate Somerville ExfoliKate® Intensive Exfoliating Treatment, Price $24
+<br>Find it at <a href="https://www.sephora.com/product/exfolikate-intensive-exfoliating-treatment-P232915?skuId=1284629&icid2=products%20grid:p232915">Sepho/a>.
+<br><br><img src="UmbrianClay.jpg">
+<br>FRESH Umbrian Clay Pore Purifying Face Exfoliator, Price $33
+<br>Find it at <a href="https://www.sephora.com/product/umbrian-clay-mattifying-face-exfoliant-P379065?skuId=1524073&keyword=FRESH%20Umbrian%20Clay%20Pore%20Purifying%20Face%20Exfoliator">Sephora</a>.
+<br><br><img src="St.IvesScrub.jpg">
+<br>St. Ives Blemish Control Face Scrub Apricot, Price $3
+<br>Find it at <a href="https://www.target.com/p/st-ives-blemish-control-face-scrub-apricot-6-oz/-/A-11129467">Target</a>.
+
+<p><h3>other(Brightner)</p></h3>
+<img src="AveenoSkinB .jpg">
+<br>Aveeno® Positively Radiant® Skin Brightening Daily Scrub, Price $6
+<br>Find it at <a href="https://www.target.com/p/aveeno-174-positively-radiant-174-skin-brightening-daily-scrub-5-oz/-/A-11537365">Target</a>.
+`
+;}
 }
 
 //Moisturizer
@@ -107,7 +155,28 @@ function FunctionMoisturizers() {
   if (document.getElementById("MoisturizersText").innerHTML != ""){
  document.getElementById("MoisturizersText").innerHTML = "";
   }
-else{document.getElementById("MoisturizersText").innerHTML = `MOISTURIZER`;
+else{document.getElementById("MoisturizersText").innerHTML = `
+<p><h3>Acne and Blemishes</p></h3>
+<img src="Clean&Clear.jpg">
+<br>Clean & Clear Essentials Dual Action Facial Moisturizer, Price $5
+<br>Find it at <a href="https://www.target.com/p/clean-clear-essentials-dual-action-facial-moisturizer-4-fl-oz/-/A-14656153">Target</a>.
+<br><br><img src="AveenoClear.png">
+<br>Aveeno® Clear Complexion Blemish Treatment Daily Moisturizer, Price- $13.79
+<br>Find it at <a href="https://www.target.com/p/aveeno-174-clear-complexion-blemish-treatment-daily-moisturizer-4oz/-/A-11048717">Target</a>.
+
+<p><h3>Anti-Aging</p></h3>
+<img src="LotusYouth.jpg">
+<br>Fresh Lotus Youth Preserve Moisturizer, $45
+<br>Find it at <a href="https://www.sephora.com/product/lotus-youth-preserve-face-cream-with-super-7-complex-P377123?skuId=1488352&icid2=products%20grid:p377123">Sephora</a>.
+<br><br><img src="NeutrogenaMoist.png">
+<br>Neutrogena Oil-Free Daily Facial Moisturizer, Price $8
+<br>Find it at <a href="https://www.target.com/p/neutrogena-oil-free-daily-facial-moisturizer-spf-15-4-fl-oz/-/A-10772533">Target</a>.
+
+<p><h3>other(redness)</p></h3>
+<img src="FRESHUmbrian.jpg">
+<br>FRESH Umbrian Clay Oil-Free Lotion, Price $36
+<br>Find it at <a href="https://www.sephora.com/product/umbrian-clay-oil-free-lotion-P185408?skuId=976043&keyword=FRESH%20Umbrian%20Clay%20Oil-Free%20Lotion">Sephora</a>.
+`;
 }
 }
 
@@ -116,6 +185,25 @@ function FunctionOthers() {
   if (document.getElementById("OthersText").innerHTML != ""){
  document.getElementById("OthersText").innerHTML = "";
   }
-else{document.getElementById("OthersText").innerHTML = `OTHERS`;
+else{document.getElementById("OthersText").innerHTML = `
+<p><h3>Acne and Blemishes</p></h3>
+<img src="SUPERMUD.jpg">
+<br>SUPERMUD® Activated Charcoal Treatment, Price $59
+<br>Find it at <a href="https://www.sephora.com/product/super-mud-clearing-treatment-P376409?icid2=products%20grid:p376409:product">Sephora</a>.
+<br><br><img src="FaceWipes.jpg">
+<br>Neutrogena Makeup Remover Cleansing Towelettes & Face Wipes, Price $5
+<br>Find it at <a href="https://www.target.com/p/neutrogena-makeup-remover-cleansing-towelettes-face-wipes-25ct/-/A-11536492">Target</a>.
+<br><br><img src="TomatoesDetox.png">
+<br>Yes To Tomatoes Detoxifying Charcoal Paper Mask, Price $3
+<br>Find it at <a href="https://www.target.com/p/yes-to-174-tomatoes-detoxifying-charcoal-paper-mask-1ct/-/A-50938799">Target</a>.
+
+<p><h3>other(Toner)</p></h3>
+<img src="Cucumber.jpg">
+<br>Kiehl's since 1851 Cucumber Herbal Alcohol-Free Toner, Price $16
+<br>Find it at <a href="https://www.sephora.com/product/cucumber-herbal-alcohol-free-toner-P422250?icid2=products%20grid:p422250:product">Sephora</a>.
+<br><br><img src="WitchHazel.jpg">
+<br>Thayers Witch Hazel Toner, Rose Petal, Price $10
+<br>Find it at <a href="https://www.target.com/p/thayers-witch-hazel-alcohol-free-toner-rose-petal-12oz/-/A-51091143">Target</a>.
+`;
 }
 }
