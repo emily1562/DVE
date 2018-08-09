@@ -72,3 +72,50 @@ function Submit(){
       document.getElementById("Results").innerHTML = "end" + SkinType + Concern;
   }
 }
+
+/*test
+function FunctionTest() {
+  if (document.getElementById("TestText").innerHTML != ""){
+ document.getElementById("TestText").innerHTML = "";
+  }
+else{document.getElementById("TestText").innerHTML = "test";
+}
+}*/
+
+//skin Care
+
+//Cleanser
+function FunctionCleanser() {
+  if (document.getElementById("CleanserTexts").innerHTML != ""){
+ document.getElementById("CleanserTexts").innerHTML = "";
+  }
+else{document.getElementById("CleanserTexts").innerHTML = `CLEANSER`;
+}
+}
+
+//Exfoliator
+function FunctionExfoliators() {
+  if (document.getElementById("ExfoliatorsText").innerHTML != ""){
+ document.getElementById("ExfoliatorsText").innerHTML = "";
+  }
+else{document.getElementById("ExfoliatorsText").innerHTML = `EXFOLIATOR`;
+}
+}
+
+//Moisturizer
+function FunctionMoisturizers() {
+  if (document.getElementById("MoisturizersText").innerHTML != ""){
+ document.getElementById("MoisturizersText").innerHTML = "";
+  }
+else{document.getElementById("MoisturizersText").innerHTML = `MOISTURIZER`;
+}
+}
+
+//OTHERS
+function FunctionOthers() {
+  if (document.getElementById("OthersText").innerHTML != ""){
+ document.getElementById("OthersText").innerHTML = "";
+  }
+else{document.getElementById("OthersText").innerHTML = `OTHERS`;
+}
+}
