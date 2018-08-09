@@ -1,11 +1,17 @@
-function PhotoUploadSubmit(upload){
-  var x = document.getElementById("UploadSubmit");
-  var y = document.createElement("img");
-  y.classList.add("obj");
-  y.file = upload[0];
-  x.appendChild(y);
+function handleFiles(files) {
+var preview = document.getElementById('holder');
 
-  var reader=new FileReader();
-  reader.onload = (function(aImg) {return function(e) { aImg.src = e.target.result; }; }) (img);
-  reader.readAsDataURL(upload[0]);
+
+    var img = document.createElement("img");
+    img.classList.add("obj");
+    img.file = files[0];
+    preview.appendChild(img); // Assuming that "preview" is the div output where the content will be displayed.
+
+    var reader = new FileReader();
+    reader.onload = (function(aImg) { return function(e) { aImg.src = e.target.result; }; })(img);
+    reader.readAsDataURL(files[0]);
+  // }
 }
+
+// Literally Canvas Code
+var lc = LC.init(element, {imageSize: {width: 500, height: null} )

@@ -68,7 +68,6 @@ padding: 10px;
   display: none;
 }
 
-}
 .center{
   text-align:center;
 }
@@ -83,6 +82,14 @@ padding: 10px;
 
 
 /*Test it out*/
+/* Upload Image API CSS */
+#holder img{
+  width: 40%;
+  height: 40%;
+  display: inline-block;
+/* width: 900px;
+height: 400px; */
+}
 
 
 /*Tutorials*/
