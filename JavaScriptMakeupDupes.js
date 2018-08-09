@@ -12,9 +12,18 @@ function FunctionFace() {
   if (document.getElementById("FaceText").innerHTML != ""){
   document.getElementById("FaceText").innerHTML = "";
   }
-  else{document.getElementById("FaceText").innerHTML = `<p><h3>contour</h3></p> <img src="DUPES_NYXcontourPalette_V.jpg"> NYX highlight and contour HD palette $25, compared to Kat Von D contour pallete $46. <p><h3>foundation</h3></p> <img src="FoundationStick.jpg"> Revlon photoready Instafix foundation stick $11, compared to Bobby Browns 46$ <br> <img src="MaybellineFitMefoundation.jpg"> Maybelline Fit Me foundation $7.99, compared to Mac foundation $20 <p><h3> concealer </h3></p> <img src="RevlonMakeupRevolutionConcealer.jpg"> Revlon Makeup Revolution concealer 7$, compared to Tarte Shape Tate concealer $27 <p><h3>Other</p></h3> <img src="MaybellineSettingPowder.png"> Maybelline Master fiz setting powder 7.99$,compared to Makeup Forever HD microfinishing powder $23 <br> <img src="LorealPariaSettingSpray.jpg"> Loreal Paria infallible setting spray $14,compared to Urban Decay all nighter makeup setting spray $30`
+  else{document.getElementById("FaceText").innerHTML = `<p><h3>contour</h3></p> <img src="DUPES_NYXcontourPalette_V.jpg" style= "width: 180px; margin-bottom: 5px; display: right;"> NYX highlight and contour HD palette $25, compared to Kat Von D contour pallete $46. <p>
+
+  <h3>foundation</h3></p> <img src="FoundationStick.jpg" style= "width: 180px; margin-bottom: 5px; display: right;"> Revlon photoready Instafix foundation stick $11, compared to Bobby Browns 46$ <br> <img src="MaybellineFitMefoundation.jpg"> Maybelline Fit Me foundation $7.99, compared to Mac foundation $20 <p>
+
+  <h3> concealer </h3></p> <img src="RevlonMakeupRevolutionConcealer.jpg"> Revlon Makeup Revolution concealer 7$, compared to Tarte Shape Tate concealer $27 <p>
+
+  <h3>Other</p></h3> <img src="MaybellineSettingPowder.png"> Maybelline Master fiz setting powder 7.99$,compared to Makeup Forever HD microfinishing powder $23
+    <br> <img src="LorealPariaSettingSpray.jpg"> Loreal Paria infallible setting spray $14,compared to Urban Decay all nighter makeup setting spray $30`
     ;}
 }
+
+
   //cheek
   function FunctionCheeks() {
     if (document.getElementById("CheeksText").innerHTML != ""){
