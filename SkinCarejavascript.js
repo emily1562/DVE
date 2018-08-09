@@ -12,3 +12,12 @@ function SurveyButton() {
 // function makeDarkGrey(x){
 //   x.style.backgroundColor= "#8585ad"; //Dark Grey color//
 // }
+//test
+
+function FunctionTest() {
+  if (document.getElementById("TestText").innerHTML != ""){
+ document.getElementById("TestText").innerHTML = "";
+  }
+else{document.getElementById("TestText").innerHTML = "test";
+}
+}
