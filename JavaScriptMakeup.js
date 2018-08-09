@@ -86,11 +86,18 @@ Nars, Blush Price 30$
     <br>​Buy it at <a href="https://www.sephora.com/product/soft-glam-eyeshadow-palette-P58930227?icid2=products%20grid:p58930227:product">Sephora</a>.
     <br><br>Huda Beauty, Eyeshadow Palette Price 27$
     <br>​Buy it at <a href="https://www.sephora.com/product/obsessions-eyeshadow-palette-P425909?icid2=products%20grid:p425909:product">Sephora</a>.
+
     <p><h3>Eyeliner/ Mascara</h3>​</p>​
     Kat Von D, Tattoo Eyeliner Price 20$
+    <br>​Buy it at <a href="https://www.sephora.com/product/tattoo-liner-P245205?icid2=products%20grid:p245205:product">Sephora</a>
+    <br><br>Benefit Cosmetics, They’re Real! Lengthening and Volumizing Mascara Price 24$
+    <br>​Buy it at <a href="https://www.sephora.com/product/they-re-real-lengthening-volumizing-mascara-P289307?icid2=products%20grid:p289307:product">Sephora</a>
 
-
-
+    <p><h3>Eyeshadow</h3>​</p>​
+    Anastasia Beverly Hills, Brow Wiz Price 21$
+    <br>​Buy it at <a href="https://www.sephora.com/product/brow-wiz-P202633?icid2=products%20grid:p202633:product">Sephora</a>
+    <br><br>Anastasia Beverly Hills, Eyebrow Dipbrow Pomade Price 18$
+    <br>​Buy it at <a href="https://www.sephora.com/product/dipbrow-pomade-P384060?icid2=top-rated%20makeup:p384060:product">Sephora</a>
     `
     ;}
 }
