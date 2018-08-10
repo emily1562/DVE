@@ -45,7 +45,7 @@ padding: 15px 32px;
   }
 
 .questionbutton {
-  background-color: #d6d6c2; /* Grey */
+  background-color: #d6d6c2; /*Grey*/
   border: none;
   color: white;
   padding: 7px;
@@ -75,6 +75,7 @@ padding: 10px;
 .skintypesurvey{
   display: inline-block;
 }
+
 
 /* Makeup*/
 
