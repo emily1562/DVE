@@ -124,7 +124,14 @@ function Submit(){
     `;
   }//combination and other
   else if (SkinType == "combination" && Concern == "Others") {
-      document.getElementById("Results").innerHTML = "Combination, others Test";
+      document.getElementById("Results").innerHTML = `<h3>Recommended products based on survey reults:</h3>
+      <br><img src="CeraVeFoam.jpg">
+      <br>CeraVe Foaming Facial Cleanser, Price $11
+      <br>Find it at <a href="https://www.target.com/p/cerave-foaming-facial-cleanser-for-normal-to-oily-skin-fragrance-free-16oz/-/A-51148110 ">Target</a>.
+      <br><br><img src="L'Oreal.jpg">
+      <br>L'Oreal® Paris Exfoliate & Refine Pores Pure Clay Mask, price 10$
+      <br>Find it at <a href="https://www.target.com/p/l-oreal-174-paris-exfoliate-refine-pores-pure-clay-mask-1-7oz/-/A-50852224">Target</a>.
+      `;
   }
   else {
       document.getElementById("Results").innerHTML = "end" + SkinType + Concern;
