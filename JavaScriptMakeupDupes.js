@@ -16,28 +16,48 @@ function FunctionFace() {
   }
   else{
     document.getElementById("FaceText").innerHTML =
-    `<p><h3>contour</h3></p><div class= "polaroid"> <img src="DUPES_NYXcontourPalette_V.jpg" alt= "NYX Cream Contour Palette" style="width:100%">
+    `<p><h3>contour</h3></p><div class= "polaroid2"> <img src="DUPES_NYXcontourPalette_V.jpg" alt= "NYX Cream Contour Palette" style="width:100%">
     <div class="container">
-    <p> NYX highlight and contour HD palette <br> Price: $25, compared to Kat Von D contour pallete $46.</p> </div> </div>
+    <p> NYX highlight and Contour HD Palette <br> Price: $25.00</p> </div> </div>
 
-
-    '<p><h3>foundation</h3></p> <div class= "polaroid"> <img src="FoundationStick.jpg" alt= "Revlon Photoready Instafix foundation" style="width:100%">
+    <div class="polaroid2"> <img src="KatVonDC.jpeg" alt= "Kat Von D Cotour Pallete" style="width:100%">
     <div class="container">
-    <p>Revlon Photoready Instafix foundation stick <br> Price: $11, compared to Bobby Browns $46. </p> </div> </div>
+    <p> In comparison to the Kat Von D Contour Pallete <br> Price:$46.00. </p> </div> </div>
 
-    <div class="polaroid"> <img src="MaybellineFitMefoundation.jpg" alt= "Maybelline Fit Me Foundation" style="width:100%">
+    '<p><h3>foundation</h3></p> <div class= "polaroid2"> <img src="FoundationStick.jpg" alt= "Revlon Photoready Instafix foundation" style="width:100%">
     <div class="container">
-    <p> Maybelline Fit Me foundation <br> Price: $7.99, compared to Mac foundation $20 </p> </div> </div>
+    <p>Revlon Photoready Instafix foundation stick <br> Price: $11</p> </div> </div>
 
-    '<p><h3> concealer </h3></p> <div class= "polaroid"> <img src="RevlonMakeupRevolutionConcealer.jpg" alt= "Revlon Concealer" style="width:100">
+    <div class="polaroid2"> <img src="bobbiBrownFoundation.jpeg" alt= "Bobbi Brown Foundation" style="width:100%">
     <div class="container">
-     <p> Revlon Makeup Revolution Concealer <br> Price: $7, compared to Tarte Shape Tate concealer $27.</p> </div> </div>
+    <p> In comparison to the Bobbi Brown Foundation <br> Price: $46.00</p> </div> </div>
 
-     '<p><h3>Other</p></h3> <div class="polaroid"> <img src="MaybellineSettingPowder.png" alt= "Maybelline Setting Powder" style= "width:100">
+    <div class="polaroid2"> <img src="MaybellineFitMefoundation.jpg" alt= "Maybelline Fit Me Foundation" style="width:100%">
+    <div class="container">
+    <p> Maybelline Fit Me foundation <br> Price: $7.99, compared to Mac foundation $30 </p> </div> </div>
+
+    <div class="polaroid2"> <img src="MacFoundation.jpeg" alt= "Mac Foundation" style="width:100%">
+    <div class="container">
+    <p> In comparison is the Mac Foundation <br> Price:$46.00. </p> </div> </div>
+
+
+    '<p><h3> Concealer </h3></p> <div class= "polaroid2"> <img src="RevlonMakeupRevolutionConcealer.jpg" alt= "Revlon Concealer" style="width:100">
+    <div class="container">
+    <p> Revlon Makeup Revolution Concealer <br> Price: $7, compared to Tarte Shape Tate concealer $27.</p> </div> </div>
+
+
+    div class="polaroid2"> <img src="TarteShapeTape.jpeg" alt= "Tarte Shape Tape Concealer" style="width:100%">
+    <div class="container">
+    <p> In comparison is the Tarte Shape Tape Concealer <br> Price: $7.99</p> </div> </div>
+
+
+     '<p><h3>Other</p></h3> <div class="polaroid2"> <img src="MaybellineSettingPowder.png" alt= "Maybelline Setting Powder" style= "width:100">
      <div class="container">
       <p> Maybelline Master fiz setting powder <br> Price: $7.99,compared to Makeup Forever HD microfinishing powder $23.</p> </div> </div>
 
-       <br> <img src="LorealPariaSettingSpray.jpg"> Loreal Paria infallible setting spray $14,compared to Urban Decay all nighter makeup setting spray $30`
+       <div class="polaroid2">  <img src="LorealPariaSettingSpray.jpg" alt= "Loreal Paris Setting Spray" style="width:100%">
+       <div class="container">
+        <p> Loreal Paris Infallible Setting Spray <br> Price: $14.00,compared to Urban Decay all nighter makeup setting spray $30</p> </div> </div>`
   //   ```<p><h3>contour</h3></p>
   // <div class= "polaroid"> <img src="DUPES_NYXcontourPalette_V.jpg"> alt= "NYX Cream Contour Palette" style="width:100%">
   //   <div class="container">
