@@ -22,7 +22,7 @@ function FunctionFace() {
 
     <div class="polaroid2"> <img src="KatVonDC.jpeg" alt= "Kat Von D Cotour Pallete" style="width:100%">
     <div class="container">
-    <p> In comparison to the Kat Von D Contour Pallete <br> Price:$46.00. </p> </div> </div>
+    <p> In comparison to the Kat Von D Contour Pallete <br> Price:$46.00 </p> </div> </div>
 
     '<p><h3>foundation</h3></p> <div class= "polaroid2"> <img src="FoundationStick.jpg" alt= "Revlon Photoready Instafix foundation" style="width:100%">
     <div class="container">
@@ -34,47 +34,92 @@ function FunctionFace() {
 
     <div class="polaroid2"> <img src="MaybellineFitMefoundation.jpg" alt= "Maybelline Fit Me Foundation" style="width:100%">
     <div class="container">
-    <p> Maybelline Fit Me foundation <br> Price: $7.99, compared to Mac foundation $30 </p> </div> </div>
+    <p> Maybelline Fit Me foundation <br> Price: $7.99 </p> </div> </div>
 
     <div class="polaroid2"> <img src="MacFoundation.jpeg" alt= "Mac Foundation" style="width:100%">
     <div class="container">
-    <p> In comparison is the Mac Foundation <br> Price:$46.00. </p> </div> </div>
+    <p> In comparison is the Mac Foundation <br> Price:$46.00 </p> </div> </div>
 
 
     '<p><h3> Concealer </h3></p> <div class= "polaroid2"> <img src="RevlonMakeupRevolutionConcealer.jpg" alt= "Revlon Concealer" style="width:100">
     <div class="container">
-    <p> Revlon Makeup Revolution Concealer <br> Price: $7, compared to Tarte Shape Tate concealer $27.</p> </div> </div>
+    <p> Revlon Makeup Revolution Concealer <br> Price: $7</p> </div> </div>
 
 
-    div class="polaroid2"> <img src="TarteShapeTape.jpeg" alt= "Tarte Shape Tape Concealer" style="width:100%">
+    <div class="polaroid2"> <img src="TarteShapeTape.jpeg" alt= "Tarte Shape Tape Concealer" style="width:100%">
     <div class="container">
     <p> In comparison is the Tarte Shape Tape Concealer <br> Price: $7.99</p> </div> </div>
 
 
      '<p><h3>Other</p></h3> <div class="polaroid2"> <img src="MaybellineSettingPowder.png" alt= "Maybelline Setting Powder" style= "width:100">
      <div class="container">
-      <p> Maybelline Master fiz setting powder <br> Price: $7.99,compared to Makeup Forever HD microfinishing powder $23.</p> </div> </div>
+      <p> Maybelline Master fiz setting powder <br> Price: $7.99</p> </div> </div>
 
-       <div class="polaroid2">  <img src="LorealPariaSettingSpray.jpg" alt= "Loreal Paris Setting Spray" style="width:100%">
-       <div class="container">
-        <p> Loreal Paris Infallible Setting Spray <br> Price: $14.00,compared to Urban Decay all nighter makeup setting spray $30</p> </div> </div>`
-  //   ```<p><h3>contour</h3></p>
-  // <div class= "polaroid"> <img src="DUPES_NYXcontourPalette_V.jpg"> alt= "NYX Cream Contour Palette" style="width:100%">
-  //   <div class="container">
-  //   </div>
-  // </div>
-  //   NYX highlight and contour HD palette $25, compared to Kat Von D contour pallete $46. <p><h3>foundation</h3></p> <img src="FoundationStick.jpg"> Revlon photoready Instafix foundation stick $11, compared to Bobby Browns 46$ <br> <img src="MaybellineFitMefoundation.jpg"> Maybelline Fit Me foundation $7.99, compared to Mac foundation $20 <p><h3> concealer </h3></p> <img src="RevlonMakeupRevolutionConcealer.jpg"> Revlon Makeup Revolution concealer 7$, compared to Tarte Shape Tate concealer $27 <p><h3>Other</p></h3> <img src="MaybellineSettingPowder.png"> Maybelline Master fiz setting powder 7.99$,compared to Makeup Forever HD microfinishing powder $23 <br> <img src="LorealPariaSettingSpray.jpg"> Loreal Paria infallible setting spray $14,compared to Urban Decay all nighter makeup setting spray $30```
-    ;}
+      <div class="polaroid2"> <img src="MakeupForeverPowder.jpeg" alt= "Makeup Forever Microfinishing Powder" style="width:100%">
+      <div class="container">
+      <p> In comparison is the Makeup Forever Microfinishing Powder <br> Price: $23.00</p> </div> </div>
+
+      <div class="polaroid2">  <img src="LorealPariaSettingSpray.jpg" alt= "Loreal Paris Setting Spray" style="width:100%">
+      <div class="container">
+      <p> Loreal Paris Infallible Setting Spray <br> Price: $14.00</p> </div> </div>
+
+
+      <div class="polaroid2">  <img src="UrbanDecaySpray.jpeg" alt= "Urban Decay Setting Spray" style="width:100%">
+      <div class="container">
+      <p> In comparison to the Urban Decay All Nighter Setting Spray <br> Price: $30.00</p> </div> </div>`
+;}
 }
   //cheek
+
   function FunctionCheeks() {
     if (document.getElementById("CheeksText").innerHTML != ""){
     document.getElementById("CheeksText").innerHTML = "";
     }
     else{document.getElementById("CheeksText").innerHTML =
-    `<p><h3>highlighter</h3><p> <img src="ColorPopHighlight.png"> pop Pearlized-Scrumptious highlighter $8,compared to Becca Shimmering Skin Perfector pressed highlighter $38​<br> <img src="ElfShadeEnchanted .png"> Elf Cosmetic baked shade Enchanted $3, compared to Beccas Champagne pop $38​<br>  <img src="NYXliquidIlluminator.jpg"> NYX Born to Glow liquid Illuminator $8,compared to Baccas shimmering skin perfector liquid highlighter $41​
-    <p><h3>bronzer</h3>​</p> <img src="RomelBronzer.jpg">Romel natural bronzer $4 compared to Benefit cosmetics hoola bronzer $29<br> <img src="NYXBronzer.jpg"> NYX Professional makeup bronzer $7 compared to Benefit Cosmetics Hoola Bronzer $29​
-    <p><h3>Blush​</p></h3> <img src="MilaniBlush.jpg"> Milani Baked Blush $7 compared to Nars Orgasm $29​<br>  <img src="MaybelineBlushPink.jpg"> Maybeline Fit Me blush medium pink $5 compared to Mac Dainty $25​<br>  <img src="ElfBlushBM.jpg"> Elf Studio blush in Berry Merry $3 compared to Urban Decays afterglow Rapture $26​`
+    `<p><h3>highlighter</h3> <div class="polaroid"> <img src="ColorPopHighlight.png" alt= "Colourpop Pearlized-Scrumptious Highlighter" style= "width:100%">
+    <div class="container">
+    <p> Colourpop Pearlized-Scrumptious Highlighter <br> Price:$8.00</p> </div> </div>
+
+    <div class="polaroid"> <img src= "ElfShadeEnchanted .png" alt="Elf Cosmetics Baked Highlighter in Enchanted" style="width:100%">
+    <div class="container">
+    <p> Elf Cosmetic Baked Highlighter in the Shade Enchanted <br> Price: $3.00</p> </div> </div>
+
+    <div class="polaroid"> <img src= "BeccaHighlighter.png" alt= "Becca Shimmering Skin Prefector Pressed Powder" style="width:100%">
+    <div class="center">
+    <p> In comparison to the Becca Shimmering Skin Prefector Pressed Highlighter <br> Price: $38.00</p> </div> </div>
+
+    <div class="polaroid2"> <img src="NYXliquidIlluminator.jpg" alt= "Nyx Liquid Illuminator" style="width:100%">
+    <div class="center">
+    <p> Nyx Born to Glow liquid Illuminator <br> Price: $8.00 </p> </div> </div>
+
+    <div class="polaroid2"> <img src="BeccaLiquidHighlighter.JPG" alt= "Becca Shimmering Skin Perfector Liquid Highlighter" style="width:100%">
+    <div class="center">
+    <p> In comparison to the Becca Shimmering Skin Perfector Liquid Highlighlighter <br> Price: $41.00 </p> </div> </div>
+
+
+    <p><h3>bronzer</h3>​</p> <div class="polaroid"> <img src="RomelBronzer.jpg" alt= "Rimmel London Bronzer" style= "width:100%">
+    <div class="center">
+    <p>Rimmel London Natural Bronzer <br> Price: $4.00</p> </div> </div>
+
+    <div class="polaroid"> <img src="NYXBronzer.jpg" alt="Nyx Professtional Makeup Bronzer" style="width:100%">
+    <div class="center">
+    <p>Nyx Makeup Bronzer <br> Prices: $7.00 </p> </div> </div>
+
+    <div class="polaroid"> <img src= "HoolaBronzer.jpeg" alt="Benefit Cosmetics Hoola Bronzer" style="width:100%">
+    <div class="container">
+    <p> In comparison to the Benefit Cosmetics Hoola Bronzer <br> Price: $29.00</p> </div> </div>
+
+
+    <p><h3>Blush​</p></h3> <div class="polaroid2"> <img src="MilaniBlush.jpg" alt="Milani Baked Blush" style="width:100%">
+    <div class="center">
+    <p> Milani Baked Blush <br> Price: $7.00</p> </div> </div>
+
+    <div class="polaroid2"> <img src= "NarsBlush.jpg" alt="Nars Blush" style="width:100%">
+    <div class="center">
+    <p> Nars Blush <br> Price: $29.00 </p> </div> </div>
+
+
+    <img src="MaybelineBlushPink.jpg"> Maybeline Fit Me blush medium pink $5 compared to Mac Dainty $25​<br>  <img src="ElfBlushBM.jpg"> Elf Studio blush in Berry Merry $3 compared to Urban Decays afterglow Rapture $26​`
   ;}
 }
   //lips
