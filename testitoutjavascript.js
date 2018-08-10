@@ -14,4 +14,3 @@ var preview = document.getElementById('holder');
 }
 
 // Literally Canvas Code
-var lc = LC.init(element, {imageSize: {width: 500, height: null} )
