@@ -8,11 +8,7 @@ function SurveyButton() {
     }
 }
 
-// // To get it to turn dark when clicked on
-// function makeDarkGrey(x){
-//   x.style.backgroundColor= "#8585ad"; //Dark Grey color//
-// }
-
+// calling each things from the survey
 var SkinType = "test";
 var Concern = "";
 
@@ -25,7 +21,7 @@ SkinType = "Dry";
 }
 
 function Combination(){
-SKinType = "Combination";
+SkinType = "Combination";
 }
 
 function AcneBlemishes(){
@@ -37,8 +33,11 @@ function AntiAging(){
 }
 
 function Others(){
-  Concern = "Others (Pores, Dullness, etc.)";
+  Concern = "Others";
 }
+// info showed for survey resultss
+
+
 //oily and acne donee
 function Submit(){
   if (SkinType == "Oily" && Concern == "Acne & Blemishes") {
@@ -60,7 +59,8 @@ function Submit(){
     <br><br><img src="LotusYouth.jpg">
     <br>Fresh Lotus Youth Preserve Moisturizer, $45
     <br>Find it at <a href="https://www.sephora.com/product/lotus-youth-preserve-face-cream-with-super-7-complex-P377123?skuId=1488352&icid2=products%20grid:p377123">Sephora</a>.`;
-  } //Oily and Others donee donee
+  }
+  //Oily and Others donee donee
   else if(SkinType == "Oily" && Concern == "Others"){
     document.getElementById("Results").innerHTML = `<h3>Recommended products based on survey reults:</h3>
     <br><img src="CeraVeFoam.jpg">
@@ -123,7 +123,7 @@ function Submit(){
 
     `;
   }//combination and other
-  else if (SkinType == "combination" && Concern == "Others") {
+  else if (SkinType == "Combination" && Concern == "Others") {
       document.getElementById("Results").innerHTML = `<h3>Recommended products based on survey reults:</h3>
       <br><img src="CeraVeFoam.jpg">
       <br>CeraVe Foaming Facial Cleanser, Price $11
@@ -138,7 +138,7 @@ function Submit(){
   }
 }
 
-/*test
+/* test/example incasee code messes upp
 function FunctionTest() {
   if (document.getElementById("TestText").innerHTML != ""){
  document.getElementById("TestText").innerHTML = "";
@@ -147,7 +147,7 @@ else{document.getElementById("TestText").innerHTML = "test";
 }
 }*/
 
-//skin Care
+//skin Care sort by...
 
 //Cleanser
 function FunctionCleanser() {
@@ -155,6 +155,7 @@ function FunctionCleanser() {
  document.getElementById("CleanserTexts").innerHTML = "";
   }
 else{document.getElementById("CleanserTexts").innerHTML = `
+<!-- Acne and Blemishes -->
 <p><h3>Acne and Blemishes</p></h3>
 <img src="BosciaCleanOil.jpg">
 <br>Boscia Makeup Breakup Cool Cleansing Oil, Price $10-$32
@@ -166,7 +167,7 @@ else{document.getElementById("CleanserTexts").innerHTML = `
 <br>Neutrogena Oil Free Acne Wash, Price $5-$7
 <br>Find it at <a href="https://www.target.com/p/neutrogena-174-oil-free-acne-wash-9-1oz/-/A-12921121">Target</a>.
 
-
+<!-- AntiAging-->
 <p><h3>Anti-Aging</p></h3>
 <img src="Aveeno.jpg">
 <br>Aveeno Absolutely Ageless Facial Nourishing Anti-Aging Cleanser, Price $8
@@ -175,6 +176,7 @@ else{document.getElementById("CleanserTexts").innerHTML = `
 <br>Burt’s Bees Renewal Cleanser, Price $9
 <br>Find it at <a href="https://www.target.com/p/burt-s-bees-renewal-cleanser-6-oz/-/A-16367046">Target</a>.
 
+<!-- otherss-->
 <p><h3>other(redness)</p></h3>
 <img src="CeraVeFoam.jpg">
 <br>CeraVe Foaming Facial Cleanser, Price $11
@@ -196,6 +198,7 @@ function FunctionExfoliators() {
   }
 else{document.getElementById("ExfoliatorsText").innerHTML = `
 
+<!-- Acne and Blemishes -->
 <p><h3>Acne and Blemishes</p></h3>
 <img src="KateEx.jxr">
 <br>Kate Somerville ExfoliKate® Intensive Exfoliating Treatment, Price $24
@@ -207,6 +210,7 @@ else{document.getElementById("ExfoliatorsText").innerHTML = `
 <br>St. Ives Blemish Control Face Scrub Apricot, Price $3
 <br>Find it at <a href="https://www.target.com/p/st-ives-blemish-control-face-scrub-apricot-6-oz/-/A-11129467">Target</a>.
 
+<!-- otherss-->
 <p><h3>other(Brightner)</p></h3>
 <img src="AveenoSkinB .jpg">
 <br>Aveeno® Positively Radiant® Skin Brightening Daily Scrub, Price $6
@@ -221,6 +225,8 @@ function FunctionMoisturizers() {
  document.getElementById("MoisturizersText").innerHTML = "";
   }
 else{document.getElementById("MoisturizersText").innerHTML = `
+
+<!-- Acne and Blemishes -->
 <p><h3>Acne and Blemishes</p></h3>
 <img src="Clean&Clear.jpg">
 <br>Clean & Clear Essentials Dual Action Facial Moisturizer, Price $5
@@ -229,6 +235,7 @@ else{document.getElementById("MoisturizersText").innerHTML = `
 <br>Aveeno® Clear Complexion Blemish Treatment Daily Moisturizer, Price- $13.79
 <br>Find it at <a href="https://www.target.com/p/aveeno-174-clear-complexion-blemish-treatment-daily-moisturizer-4oz/-/A-11048717">Target</a>.
 
+<!-- AntiAging -->
 <p><h3>Anti-Aging</p></h3>
 <img src="LotusYouth.jpg">
 <br>Fresh Lotus Youth Preserve Moisturizer, $45
@@ -237,6 +244,7 @@ else{document.getElementById("MoisturizersText").innerHTML = `
 <br>Neutrogena Oil-Free Daily Facial Moisturizer, Price $8
 <br>Find it at <a href="https://www.target.com/p/neutrogena-oil-free-daily-facial-moisturizer-spf-15-4-fl-oz/-/A-10772533">Target</a>.
 
+<!-- otherss-->
 <p><h3>other(redness)</p></h3>
 <img src="FRESHUmbrian.jpg">
 <br>FRESH Umbrian Clay Oil-Free Lotion, Price $36
@@ -251,6 +259,8 @@ function FunctionOthers() {
  document.getElementById("OthersText").innerHTML = "";
   }
 else{document.getElementById("OthersText").innerHTML = `
+
+<!-- Acne and Blemishes -->
 <p><h3>Acne and Blemishes</p></h3>
 <img src="SUPERMUD.jpg">
 <br>SUPERMUD® Activated Charcoal Treatment, Price $59
@@ -262,6 +272,7 @@ else{document.getElementById("OthersText").innerHTML = `
 <br>Yes To Tomatoes Detoxifying Charcoal Paper Mask, Price $3
 <br>Find it at <a href="https://www.target.com/p/yes-to-174-tomatoes-detoxifying-charcoal-paper-mask-1ct/-/A-50938799">Target</a>.
 
+<!-- otherss-->
 <p><h3>other(Toner)</p></h3>
 <img src="Cucumber.jpg">
 <br>Kiehl's since 1851 Cucumber Herbal Alcohol-Free Toner, Price $16
