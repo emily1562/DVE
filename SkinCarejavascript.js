@@ -42,10 +42,24 @@ function Others(){
 
 function Submit(){
   if (SkinType == "Oily" && Concern == "Acne & Blemishes") {
-    document.getElementById("Results").innerHTML = "oil, acne and blemishes test";
+    document.getElementById("Results").innerHTML = `oil, acne and blemishes test
+    <img src="DeepCleans.jpg">
+    <br> Tatcha The Deep Cleanse, price 38
+    <br>Find it at <a href="https://www.sephora.com/product/the-deep-cleanse-P427536?skuId=2023646&icid2=products%20grid:p427536">Sephora</a>.
+    <br><br><img src="CeraVeFoam.jpg">
+    <br>CeraVe Foaming Facial Cleanser, Price $11
+    <br>Find it at <a href="https://www.target.com/p/cerave-foaming-facial-cleanser-for-normal-to-oily-skin-fragrance-free-16oz/-/A-51148110 ">Target</a>.
+` ;
+    }
   }
   else if(SkinType == "Oily" && Concern == "Anti-Aging"){
-    document.getElementById("Results").innerHTML = "oil, antiaging test";
+    document.getElementById("Results").innerHTML = `oil, antiaging
+    <img src="Aveeno.jpg">
+    <br>Aveeno Absolutely Ageless Facial Nourishing Anti-Aging Cleanser, Price $8
+    <br>Find it at <a href="https://www.target.com/p/aveeno-174-absolutely-ageless-153-facial-nourishing-anti-aging-cleanser-5-2-fl-oz/-/A-49119447">Target</a>.
+    <br><br><img src="LotusYouth.jpg">
+    <br>Fresh Lotus Youth Preserve Moisturizer, $45
+    <br>Find it at <a href="https://www.sephora.com/product/lotus-youth-preserve-face-cream-with-super-7-complex-P377123?skuId=1488352&icid2=products%20grid:p377123">Sephora</a>.`;
   }
   else if(SkinType == "Oily" && Concern == "Others"){
     document.getElementById("Results").innerHTML = "oil, others Test";
@@ -134,7 +148,7 @@ else{document.getElementById("ExfoliatorsText").innerHTML = `
 <p><h3>Acne and Blemishes</p></h3>
 <img src="KateEx.jxr">
 <br>Kate Somerville ExfoliKate® Intensive Exfoliating Treatment, Price $24
-<br>Find it at <a href="https://www.sephora.com/product/exfolikate-intensive-exfoliating-treatment-P232915?skuId=1284629&icid2=products%20grid:p232915">Sepho/a>.
+<br>Find it at <a href="https://www.sephora.com/product/exfolikate-intensive-exfoliating-treatment-P232915?skuId=1284629&icid2=products%20grid:p232915">Sephora/a>.
 <br><br><img src="UmbrianClay.jpg">
 <br>FRESH Umbrian Clay Pore Purifying Face Exfoliator, Price $33
 <br>Find it at <a href="https://www.sephora.com/product/umbrian-clay-mattifying-face-exfoliant-P379065?skuId=1524073&keyword=FRESH%20Umbrian%20Clay%20Pore%20Purifying%20Face%20Exfoliator">Sephora</a>.
