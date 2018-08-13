@@ -116,10 +116,19 @@ function FunctionFace() {
 
     <div class="polaroid2"> <img src= "NarsBlush.jpg" alt="Nars Blush" style="width:100%">
     <div class="center">
-    <p> Nars Blush <br> Price: $29.00 </p> </div> </div>
+    <p> In Comparison to the Nars Blush <br> Price: $29.00 </p> </div> </div>
+
+    <div class="polaroid2"> <img src="MaybelineBlushPink.jpg" alt="Maybelline Fit me Blush" style="width:100%">
+    <div class="center">
+    <p> Maybelline Fit Me Blush <br> Price: $5 </p> </div> </div>
+
+    <div class="polaroid2"> <img src= "MacBlushMineralize.jpeg" alt= "Mac Mineralized Blush" style="width:100%">
+    <div class="center">
+    <p> In Comparison to the Mac Mineralized Blush <br> Price: $25.00 </p> </div> </div>
 
 
-    <img src="MaybelineBlushPink.jpg"> Maybeline Fit Me blush medium pink $5 compared to Mac Dainty $25​<br>  <img src="ElfBlushBM.jpg"> Elf Studio blush in Berry Merry $3 compared to Urban Decays afterglow Rapture $26​`
+
+     <img src="ElfBlushBM.jpg"> Elf Studio blush in Berry Merry $3 compared to Urban Decays afterglow Rapture $26​`
   ;}
 }
   //lips
@@ -128,14 +137,69 @@ function FunctionLips() {
   document.getElementById("LipText").innerHTML = "";
   }
   else{document.getElementById("LipText").innerHTML =
-  `<p><h3>Matte​ Lipcream</p></h3> <img src="MaybellineEctasy.jpg"> Maybelline Fuschsia Ectasy $8,compared to Too Faced its Happening $21<br> <img src="NYXTresMechas.jpg"> NYX Tres Mechas $6, compared to koko k $30 <br> <img src="NYXMonteCarlo.jpg">NYX monte Carlo compared to Kat Von D outlaw​
- <p><h3>Lip gloss​</p></h3> <img src="ColourpopBadHabit.jpg"> Colourpop Bad Habit $7,compared to Dose of colors berry me $18​<br> <img src="ColourDopey.jpg"> Colour pop dopey $7, compared to Stila patina $22
- ​<p><h3>Lipstick</p></h3> <img src="Dnude.jpg"> Elf Natural Nymph $3 compared to Mac Creme Dnude lipstick $19 ​<br> <img src="SugarPlum.jpg"> Wet n Wild Sugar Plum $4 compared to Mac Rebel $19​<br> <img src="RevlonPlumalicious.jpg"> ​Revlon Plumalicious $5,compared to Mac Amorous $19​<br> <img src="ElfClassy.jpg"> Elf Classy Lipstick $3 <br> <img src="SkyPink.jpg"> NYX Sky Pink lipstick $4, compared to Mac angel $19​
- <p><h3>metallic​</h3></p>  <img src="ColourpopLightsOut.jpg"> Colour pop Lights Out $6, compared to Anastasias Beverly Hills Gilded $16​<br> <img src="ChromaticAddict.jpg"> Milani Chromatic Addict $9,Compared to Kiley Jenners King K $18​<br>  <img src="MilaniMaterialistic.jpg"> Milani Materialistic $9,compared to Kiley Jenners Reign $18​<br>
- <p><h3>lip crayons</h3></p>  <img src="SoniaKashuk.jpg"> Sonia Kashuk velvet lip crayons $7.99, compared to Nars Velvet matte lip pencil $26​​<br><img src="NYXEnamored.jpg"> NYX Enamored $6.50, compared to Gerard Underworld $20​`;}
+  `<p><h3>Matte​ Lipcream</p></h3> <div class="polaroid2"> <img src="MaybellineEctasy.jpg" alt= "Maybelline Fuschsia Ectasy" style="width:100%">
+  <div class="center">
+  <p> Maybelline Fuschsia Ectasy <br> Price: $8.00 </p> </div> </div>
+
+  <div class="polaroid2"> <img src="toofaceditshappening.jpg" alt= "Too Faced Its Happening Matte Lipstick" style="width:100%">
+  <div class="center">
+  <p> In Comparison to the Too Faced It's happening Matte Lipstick</p> </div> </div>
+
+
+
+  <p><h3>Lip gloss​</p></h3> <div class="polaroid2"> <img src="ColourpopBadHabit.jpg" alt= "Colour Pop Ultra Matte Lip" style="width:100%">
+  <div class="center">
+  <p> Colour Pop Ultra Matte Lip <br> Price: $7.00 </p> </div> </div>
+
+  <div class="polaroid2"> <img src="DoseOfColorsLipsMatte.jpeg" alt= "Dose Of Colors Matte Lips" style="width:100%">
+  <div class="center">
+  <p> In Comparison to the Dose of colors Matte Lips <br> Price: $18​.00 </p> </div> </div>
+
+  ​<p><h3>Lipstick</p></h3> <div class="polaroid2"> <img src="Dnude.jpg" alt= "Elf Mineral Lipstick" style="width:100%">
+  <div class="center">
+  <p> Elf Mineral Lipstick <br> Price: $3.00 </p> </div> </div>
+
+  <div class= "polaroid2"> <img src="MacCremeLipstick.jpeg" alt="Mac Creme Lipstick" style="width100%">
+  <div class="center">
+  <p> In Comparison to the Mac Creme Lipstick <br> Price: $19.00 </p> </div> </div>
+
+  <p><h3>metallic​</h3></p> <div class="polaroid2">  <img src="ColourpopLightsOut.jpg" alt= "Colour Pop Lights Out Ultra Metallic Lip" alt= " Colour Pop Ultra Metallic Lip" style="width:100%">
+  <div class="center">
+  <p> Colour Pop Lights Out Ultra Metallic Lip <br> Prices: $6.00 </p> </div> </div>
+
+
+  <div class= "polaroid2"> <img src="Anastasia'sBeverlyHillsGilded.jpeg" alt="Anastasia's Beverly Hills Gilded Lip Gloss" style="width:100%">
+  <div class="center">
+  <p> In Comparison to the Anastasia's Beverly Hills Gilded Lip Gloss <br> Prices: $16.00 </p> </div> </div>
+
+
+ <p><h3>lip crayons</h3></p> <div class="polaroid2"> <img src="SoniaKashuk.jpg" alt= "Sonia Kashuk Velvet Lip Crayon" style="width:100%">
+ <div class="center">
+ <p> Sonia Kashuk Velvet Lip Crayons <br> Prices: $7.99 </p> </div </div>
+
+
+
+ , compared to Nars Velvet matte lip pencil $26​​<br><img src="NYXEnamored.jpg"> NYX Enamored $6.50, compared to Gerard Underworld $20​`;}
 }
 
   //eyes
+
+    // <img src="NYXTresMechas.jpg"> NYX Tres Mechas $6, compared to koko k $30 <br>
+    // <img src="NYXMonteCarlo.jpg">NYX monte Carlo compared to Kat Von D outlaw​
+    // <img src="ColourDopey.jpg"> Colour pop dopey $7, compared to Stila patina $22
+    // <img src="SugarPlum.jpg"> Wet n Wild Sugar Plum $4 compared to Mac Rebel $19​<br> <img src="RevlonPlumalicious.jpg"> ​Revlon Plumalicious $5,compared to Mac Amorous $19​<br> <img src="ElfClassy.jpg"> Elf Classy Lipstick $3 <br> <img src="SkyPink.jpg"> NYX Sky Pink lipstick $4, compared to Mac angel $19​
+    // <img src="ChromaticAddict.jpg"> Milani Chromatic Addict $9,Compared to Kiley Jenners King K $18​<br>  <img src="MilaniMaterialistic.jpg"> Milani Materialistic $9,compared to Kiley Jenners Reign $18​<br>
+
+
+
+
+
+
+
+
+
+
+
 function FunctionEyes() {
   if (document.getElementById("EyesText").innerHTML != ""){
   document.getElementById("EyesText").innerHTML = "";
