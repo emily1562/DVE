@@ -5,7 +5,6 @@ h3{
   font-size: 30px;
 }
 
-}
 /* this is for 3 side by side images */
 .polaroid {
   width: 20%;
@@ -22,9 +21,10 @@ h3{
 }
 
 .container {
-  text-align:center;
+  text-align: center;
   padding: 10px 20px;
 }
+
 
 /* this is for 2 side by side images */
 .polaroid2 {
@@ -36,7 +36,6 @@ h3{
   margin-bottom: 50px;
   display: inline-block;
 }
-
 .polaroid img{
   width: 80px;
   height: 250px;
@@ -45,19 +44,4 @@ h3{
 .container {
   text-align: center;
   padding: 10px 20px;
-}
-
-.SortByButton{
-  display: inline-block;
-  /*float: left;*/
-  text-align: center;
-  background-color:#ffb399; /*purple/pinkish*/
-  border: none;
-  color: white;
-  padding: 10px 15px;
-  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
-  text-decoration: none;
-  font-size: 18px;
-  font-family: 'Great Vibes', cursive;
-  cursor: pointer;
 }
