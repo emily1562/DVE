@@ -132,6 +132,14 @@ function FunctionFace() {
   ;}
 }
   //lips
+    // <img src="NYXTresMechas.jpg"> NYX Tres Mechas $6, compared to koko k $30 <br>
+    // <img src="NYXMonteCarlo.jpg">NYX monte Carlo compared to Kat Von D outlaw​
+    // <img src="ColourDopey.jpg"> Colour pop dopey $7, compared to Stila patina $22
+    // <img src="SugarPlum.jpg"> Wet n Wild Sugar Plum $4 compared to Mac Rebel $19​<br> <img src="RevlonPlumalicious.jpg"> ​Revlon Plumalicious $5,compared to Mac Amorous $19​<br> <img src="ElfClassy.jpg"> Elf Classy Lipstick $3 <br> <img src="SkyPink.jpg"> NYX Sky Pink lipstick $4, compared to Mac angel $19​
+    // <img src="ChromaticAddict.jpg"> Milani Chromatic Addict $9,Compared to Kiley Jenners King K $18​<br>  <img src="MilaniMaterialistic.jpg"> Milani Materialistic $9,compared to Kiley Jenners Reign $18​<br>
+    //<img src="NYXEnamored.jpg"> NYX Enamored $6.50, compared to Gerard Underworld $20​`;}
+
+
 function FunctionLips() {
   if (document.getElementById("LipText").innerHTML != ""){
   document.getElementById("LipText").innerHTML = "";
@@ -173,39 +181,39 @@ function FunctionLips() {
   <p> In Comparison to the Anastasia's Beverly Hills Gilded Lip Gloss <br> Prices: $16.00 </p> </div> </div>
 
 
- <p><h3>lip crayons</h3></p> <div class="polaroid2"> <img src="SoniaKashuk.jpg" alt= "Sonia Kashuk Velvet Lip Crayon" style="width:100%">
- <div class="center">
- <p> Sonia Kashuk Velvet Lip Crayons <br> Prices: $7.99 </p> </div </div>
+  <p><h3>lip crayons</h3></p> <div class="polaroid2"> <img src="SoniaKashuk.jpg" alt= "Sonia Kashuk Velvet Lip Crayon" style="width:100%">
+  <div class="center">
+  <p> Sonia Kashuk Velvet Lip Crayons <br> Prices: $7.99 </p> </div </div>
 
+  <div class="polaroid2"> <img src="NarsVelvetMatteLipPencil.png" alt= "Nars Velvet Matte Lip Pencil" style="width:100%">
+  <div class="center">
+  <p>In comparison to the Nars Velvet Matte Lip Pencil <br> Price: $26​​.00 </p> </div> </div>
 
-
- , compared to Nars Velvet matte lip pencil $26​​<br><img src="NYXEnamored.jpg"> NYX Enamored $6.50, compared to Gerard Underworld $20​`;}
+ <img src="NYXEnamored.jpg"> NYX Enamored $6.50, compared to Gerard Underworld $20​`;}
 }
 
   //eyes
-
-    // <img src="NYXTresMechas.jpg"> NYX Tres Mechas $6, compared to koko k $30 <br>
-    // <img src="NYXMonteCarlo.jpg">NYX monte Carlo compared to Kat Von D outlaw​
-    // <img src="ColourDopey.jpg"> Colour pop dopey $7, compared to Stila patina $22
-    // <img src="SugarPlum.jpg"> Wet n Wild Sugar Plum $4 compared to Mac Rebel $19​<br> <img src="RevlonPlumalicious.jpg"> ​Revlon Plumalicious $5,compared to Mac Amorous $19​<br> <img src="ElfClassy.jpg"> Elf Classy Lipstick $3 <br> <img src="SkyPink.jpg"> NYX Sky Pink lipstick $4, compared to Mac angel $19​
-    // <img src="ChromaticAddict.jpg"> Milani Chromatic Addict $9,Compared to Kiley Jenners King K $18​<br>  <img src="MilaniMaterialistic.jpg"> Milani Materialistic $9,compared to Kiley Jenners Reign $18​<br>
-
-
-
-
-
-
-
-
-
-
 
 function FunctionEyes() {
   if (document.getElementById("EyesText").innerHTML != ""){
   document.getElementById("EyesText").innerHTML = "";
   }
   else{document.getElementById("EyesText").innerHTML =
-    `​<p><h3>Eyeliner</h3></p> <img src="FlowerBeautyEyeliner.jpg"> Flower Beauty on your mark liquid eyeliner $6,compare to Stilas stay all day waterproof eyeliner $22 <br> <img src="ElfPen.jpg"> Elf eyeliner pen $2,compare to Stilas stay all day waterproof eyeliner $22
+    `​<p><h3>Eyeliner</h3></p> <div class="polaroid"> <img src="FlowerBeautyEyeliner.jpg" alt= "Flower Beauty On Your Mark Liquid Eyeliner" style="width:100%">
+    <div class="center">
+    <p>Flower Beauty On Your Mark Liquid Eyeliner <br> Price: $6.00 </p> </div> </div>
+
+
+    <div class="polaroid"> <img src="ElfPen.jpg" alt="Elf Eyeliner Pen" style="width:100%">
+    <div class="center">
+    <p>  Elf Eyeliner Pen <br> Price=$2.00</p> <div> </div>
+
+    <div class="polaroid" <img src="StilaStayAllDay.png" alt="Stila Stay All Day Waterproof Eyeliner" style="width:100%">
+    <div class="center">
+    <p> In Comparison to the Stila All Day Waterproof Eyeliner <br> Prices:$22.00 </p> </div> </div>
+
+
+
     ​<p><h3>Eyebrows​</p></h3> <img src="NYXMicrobrow.jpg"> NYX Microbrow pencil $10,compared to Anastasia Brow Wiz $21​<br> <img src="NYXPomade.jpg"> NYX Pomade 6.99$, compared to Anastasia Beverly Hills brow Pomade $18
     ​<p><h3>Mascara</p></h3> <img src="LorealParis.jpg"> Loreal paris Voluminous Carbon Black $6, compared to the Diorshow ($27.50)
     <p><h3>Eyeshadow and Extra</p></h3> <img src="MilaniEye.jpg"> Milano eye shadow primer $6.50, compared to urban decay primer potion $20<br> <img src="W7Buff.jpg">  W7 In The Buff Palette in Lightly Toasted $8 compared to the naked palette $54​` ;}
