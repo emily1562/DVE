@@ -93,6 +93,14 @@ padding: 10px;
 height: 400px; */
 }
 
+#BodyFonts{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  display: block;
+  font-size: 15px;
+}
+
+
 
 /*Tutorials*/
 
