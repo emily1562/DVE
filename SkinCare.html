@@ -27,11 +27,12 @@
   <!--survey words <h3 class="center"> Would you like to take a Survey? </h3>-->
 
   <!--survey button-->
-<div class="surveycenter">
+
+<div id="Surveyy" class="surveycenter">
   <button class="SurveyButton" onclick="SurveyButton()">Survey</button>
 <div id="myDIV">
   What is your skin type? (Choose One)<br>
-    <button id="Oily" class="questionbutton" onclick="Oily();MakeBlack(Oily)"></button> <span class="skintypesurvey">Oily</span><br>
+    <button id="Oily" class="questionbutton" onclick="Oily()"></button> <span class="skintypesurvey">Oily</span><br>
     <button id="Dry" class="questionbutton" onclick="Dry()"></button> Dry<br>
     <button id="Combination" class="questionbutton" onclick="Combination()"></button>Combination<br>
   What are your major concerns? (Choose One)<br>
@@ -40,12 +41,11 @@
     <button id="Others" class="questionbutton" onclick="Others()"></button>Others (Pores, Dullness, etc.)<br>
 
     <input type="submit" value="Submit" onclick="Submit()"></form>  <br>
-
+    <div id=test> test </div> 
     <div id="Results">
     </div>
   </div>
 </div>
-
 
 <br></br>
 

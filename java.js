@@ -5,7 +5,3 @@ function makeGrey(x){
 function makeBlack(x){
   x.style.backgroundColor= "black";
 }
-
-function MakeBlack(x){
-x.style.backgroundColor="red";
-}

@@ -14,7 +14,10 @@ var Concern = "";
 
 function Oily(){
 SkinType = "Oily";
+if (document.getElementById("Oily").style.backgroundColor === "#d6d6c2") {
+ document.getElementById("Oily").style.backgroundColor = "black";}
 }
+
 
 function Dry(){
 SkinType = "Dry";

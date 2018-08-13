@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 
 <html>
+<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 <link rel ="stylesheet"; href = "Headers.css">
+<link rel= "StyleSheet"; href = "StyleSheetMK.css">
 <script src="java.js"></script>
 <script src="JavaScriptMakeup.js"></script>
 <head>
@@ -22,38 +26,62 @@
 
 <h1> Makeup </h1>
 
-<p><h3>Popular products</p></h3>
-<img src="BeautyBlender.jpg">
-<br>Beauty Blender, Applicator Price 20$
-Buy <a href="https://www.beautyblender.com/collections/blenders/products/beautyblender-original">Here</a>.
+<p><h3>Popular products</p></h3><br>
 
-<br> <img src="GKHighlighter.jpg">
-<br>Anastasia Beverly Hills, Glow kit, Highlighter Price 40$
+
+<div class= "polaroid">
+<img src="BeautyBlender.jpg" alt="Beauty Blender" style="width:100%">
+<div class="center">
+<br>Beauty Blender Applicator <br> Price 20$<br>
+find here <a href="https://www.beautyblender.com/collections/blenders/products/beautyblender-original">BeautyBlender</a>.
+<div class= "container">
+</div></div></div>
+
+<div class="polaroid">
+<br> <img src="GKHighlighter.jpg" alt="ABH Glow Kit highlighter" style="width:100%">
+<div class="center">
+<br>Anastasia Beverly Hills<br>Glow kit, Highlighter<br> Price $40<br>
 Find in <a href="https://www.anastasiabeverlyhills.com/glow-kit-sun-dipped/ABH01-18158.html">ABH website</a>.
+<div class= "container">
+</div></div></div>
 
-<br> <img src="Stila.jpg">
-<br>Stila, Glitter and Glow Liquid Eye Shadow Price 24$
+<div class="polaroid">
+<br> <img src="Stila.jpg" alt="Stila Glitter and Glow Liquid Eyeshadown" style="width:100%">
+<div class="center">
+<br>Stila, Glitter and Glow Liquid<br>Eye Shadow<br>Price $24<br>
 Find in <a href="Whttps://www.sephora.com/product/magnificent-metals-glitter-glow-liquid-eye-shadow-P63087293?skuId=1891340&icid2=bestsellers:p63087293">Sephora</a>.
+<div class= "container">
+</div></div></div>
 
-<br> <img src="UDSettingSpray.jpg">
-<br>Urban Decay, All Nighter Long-Lasting Setting Spray Price 32
+<div class="polaroid">
+<br> <img src="UDSettingSpray.jpg" alt="Urban Decay Long-Lasting setting Spray" style="width:100%">
+<div class="center">
+<br>Urban Decay, All Nighter Long-Lasting Setting Spray<br>Price $32<br>
 Buy in <a href="https://www.sephora.com/product/all-nighter-long-lasting-makeup-setting-spray-P263504?icid2=top-rated%20makeup:p263504:product">Sephora</a>.
+<div class= "container">
+</div></div></div>
 
-<br> <img src="KatVonD.jpg">
-<br>Kat Von D, Everlasting Liquid Lipstick Price 20$
+<div class="polaroid">
+<br> <img src="KatVonD.jpg" alt="Kat Von D, Liquid Lipstick" style="width:100%">
+<div class="center">
+<br>Kat Von D<br> Everlasting Liquid Lipstick<br> Price 20$<br>
 Find in <a href="https://www.sephora.com/product/everlasting-love-liquid-lipstick-P384954?icid2=top-rated%20makeup:p384954:product">Sephora</a>.
+<div class= "container">
+</div></div></div>
 
-<br> <img src="EsteeLauderF.jpg">
-<br>Estee Lauder, Double Wear Stay-in-Place Foundation Price 42$
+<div class="polaroid">
+<br> <img src="EsteeLauderF.jpg" alt="Estee Lauder, Foundation" style="width:100%">
+<div class="center">
+<br>Estee Lauder<br>Double Wear Stay-in-Place Foundation<br>Price 42$<br>
 Buy in <a href="https://www.sephora.com/product/double-wear-stay-in-place-makeup-P378284?icid2=top-rated%20makeup:p378284:product">Sephora</a>.
+<div class= "container">
+</div></div></div>
 <!-- popular stuff end -->
 
 
 <!-- Buttons -->
 <br><br>
-<div> Sort by </div><br>
-
-
+<h4><div> Sort by... </h4>
 
 <!-- <div id="Test">
   <button onclick="FunctionTest()"> Test </button>
@@ -63,28 +91,29 @@ Buy in <a href="https://www.sephora.com/product/double-wear-stay-in-place-makeup
 
 <!-- Face -->
 <div id="Face" >
-  <button onclick="FunctionFace()"> Face </button>
+  <button class="SortByButton"  onclick="FunctionFace()" > Face </button>
   <div id="FaceText"></div><br></div>
 
 
 <!--cheek-->
 <div id= "Cheeks" >
-  <button onclick="FunctionCheeks()"> Cheeks </button>
+  <button class="SortByButton"  onclick="FunctionCheeks()"> Cheeks </button>
   <div id="CheeksText"></div><br></div>
 
 
 
 <!--lips-->
 <div id= "Lips" >
-  <button onclick="FunctionLips()"> Lips </button>
+  <button class="SortByButton" onclick="FunctionLips()"> Lips </button>
   <div id="LipText"></div><br></div>
 
 
     <!-- EYES-->
 <div id= "Eyes">
-  <button onclick="FunctionEyes()"> Eyes </button>
+  <button class="SortByButton" onclick="FunctionEyes()"> Eyes </button>
   <div id="EyesText"></div><br></div>
 
+</div>
 </body>
 
 
