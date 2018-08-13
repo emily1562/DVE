@@ -128,7 +128,7 @@ function FunctionFace() {
 
 
 
-     <img src="ElfBlushBM.jpg"> Elf Studio blush in Berry Merry $3 compared to Urban Decays afterglow Rapture $26​`
+     `
   ;}
 }
   //lips
@@ -183,13 +183,13 @@ function FunctionLips() {
 
   <p><h3>lip crayons</h3></p> <div class="polaroid2"> <img src="SoniaKashuk.jpg" alt= "Sonia Kashuk Velvet Lip Crayon" style="width:100%">
   <div class="center">
-  <p> Sonia Kashuk Velvet Lip Crayons <br> Prices: $7.99 </p> </div </div>
+  <p> Sonia Kashuk Velvet Lip Crayons <br> Prices: $7.99 </p> </div> </div>
 
   <div class="polaroid2"> <img src="NarsVelvetMatteLipPencil.png" alt= "Nars Velvet Matte Lip Pencil" style="width:100%">
   <div class="center">
   <p>In comparison to the Nars Velvet Matte Lip Pencil <br> Price: $26​​.00 </p> </div> </div>
 
- <img src="NYXEnamored.jpg"> NYX Enamored $6.50, compared to Gerard Underworld $20​`;}
+ `;}
 }
 
   //eyes
@@ -206,15 +206,52 @@ function FunctionEyes() {
 
     <div class="polaroid"> <img src="ElfPen.jpg" alt="Elf Eyeliner Pen" style="width:100%">
     <div class="center">
-    <p>  Elf Eyeliner Pen <br> Price=$2.00</p> <div> </div>
+    <p>  Elf Eyeliner Pen <br> Price: $2.00</p> </div> </div>
 
-    <div class="polaroid" <img src="StilaStayAllDay.png" alt="Stila Stay All Day Waterproof Eyeliner" style="width:100%">
+    <div class="polaroid"> <img src="StilaStayAllDay.png" alt="Stila Stay All Day Waterproof Eyeliner" style="width:100%">
     <div class="center">
     <p> In Comparison to the Stila All Day Waterproof Eyeliner <br> Prices:$22.00 </p> </div> </div>
 
+    ​<p><h3> Eyebrows ​</p></h3> <div class="polaroid2"> <img src="NYXMicrobrow.jpg" alt= "Nyx Microbrow Pencil" style="width:100%">
+    <div class="center">
+    <p> Nyx Microbrow Pencil <br> Prices: $10.00 </p> </div> </div>
+
+    <div class="polaroid2"> <img src="BrowWiz.jpg" alt="Anastasia Beverly Hills Brow Wiz" style="width:100%">
+    <div class="center">
+    <p> In Comparison to the Anastasia Beverly Hills Brow Wiz <br> Prices:$21.00 </p> </div> </div>
+
+    <div class="polaroid2"> <img src="NYXPomade.jpg" alt="Nyx Eyebrow Pomade" style="width:100%">
+    <div class="center">
+    <p> Nyx Tame and Frame Pomade <br> Prices:$6.99 </p> </div> </div>
+
+    <div class="polaroid2"> <img src="ABHPomade.jpg" alt="Anastasia Beverly Hills Pomade" style="width:100%">
+    <div class="center">
+    <p> In Comparison to the Anastasia Beverly Hills Eyebrow Pomade <br> Prices:$18.00 </p> </div> </div>
+
+    ​<p><h3>Mascara</p></h3> <div class="polaroid2"> <img src="LorealParis.jpg" alt= "Loreal Paris Voluminous Mascara" style="width:100%">
+    <div class="center">
+    <p> Loreal Paris Voluminous Mascara <br> Prices: $6.00 </p> </div> </div>
+
+    <div class="polaroid2"> <img src="DiorsShow.jpeg" alt="Dior Show Mascara" style="width:100%">
+    <div class="center">
+    <p> In Comparison to the Dior Show Mascara <br> Prices:$27.50 </p> </div> </div>
 
 
-    ​<p><h3>Eyebrows​</p></h3> <img src="NYXMicrobrow.jpg"> NYX Microbrow pencil $10,compared to Anastasia Brow Wiz $21​<br> <img src="NYXPomade.jpg"> NYX Pomade 6.99$, compared to Anastasia Beverly Hills brow Pomade $18
-    ​<p><h3>Mascara</p></h3> <img src="LorealParis.jpg"> Loreal paris Voluminous Carbon Black $6, compared to the Diorshow ($27.50)
-    <p><h3>Eyeshadow and Extra</p></h3> <img src="MilaniEye.jpg"> Milano eye shadow primer $6.50, compared to urban decay primer potion $20<br> <img src="W7Buff.jpg">  W7 In The Buff Palette in Lightly Toasted $8 compared to the naked palette $54​` ;}
+
+    <p><h3> Eyeshadow </p></h3> <div class="polaroid2"> <img src="MilaniEye.jpg" alt= "Milani Eyeshadow Primer" style="width:100%">
+    <div class="center">
+    <p> Milani Eye Shadow Primer <br> Price: $6.50 </p> </div> </div>
+
+    <div class="polaroid2"> <img src="PrimerPotion.jpeg" alt="Urban Decay Primer Potion" style="width:100%">
+    <div class="center">
+    <p> In Comparison to the Urban Decay Primer Potion <br> Prices:$20.00 </p> </div> </div>
+
+
+    <div class="polaroid2"> <img src="W7Buff.jpg" alt="W7 In the Buff Pallette" style="width:100%">
+    <div class="center">
+    <p> W7 In The Buff Palette <br> Prices: $8.00 </p> </div> </div>
+
+    <div class="polaroid2"> <img src="EyeshadowNakedPalette.jpeg" alt="Naked Eyeshadow Palette" style="width:100%">
+    <div class="center">
+    <p> In Comparison to the Naked Eyeshadow Palette $54​</p> </div> </div>` ;}
   }
