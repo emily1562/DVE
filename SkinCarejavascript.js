@@ -312,8 +312,9 @@ else{document.getElementById("ExfoliatorsText").innerHTML = `
 </div></div></div>
 
 <!-- otherss-->
-<div class= "polaroid">
+
 <p><h3>other(Brightner)</p></h3>
+<div class= "polaroid">
 <img src="AveenoSkinB .jpg"  alt= "Aveeno® Positively Radiant® Skin Brightening Daily Scrub" style="width:100%">
 <div class="center"><div class="container">
 <br>Aveeno® Positively Radiant® Skin Brightening Daily Scrub<br>Price $6
@@ -390,22 +391,35 @@ else{document.getElementById("OthersText").innerHTML = `
 <br>Find it at <a href="https://www.sephora.com/product/super-mud-clearing-treatment-P376409?icid2=products%20grid:p376409:product">Sephora</a>.
 </div></div></div>
 
-<img src="FaceWipes.jpg">
-<br>Neutrogena Makeup Remover Cleansing Towelettes & Face Wipes, Price $5
+<div class= "polaroid">
+<img src="FaceWipes.jpg" alt= "Neutrogena Makeup Remover Cleansing Towelettes & Face Wipes" style="width:100%">
+<div class="center"><div class="container">
+<br>Neutrogena Makeup Remover Cleansing Towelettes & Face Wipes<br>Price $5
 <br>Find it at <a href="https://www.target.com/p/neutrogena-makeup-remover-cleansing-towelettes-face-wipes-25ct/-/A-11536492">Target</a>.
+</div></div></div>
 
-<img src="TomatoesDetox.png">
-<br>Yes To Tomatoes Detoxifying Charcoal Paper Mask, Price $3
+<div class= "polaroid">
+<img src="TomatoesDetox.png" alt= "Yes To Tomatoes Detoxifying Charcoal Paper Mask" style="width:100%">
+<div class="center"><div class="container">
+<br>Yes To Tomatoes Detoxifying Charcoal Paper Mask<br>Price $3
 <br>Find it at <a href="https://www.target.com/p/yes-to-174-tomatoes-detoxifying-charcoal-paper-mask-1ct/-/A-50938799">Target</a>.
+</div></div></div>
 
 <!-- otherss-->
 <p><h3>other(Toner)</p></h3>
-<img src="Cucumber.jpg">
-<br>Kiehl's since 1851 Cucumber Herbal Alcohol-Free Toner, Price $16
+<div class= "polaroid2">
+<img src="Cucumber.jpg" alt= "Kiehl's since 1851 Cucumber Herbal Alcohol-Free Toner" style="width:100%">
+<div class="center"><div class="container">
+<br>Kiehl's since 1851 Cucumber Herbal Alcohol-Free Toner<br>Price $16
 <br>Find it at <a href="https://www.sephora.com/product/cucumber-herbal-alcohol-free-toner-P422250?icid2=products%20grid:p422250:product">Sephora</a>.
-<br><br><img src="WitchHazel.jpg">
-<br>Thayers Witch Hazel Toner, Rose Petal, Price $10
+</div></div></div>
+
+<div class= "polaroid2">
+<img src="WitchHazel.jpg"  alt= "Thayers Witch Hazel Toner, Rose Petal" style="width:100%">
+<div class="center"><div class="container">
+<br>Thayers Witch Hazel Toner, Rose Petal<br>Price $10
 <br>Find it at <a href="https://www.target.com/p/thayers-witch-hazel-alcohol-free-toner-rose-petal-12oz/-/A-51091143">Target</a>.
+</div></div></div>
 `;
 }
 }
