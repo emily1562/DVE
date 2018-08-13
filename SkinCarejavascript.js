@@ -218,36 +218,65 @@ function FunctionCleanser() {
 else{document.getElementById("CleanserTexts").innerHTML = `
 <!-- Acne and Blemishes -->
 <p><h3>Acne and Blemishes</p></h3>
-<img src="BosciaCleanOil.jpg">
-<br>Boscia Makeup Breakup Cool Cleansing Oil, Price $10-$32
+<div class= "polaroid">
+<img src="BosciaCleanOil.jpg" alt= "Boscia Makeup Breakup Cool Cleansing Oil" style="width:100%">
+<div class="center"><div class="container">
+<br>Boscia Makeup Breakup Cool Cleansing Oil<br>Price $10-$32
 <br>Find it at <a href="https://www.sephora.com/product/makeup-breakup-cool-cleansing-oil-P254604?skuId=1227891&icid2=products%20grid:p254604">Sephora</a>.
-<br><br><img src="BioreCharcoal.jpg">
-<br>Biore Deep Charcoal Cleanser, Price $6
+</div></div></div>
+
+<div class= "polaroid">
+<br><br><img src="BioreCharcoal.jpg" alt= "Biore Deep Charcoal Cleanser" style="width:100%">
+<div class="center"><div class="container">
+<br>Biore Deep Charcoal Cleanser<br>Price $6
 <br>Find it at <a href="https://www.target.com/p/biore-deep-charcoal-cleanser-6-7-oz/-/A-14934060">Target</a>.
-<br><br><img src="NeutrogenaAcne.jxr">
-<br>Neutrogena Oil Free Acne Wash, Price $5-$7
+</div></div></div>
+
+<div class= "polaroid">
+<br><br><img src="NeutrogenaAcne.jxr" alt= "Neutrogena Oil Free Acne Wash" style="width:100%">
+<div class="center"><div class="container">
+<br>Neutrogena Oil Free Acne Wash<br>Price $5-$7
 <br>Find it at <a href="https://www.target.com/p/neutrogena-174-oil-free-acne-wash-9-1oz/-/A-12921121">Target</a>.
+</div></div></div>
 
 <!-- AntiAging-->
 <p><h3>Anti-Aging</p></h3>
-<img src="Aveeno.jpg">
-<br>Aveeno Absolutely Ageless Facial Nourishing Anti-Aging Cleanser, Price $8
+<div class= "polaroid2">
+<img src="Aveeno.jpg" alt= "Aveeno Absolutely Ageless Facial Nourishing Anti-Aging Cleanser" style="width:100%">
+<div class="center"><div class="container">
+<br>Aveeno Absolutely Ageless Facial Nourishing Anti-Aging Cleanser<br>Price $8
 <br>Find it at <a href="https://www.target.com/p/aveeno-174-absolutely-ageless-153-facial-nourishing-anti-aging-cleanser-5-2-fl-oz/-/A-49119447">Target</a>.
-<br><br><img src="Renewal.jpg">
-<br>Burt’s Bees Renewal Cleanser, Price $9
+</div></div></div>
+
+<div class= "polaroid2">
+<img src="Renewal.jpg" alt= "Burt’s Bees Renewal Cleanser" style="width:100%">
+<div class="center"><div class="container">
+<br>Burt’s Bees Renewal Cleanser<br>Price $9
 <br>Find it at <a href="https://www.target.com/p/burt-s-bees-renewal-cleanser-6-oz/-/A-16367046">Target</a>.
+</div></div></div>
 
 <!-- otherss-->
 <p><h3>other(redness)</p></h3>
-<img src="CeraVeFoam.jpg">
-<br>CeraVe Foaming Facial Cleanser, Price $11
+<div class= "polaroid">
+<img src="CeraVeFoam.jpg" alt= "CeraVe Foaming Facial Cleanser" style="width:100%">
+<div class="center"><div class="container">
+<br>CeraVe Foaming Facial Cleanser<br>Price $11
 <br>Find it at <a href="https://www.target.com/p/cerave-foaming-facial-cleanser-for-normal-to-oily-skin-fragrance-free-16oz/-/A-51148110 ">Target</a>.
-<br><br><img src="CeraVeHydrating.jpg">
-<br>CeraVe Hydrating Facial Cleanser, Price $11
+</div></div></div>
+
+<div class= "polaroid">
+<img src="CeraVeHydrating.jpg" alt= "CeraVe Hydrating Facial Cleanser" style="width:100%">
+<div class="center"><div class="container">
+<br>CeraVe Hydrating Facial Cleanser<br>Price $11
 <br>Find it at <a href="https://www.target.com/p/cerave-hydrating-facial-cleanser-for-normal-to-dry-skin-fragrance-free-12oz/-/A-13977968">Target</a>.
-<br><br><img src="AveenoUltra.jpg">
-<br>Aveeno Ultra Calming Foaming Cleanser for Sensitive Skin, Price $7
+</div></div></div>
+
+<div class= "polaroid">
+<img src="AveenoUltra.jpg" alt= "Aveeno Ultra Calming Foaming Cleanser for Sensitive Skin" style="width:100%">
+<div class="center"><div class="container">
+<br>Aveeno Ultra Calming Foaming Cleanser for Sensitive Skin<br>Price $7
 <br>Find it at <a href="https://www.target.com/p/aveeno-174-ultra-calming-174-foaming-cleanser-for-sensitive-skin-6-fl-oz/-/A-11537197">Target</a>.
+</div></div></div>
 `;
 }
 }
@@ -261,21 +290,35 @@ else{document.getElementById("ExfoliatorsText").innerHTML = `
 
 <!-- Acne and Blemishes -->
 <p><h3>Acne and Blemishes</p></h3>
-<img src="KateEx.jxr">
-<br>Kate Somerville ExfoliKate® Intensive Exfoliating Treatment, Price $24
+<div class= "polaroid">
+<img src="KateEx.jxr" alt= "Kate Somerville ExfoliKate® Intensive Exfoliating Treatment" style="width:100%">
+<div class="center"><div class="container">
+<br>Kate Somerville ExfoliKate® Intensive Exfoliating Treatment<br>Price $24
 <br>Find it at <a href="https://www.sephora.com/product/exfolikate-intensive-exfoliating-treatment-P232915?skuId=1284629&icid2=products%20grid:p232915">Sephora/a>.
-<br><br><img src="UmbrianClay.jpg">
-<br>FRESH Umbrian Clay Pore Purifying Face Exfoliator, Price $33
+</div></div></div>
+
+<div class= "polaroid">
+<br><br><img src="UmbrianClay.jpg" alt= "FRESH Umbrian Clay Pore Purifying Face Exfoliator" style="width:100%">
+<div class="center"><div class="container">
+<br>FRESH Umbrian Clay Pore Purifying Face Exfoliator<br>Price $33
 <br>Find it at <a href="https://www.sephora.com/product/umbrian-clay-mattifying-face-exfoliant-P379065?skuId=1524073&keyword=FRESH%20Umbrian%20Clay%20Pore%20Purifying%20Face%20Exfoliator">Sephora</a>.
-<br><br><img src="St.IvesScrub.jpg">
-<br>St. Ives Blemish Control Face Scrub Apricot, Price $3
+</div></div></div>
+
+<div class= "polaroid">
+<img src="St.IvesScrub.jpg" alt= "St. Ives Blemish Control Face Scrub Apricot" style="width:100%">
+<div class="center"><div class="container">
+<br>St. Ives Blemish Control Face Scrub Apricot<br>Price $3
 <br>Find it at <a href="https://www.target.com/p/st-ives-blemish-control-face-scrub-apricot-6-oz/-/A-11129467">Target</a>.
+</div></div></div>
 
 <!-- otherss-->
+<div class= "polaroid">
 <p><h3>other(Brightner)</p></h3>
-<img src="AveenoSkinB .jpg">
-<br>Aveeno® Positively Radiant® Skin Brightening Daily Scrub, Price $6
+<img src="AveenoSkinB .jpg"  alt= "Aveeno® Positively Radiant® Skin Brightening Daily Scrub" style="width:100%">
+<div class="center"><div class="container">
+<br>Aveeno® Positively Radiant® Skin Brightening Daily Scrub<br>Price $6
 <br>Find it at <a href="https://www.target.com/p/aveeno-174-positively-radiant-174-skin-brightening-daily-scrub-5-oz/-/A-11537365">Target</a>.
+</div></div></div>
 `
 ;}
 }
