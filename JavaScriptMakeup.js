@@ -16,26 +16,32 @@ function FunctionFace() {
   else{document.getElementById("FaceText").innerHTML = `<h3>Primer</h3><br>
   ​<div class= "polaroid2">
   <img src="POREfessional.jpg" alt= "Benefit Face Primer" style="width:100%">
-  <div class="center">
-  <p> Benefit Cosmetics, POREfessional Face Primer<br> Price 49$
+  <div class="center"><div class="container">
+  <br> Benefit Cosmetics, POREfessional Face Primer<br> Price 49$
   <br> Find it <a href="/phttps://www.sephora.com/product/the-porefessional-face-primer-P264900?skuId=1665074&icid2=products%20grid:p264900:product">Sephora</a>.
-  </p><div class="container">
   </div></div></div>
 
-  <br><div class= "polaroid2"><img src="TooFacedPrimer.jpg" alt= "Too Faced, Repleneshing Face Primer" style="width:100%">
-  <div class="center">
-  <p> Too Faced, Hangover Replenishing Face Primer<br>Price 34$
+  <div class= "polaroid2">
+  <img src="TooFacedPrimer.jpg" alt= "Too Faced, Repleneshing Face Primer" style="width:100%">
+  <div class="center"><div class="container">
+  <p>Too Faced, Hangover Replenishing Face Primer<br>Price 34$
   <br> ​Find it in <a href="https://www.sephora.com/product/hangover-replenishing-face-primer-P387589?icid2=products%20grid:p387589:product">Sephora</a>.
-  </p><div class="container">
-  </div></div></div>
+  </p></div></div></div>
 
   <h3>Foundation</h3>​<br>
-  <img src="FentyBeautyFoundation.jpg">
-  <br>​Fenty Beauty, Pro Filt’r Soft Matte Longwear Foundation Price 34$
+  <div class= "polaroid2">
+  <img src="FentyBeautyFoundation.jpg" alt= "Fenty Beauty, Matte Longwear Foundation" style="width:100%">
+  <div class="center"><div class="container">
+  <br>​Fenty Beauty, Pro Filt’r Soft Matte Longwear Foundation<br>Price 34$
   <br>Buy it at <a href="https://www.sephora.com/product/pro-filtr-soft-matte-longwear-foundation-P87985432?skuId=1925304&icid2=products%20grid:p87985432:product">Sephora</a>.
-  <br><br><img src="BornThisWayFoundation.jpg">
-  <br>Too Faced, Born This Way Foundation Price 39$ <br>
+</div></div></div>
+
+<div class= "polaroid2">
+  <br><br><img src="BornThisWayFoundation.jpg"  alt= "Too Faced, Born this way foundation" style="width:100%">
+  <div class="center"><div class="container">
+  <br>Too Faced, Born This Way Foundation<br>Price 39$ <br>
   Buy it at <a href="https://www.sephora.com/product/born-this-way-P397517?skuId=1711910&icid2=products%20grid:p397517:product">Sephora</a>.
+  </div></div></div>
 
   <p><h3>Concealer</h3>​<a>
   <img src="NarsConcealer.jpg">
