@@ -45,95 +45,156 @@ function Others(){
 function Submit(){
   if (SkinType == "Oily" && Concern == "Acne & Blemishes") {
   document.getElementById("Results").innerHTML = `<h3>Recommended products based on survey reults:</h3>
-  <br><img src="DeepCleans.jpg">
-    <br> Tatcha The Deep Cleanse, price 38
+    <div class= "polaroid2">
+    <br><img src="DeepCleans.jpg" alt="Tatcha The Deep Cleanse" style="width:100%">
+    <div class="center"><div class="container">
+    <br> Tatcha The Deep Cleanse<br>price $38
     <br>Find it at <a href="https://www.sephora.com/product/the-deep-cleanse-P427536?skuId=2023646&icid2=products%20grid:p427536">Sephora</a>.
-    <br><br><img src="CeraVeFoam.jpg">
-    <br>CeraVe Foaming Facial Cleanser, Price $11
+    </div></div></div>
+
+    <div class= "polaroid2">
+    <br><img src="CeraVeFoam.jpg" alt= "CeraVe Foaming Facial Cleanser" style="width:100%">
+    <div class="center"><div class="container">
+    <br>CeraVe Foaming Facial Cleanser<br>Price $11
     <br>Find it at <a href="https://www.target.com/p/cerave-foaming-facial-cleanser-for-normal-to-oily-skin-fragrance-free-16oz/-/A-51148110 ">Target</a>.
+    </div></div></div>
 ` ;
   }
   //Oily and anti-aging donee
   else if(SkinType == "Oily" && Concern == "Anti-Aging"){
     document.getElementById("Results").innerHTML = `<h3>Recommended products based on survey reults:</h3>
-    <br><img src="Aveeno.jpg">
-    <br>Aveeno Absolutely Ageless Facial Nourishing Anti-Aging Cleanser, Price $8
+    <div class= "polaroid2">
+    <br><img src="Aveeno.jpg" alt= "Aveeno Absolutely Ageless Facial Nourishing Anti-Aging Cleanser" style="width:100%">
+    <div class="center"><div class="container">
+    <br>Aveeno Absolutely Ageless Facial Nourishing Anti-Aging Cleanser<br>Price $8
     <br>Find it at <a href="https://www.target.com/p/aveeno-174-absolutely-ageless-153-facial-nourishing-anti-aging-cleanser-5-2-fl-oz/-/A-49119447">Target</a>.
-    <br><br><img src="LotusYouth.jpg">
-    <br>Fresh Lotus Youth Preserve Moisturizer, $45
-    <br>Find it at <a href="https://www.sephora.com/product/lotus-youth-preserve-face-cream-with-super-7-complex-P377123?skuId=1488352&icid2=products%20grid:p377123">Sephora</a>.`;
+    </div></div></div>
+
+    <div class= "polaroid2">
+    <br><br><img src="LotusYouth.jpg" alt= "Fresh Lotus Youth Preserve Moisturizer" style="width:100%">
+    <div class="center"><div class="container">
+    <br>Fresh Lotus Youth Preserve Moisturizer<br>$45
+    <br>Find it at <a href="https://www.sephora.com/product/lotus-youth-preserve-face-cream-with-super-7-complex-P377123?skuId=1488352&icid2=products%20grid:p377123">Sephora</a>.
+    </div></div></div> `;
   }
   //Oily and Others donee donee
   else if(SkinType == "Oily" && Concern == "Others"){
     document.getElementById("Results").innerHTML = `<h3>Recommended products based on survey reults:</h3>
-    <br><img src="CeraVeFoam.jpg">
-    <br>CeraVe Foaming Facial Cleanser, Price $11
+    <div class= "polaroid2">
+    <br><img src="CeraVeFoam.jpg" alt= "CeraVe Foaming Facial Cleanser" style="width:100%">
+    <div class="center"><div class="container">
+    <br>CeraVe Foaming Facial Cleanser<br>Price $11
     <br>Find it at <a href="https://www.target.com/p/cerave-foaming-facial-cleanser-for-normal-to-oily-skin-fragrance-free-16oz/-/A-51148110 ">Target</a>.
-    <img src="Cucumber.jpg">
-    <br>Kiehl's since 1851 Cucumber Herbal Alcohol-Free Toner, Price $16
+    </div></div></div>
+
+    <div class= "polaroid2">
+    <img src="Cucumber.jpg" alt= "Kiehl's Cucumber Herbal Alcohol-Free Toner" style="width:100%">
+    <div class="center"><div class="container">
+    <br>Kiehl's since 1851 Cucumber Herbal Alcohol-Free Toner<br>Price $16
     <br>Find it at <a href="https://www.sephora.com/product/cucumber-herbal-alcohol-free-toner-P422250?icid2=products%20grid:p422250:product">Sephora</a>.
+    </div></div></div>
     `;
   }//Dry and Acne done done
   else if (SkinType == "Dry" && Concern == "Acne & Blemishes") {
       document.getElementById("Results").innerHTML = `<h3>Recommended products based on survey reults:</h3>
-      <br><img src="DeepCleans.jpg">
-      <br> Tatcha The Deep Cleanse, price 38
+      <div class= "polaroid2">
+      <br><img src="DeepCleans.jpg" alt= "Tatcha The Deep Cleanse" style="width:100%">
+      <div class="center"><div class="container">
+      <br> Tatcha The Deep Cleanse<br>price $38
       <br>Find it at <a href="https://www.sephora.com/product/the-deep-cleanse-P427536?skuId=2023646&icid2=products%20grid:p427536">Sephora</a>.
-    <br><br><img src="Clean&Clear.jpg">
-      <br>Clean & Clear Essentials Dual Action Facial Moisturizer, Price $5
-      <br>Find it at <a href="https://www.target.com/p/clean-clear-essentials-dual-action-facial-moisturizer-4-fl-oz/-/A-14656153">Target</a>. `
+      </div></div></div>
 
-      ;
+      <div class= "polaroid2">
+      <img src="Clean&Clear.jpg" alt= "Clean & Clear Essentials Dual Action Facial Moisturizer" style="width:100%">
+      <div class="center"><div class="container">
+      <br>Clean & Clear Essentials Dual Action Facial Moisturizer<br>Price $5
+      <br>Find it at <a href="https://www.target.com/p/clean-clear-essentials-dual-action-facial-moisturizer-4-fl-oz/-/A-14656153">Target</a>.
+      </div></div></div>
+      `;
   }//dry and AntiAging done donee
   else if(SkinType == "Dry" && Concern == "Anti-Aging"){
       document.getElementById("Results").innerHTML = `<h3>Recommended products based on survey reults:</h3>
-      <br><img src="DeepCleans.jpg">
-      <br> Tatcha The Deep Cleanse, price 38
+      <div class= "polaroid2">
+      <br><img src="DeepCleans.jpg" alt= "Tatcha The Deep Cleanse" style="width:100%">
+      <div class="center"><div class="container">
+      <br> Tatcha The Deep Cleanse<br>price $38
       <br>Find it at <a href="https://www.sephora.com/product/the-deep-cleanse-P427536?skuId=2023646&icid2=products%20grid:p427536">Sephora</a>.
-      <br><br><img src="LotusYouth.jpg">
-      <br>Fresh Lotus Youth Preserve Moisturizer, $45
+      </div></div></div>
+
+      <div class= "polaroid2">
+      <br><br><img src="LotusYouth.jpg" alt= "Fresh Lotus Youth Preserve Moisturizer" style="width:100%">
+      <div class="center"><div class="container">
+      <br>Fresh Lotus Youth Preserve Moisturizer<br>$45
       <br>Find it at <a href="https://www.sephora.com/product/lotus-youth-preserve-face-cream-with-super-7-complex-P377123?skuId=1488352&icid2=products%20grid:p377123">Sephora</a>.
+      </div></div></div>
       `;
   }//dry and others donee donee
   else if(SkinType == "Dry" && Concern == "Others"){
       document.getElementById("Results").innerHTML = `<h3>Recommended products based on survey reults:</h3>
-      <br><img src="CeraVeHydrating.jpg">
-      <br>CeraVe Hydrating Facial Cleanser, Price $11
+      <div class= "polaroid2">
+      <br><img src="CeraVeHydrating.jpg" alt= "CeraVe Hydrating Facial Cleanser" style="width:100%">
+      <div class="center"><div class="container">
+      <br>CeraVe Hydrating Facial Cleanser<br>Price $11
       <br>Find it at <a href="https://www.target.com/p/cerave-hydrating-facial-cleanser-for-normal-to-dry-skin-fragrance-free-12oz/-/A-13977968">Target</a>.
-      <br><br><img src="AveenoUltra.jpg">
-      <br>Aveeno Ultra Calming Foaming Cleanser for Sensitive Skin, Price $7
+      </div></div></div>
+
+      <div class= "polaroid2">
+      <br><br><img src="AveenoUltra.jpg" alt= "Aveeno Ultra Calming Foaming Cleanser for Sensitive Skin" style="width:100%">
+      <div class="center"><div class="container">
+      <br>Aveeno Ultra Calming Foaming Cleanser for Sensitive Skin<br>Price $7
       <br>Find it at <a href="https://www.target.com/p/aveeno-174-ultra-calming-174-foaming-cleanser-for-sensitive-skin-6-fl-oz/-/A-11537197">Target</a>.
+      </div></div></div>
       `;
   }//combination and Acne donee donee
   else if (SkinType == "Combination" && Concern == "Acne & Blemishes") {
     document.getElementById("Results").innerHTML = `<h3>Recommended products based on survey reults:</h3>
-    <br><img src="NeutrogenaAcne.jxr">
-    <br>Neutrogena Oil Free Acne Wash, Price $5-$7
+    <div class= "polaroid2">
+    <br><img src="NeutrogenaAcne.jxr" alt= "Neutrogena Oil Free Acne Wash" style="width:100%">
+    <div class="center"><div class="container">
+    <br>Neutrogena Oil Free Acne Wash<br>Price $5-$7
     <br>Find it at <a href="https://www.target.com/p/neutrogena-174-oil-free-acne-wash-9-1oz/-/A-12921121">Target</a>.
-    <br><br><img src="DeepCleans.jpg">
-    <br> Tatcha The Deep Cleanse, price 38
+    </div></div></div>
+
+    <div class= "polaroid2">
+    <br><br><img src="DeepCleans.jpg" alt= "Tatcha The Deep Cleanse" style="width:100%">
+    <div class="center"><div class="container">
+    <br> Tatcha The Deep Cleanse<br>price 38
     <br>Find it at <a href="https://www.sephora.com/product/the-deep-cleanse-P427536?skuId=2023646&icid2=products%20grid:p427536">Sephora</a>.
+    </div></div></div>
     `;
   }//combination and Anti-aging done donee
   else if(SkinType == "Combination" && Concern == "Anti-Aging"){
     document.getElementById("Results").innerHTML = `<h3>Recommended products based on survey reults:</h3>
-    <br><img src="Renewal.jpg">
-    <br>Burt’s Bees Renewal Cleanser, Price $9
+    <div class= "polaroid2">
+    <br><img src="Renewal.jpg" alt= "Burt’s Bees Renewal Cleanser" style="width:100%">
+    <div class="center"><div class="container">
+    <br>Burt’s Bees Renewal Cleanser<br>Price $9
     <br>Find it at <a href="https://www.target.com/p/burt-s-bees-renewal-cleanser-6-oz/-/A-16367046">Target</a>.
-    <br><br><img src="Aveeno.jpg">
-    <br>Aveeno Absolutely Ageless Facial Nourishing Anti-Aging Cleanser, Price $8
-    <br>Find it at <a href="https://www.target.com/p/aveeno-174-absolutely-ageless-153-facial-nourishing-anti-aging-cleanser-5-2-fl-oz/-/A-49119447">Target</a>.
+    </div></div></div>
 
+    <div class= "polaroid2">
+    <br><br><img src="Aveeno.jpg" alt= "Aveeno Absolutely Ageless Facial Nourishing Anti-Aging Cleanser" style="width:100%">
+    <div class="center"><div class="container">
+    <br>Aveeno Absolutely Ageless Facial Nourishing Anti-Aging Cleanser<br>Price $8
+    <br>Find it at <a href="https://www.target.com/p/aveeno-174-absolutely-ageless-153-facial-nourishing-anti-aging-cleanser-5-2-fl-oz/-/A-49119447">Target</a>.
+    </div></div></div>
     `;
   }//combination and other
   else if (SkinType == "Combination" && Concern == "Others") {
       document.getElementById("Results").innerHTML = `<h3>Recommended products based on survey reults:</h3>
-      <br><img src="CeraVeFoam.jpg">
-      <br>CeraVe Foaming Facial Cleanser, Price $11
+      <div class= "polaroid2">
+      <br><img src="CeraVeFoam.jpg" alt= "CeraVe Foaming Facial Cleanser" style="width:100%">
+      <div class="center"><div class="container">
+      <br>CeraVe Foaming Facial Cleanser<br>Price $11
       <br>Find it at <a href="https://www.target.com/p/cerave-foaming-facial-cleanser-for-normal-to-oily-skin-fragrance-free-16oz/-/A-51148110 ">Target</a>.
-      <br><br><img src="L'Oreal.jpg">
-      <br>L'Oreal® Paris Exfoliate & Refine Pores Pure Clay Mask, price 10$
+      </div></div></div>
+
+      <div class= "polaroid2">
+      <br><br><img src="L'Oreal.jpg" alt= "L'Oreal® Paris Exfoliate & Refine Pores Pure Clay Mask" style="width:100%">
+      <div class="center"><div class="container">
+      <br>L'Oreal® Paris Exfoliate & Refine Pores Pure Clay Mask<br>Price 10$
       <br>Find it at <a href="https://www.target.com/p/l-oreal-174-paris-exfoliate-refine-pores-pure-clay-mask-1-7oz/-/A-50852224">Target</a>.
+        </div></div></div>
       `;
   }
   else {
