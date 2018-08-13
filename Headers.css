@@ -101,7 +101,8 @@ height: 400px; */
 }
 
 .SortByButton{
-  display: block; margin: 0 auto;
+  float:left;
+  font-family: 'Great Vibes', cursive;
   background-color:#ff9999 ; /*purple/pinkish*/
   border: none;
   color: white;
@@ -109,9 +110,10 @@ height: 400px; */
   padding: 15px 32px;
   text-decoration: none;
   font-size: 18px;
-  font-family: 'Lobster', cursive;
+  font-family: '', cursive;
   text-align: center;
   cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
