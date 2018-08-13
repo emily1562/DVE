@@ -332,27 +332,44 @@ else{document.getElementById("MoisturizersText").innerHTML = `
 
 <!-- Acne and Blemishes -->
 <p><h3>Acne and Blemishes</p></h3>
-<img src="Clean&Clear.jpg">
-<br>Clean & Clear Essentials Dual Action Facial Moisturizer, Price $5
+<div class= "polaroid2">
+<img src="Clean&Clear.jpg" alt= "Clean & Clear Essentials Dual Action Facial Moisturizer" style="width:100%">
+<div class="center"><div class="container">
+<br>Clean & Clear Essentials Dual Action Facial Moisturizer<br>Price $5
 <br>Find it at <a href="https://www.target.com/p/clean-clear-essentials-dual-action-facial-moisturizer-4-fl-oz/-/A-14656153">Target</a>.
-<br><br><img src="AveenoClear.png">
-<br>Aveeno® Clear Complexion Blemish Treatment Daily Moisturizer, Price- $13.79
+</div></div></div>
+
+<div class= "polaroid2">
+<img src="AveenoClear.png" alt= "Aveeno® Clear Complexion Blemish Treatment Daily Moisturizer" style="width:100%">
+<div class="center"><div class="container">
+<br>Aveeno® Clear Complexion Blemish Treatment Daily Moisturizer<br>Price- $13.79
 <br>Find it at <a href="https://www.target.com/p/aveeno-174-clear-complexion-blemish-treatment-daily-moisturizer-4oz/-/A-11048717">Target</a>.
+</div></div></div>
 
 <!-- AntiAging -->
 <p><h3>Anti-Aging</p></h3>
-<img src="LotusYouth.jpg">
-<br>Fresh Lotus Youth Preserve Moisturizer, $45
+<div class= "polaroid2">
+<img src="LotusYouth.jpg" alt= "Fresh Lotus Youth Preserve Moisturizer" style="width:100%">
+<div class="center"><div class="container">
+<br>Fresh Lotus Youth Preserve Moisturizer<br>$45
 <br>Find it at <a href="https://www.sephora.com/product/lotus-youth-preserve-face-cream-with-super-7-complex-P377123?skuId=1488352&icid2=products%20grid:p377123">Sephora</a>.
-<br><br><img src="NeutrogenaMoist.png">
-<br>Neutrogena Oil-Free Daily Facial Moisturizer, Price $8
+</div></div></div>
+
+<div class= "polaroid2">
+<img src="NeutrogenaMoist.png" alt= "Neutrogena Oil-Free Daily Facial Moisturizer" style="width:100%">
+<div class="center"><div class="container">
+<br>Neutrogena Oil-Free Daily Facial Moisturizer<br>Price $8
 <br>Find it at <a href="https://www.target.com/p/neutrogena-oil-free-daily-facial-moisturizer-spf-15-4-fl-oz/-/A-10772533">Target</a>.
+</div></div></div>
 
 <!-- otherss-->
 <p><h3>other(redness)</p></h3>
-<img src="FRESHUmbrian.jpg">
-<br>FRESH Umbrian Clay Oil-Free Lotion, Price $36
+<div class= "polaroid2">
+<img src="FRESHUmbrian.jpg" alt= "FRESH Umbrian Clay Oil-Free Lotion" style="width:100%">
+<div class="center"><div class="container">
+<br>FRESH Umbrian Clay Oil-Free Lotion<br>Price $36
 <br>Find it at <a href="https://www.sephora.com/product/umbrian-clay-oil-free-lotion-P185408?skuId=976043&keyword=FRESH%20Umbrian%20Clay%20Oil-Free%20Lotion">Sephora</a>.
+</div></div></div>
 `;
 }
 }
@@ -366,13 +383,18 @@ else{document.getElementById("OthersText").innerHTML = `
 
 <!-- Acne and Blemishes -->
 <p><h3>Acne and Blemishes</p></h3>
-<img src="SUPERMUD.jpg">
-<br>SUPERMUD® Activated Charcoal Treatment, Price $59
+<div class= "polaroid">
+<img src="SUPERMUD.jpg" alt= "SUPERMUD® Activated Charcoal Treatment" style="width:100%">
+<div class="center"><div class="container">
+<br>SUPERMUD® Activated Charcoal Treatment<br> Price $59
 <br>Find it at <a href="https://www.sephora.com/product/super-mud-clearing-treatment-P376409?icid2=products%20grid:p376409:product">Sephora</a>.
-<br><br><img src="FaceWipes.jpg">
+</div></div></div>
+
+<img src="FaceWipes.jpg">
 <br>Neutrogena Makeup Remover Cleansing Towelettes & Face Wipes, Price $5
 <br>Find it at <a href="https://www.target.com/p/neutrogena-makeup-remover-cleansing-towelettes-face-wipes-25ct/-/A-11536492">Target</a>.
-<br><br><img src="TomatoesDetox.png">
+
+<img src="TomatoesDetox.png">
 <br>Yes To Tomatoes Detoxifying Charcoal Paper Mask, Price $3
 <br>Find it at <a href="https://www.target.com/p/yes-to-174-tomatoes-detoxifying-charcoal-paper-mask-1ct/-/A-50938799">Target</a>.
 
