@@ -101,7 +101,9 @@ height: 400px; */
 }
 
 h4 {
-  font-family: 'Montserrat'
+  font-family: 'Dancing Script', cursive;
+  font-size: 18px;
+
 }
 
 .SortByButton{
