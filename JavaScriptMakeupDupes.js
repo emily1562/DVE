@@ -78,7 +78,7 @@ function FunctionFace() {
   //CHEEK     //CHEEK       //CHEEK         //CHEEK         //CHEEK       //CHEEK
 
   function FunctionCheeks() {
-    var Cheeks =   `<h3>highlighter</h3> <div class="polaroid"> <img src="ColorPopHighlight.png" alt= "Colourpop Pearlized-Scrumptious Highlighter" style= "width:100%">
+    var Cheeks =  `<h3>highlighter</h3> <div class="polaroid"> <img src="ColorPopHighlight.png" alt= "Colourpop Pearlized-Scrumptious Highlighter" style= "width:100%">
       <div class="container">
       <p> Colourpop Pearlized-Scrumptious Highlighter <br> Price:$8.00</p> </div> </div>
 
@@ -128,12 +128,10 @@ function FunctionFace() {
       <div class="center">
       <p> In Comparison to the Mac Mineralized Blush <br> Price: $25.00 </p> </div> </div>
        `
-    if (document.getElementById("Text").innerHTML == Cheeks){
+    if (document.getElementById("Text").innerHTML == ""){
     document.getElementById("Text").innerHTML = Cheeks;
     }
-    else{document.getElementById("Text").innerHTML = ""
-
-  ;}
+    else{document.getElementById("Text").innerHTML = "";}
 }
   //lips extra infor if we have time we will add
     // <img src="NYXTresMechas.jpg"> NYX Tres Mechas $6, compared to koko k $30 <br>
@@ -195,8 +193,7 @@ function FunctionLips() {
   if (document.getElementById("Text").innerHTML == ""){
   document.getElementById("Text").innerHTML = Lips;
   }
-  else{document.getElementById("Text").innerHTML =""
-;}
+  else{document.getElementById("Text").innerHTML = "";}
 }
 
 
@@ -260,5 +257,5 @@ function FunctionEyes() {
   if (document.getElementById("Text").innerHTML == ""){
   document.getElementById("Text").innerHTML = Eyes;
   }
-  else{document.getElementById("Text").innerHTML ="";}
+  else{document.getElementById("Text").innerHTML = "";}
   }
