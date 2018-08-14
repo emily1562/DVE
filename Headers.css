@@ -100,6 +100,10 @@ height: 400px; */
   font-size: 15px;
 }
 
+h4 {
+  font-family: 'Montserrat'
+}
+
 .SortByButton{
   float:left;
   font-family: 'Great Vibes', cursive;
