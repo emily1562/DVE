@@ -4,6 +4,8 @@ h3{
   font-family: 'Dancing Script', cursive;
   font-size: 30px;
 }
+
+/* this is for 3 side by side images */
 .polaroid {
   width: 20%;
   background-color: white;
@@ -24,7 +26,7 @@ h3{
 }
 
 
-
+/* this is for 2 side by side images */
 .polaroid2 {
   width: 30%;
   background-color: white;

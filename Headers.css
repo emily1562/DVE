@@ -58,6 +58,7 @@ padding: 15px 32px;
   border-radius: 100%;
 }
 
+
 .surveycenter{
 margin: auto;
 width: 50%;
@@ -90,6 +91,27 @@ padding: 10px;
   display: inline-block;
 /* width: 900px;
 height: 400px; */
+}
+
+#BodyFonts{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  display: block;
+  font-size: 15px;
+}
+
+.SortByButton{
+  float:left;
+  font-family: 'Great Vibes', cursive;
+  background-color:#ff9999 ; /*purple/pinkish*/
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 

@@ -116,33 +116,142 @@ function FunctionFace() {
 
     <div class="polaroid2"> <img src= "NarsBlush.jpg" alt="Nars Blush" style="width:100%">
     <div class="center">
-    <p> Nars Blush <br> Price: $29.00 </p> </div> </div>
+    <p> In Comparison to the Nars Blush <br> Price: $29.00 </p> </div> </div>
+
+    <div class="polaroid2"> <img src="MaybelineBlushPink.jpg" alt="Maybelline Fit me Blush" style="width:100%">
+    <div class="center">
+    <p> Maybelline Fit Me Blush <br> Price: $5 </p> </div> </div>
+
+    <div class="polaroid2"> <img src= "MacBlushMineralize.jpeg" alt= "Mac Mineralized Blush" style="width:100%">
+    <div class="center">
+    <p> In Comparison to the Mac Mineralized Blush <br> Price: $25.00 </p> </div> </div>
 
 
-    <img src="MaybelineBlushPink.jpg"> Maybeline Fit Me blush medium pink $5 compared to Mac Dainty $25​<br>  <img src="ElfBlushBM.jpg"> Elf Studio blush in Berry Merry $3 compared to Urban Decays afterglow Rapture $26​`
+
+     `
   ;}
 }
   //lips
+    // <img src="NYXTresMechas.jpg"> NYX Tres Mechas $6, compared to koko k $30 <br>
+    // <img src="NYXMonteCarlo.jpg">NYX monte Carlo compared to Kat Von D outlaw​
+    // <img src="ColourDopey.jpg"> Colour pop dopey $7, compared to Stila patina $22
+    // <img src="SugarPlum.jpg"> Wet n Wild Sugar Plum $4 compared to Mac Rebel $19​<br> <img src="RevlonPlumalicious.jpg"> ​Revlon Plumalicious $5,compared to Mac Amorous $19​<br> <img src="ElfClassy.jpg"> Elf Classy Lipstick $3 <br> <img src="SkyPink.jpg"> NYX Sky Pink lipstick $4, compared to Mac angel $19​
+    // <img src="ChromaticAddict.jpg"> Milani Chromatic Addict $9,Compared to Kiley Jenners King K $18​<br>  <img src="MilaniMaterialistic.jpg"> Milani Materialistic $9,compared to Kiley Jenners Reign $18​<br>
+    //<img src="NYXEnamored.jpg"> NYX Enamored $6.50, compared to Gerard Underworld $20​`;}
+
+
 function FunctionLips() {
   if (document.getElementById("LipText").innerHTML != ""){
   document.getElementById("LipText").innerHTML = "";
   }
   else{document.getElementById("LipText").innerHTML =
-  `<p><h3>Matte​ Lipcream</p></h3> <img src="MaybellineEctasy.jpg"> Maybelline Fuschsia Ectasy $8,compared to Too Faced its Happening $21<br> <img src="NYXTresMechas.jpg"> NYX Tres Mechas $6, compared to koko k $30 <br> <img src="NYXMonteCarlo.jpg">NYX monte Carlo compared to Kat Von D outlaw​
- <p><h3>Lip gloss​</p></h3> <img src="ColourpopBadHabit.jpg"> Colourpop Bad Habit $7,compared to Dose of colors berry me $18​<br> <img src="ColourDopey.jpg"> Colour pop dopey $7, compared to Stila patina $22
- ​<p><h3>Lipstick</p></h3> <img src="Dnude.jpg"> Elf Natural Nymph $3 compared to Mac Creme Dnude lipstick $19 ​<br> <img src="SugarPlum.jpg"> Wet n Wild Sugar Plum $4 compared to Mac Rebel $19​<br> <img src="RevlonPlumalicious.jpg"> ​Revlon Plumalicious $5,compared to Mac Amorous $19​<br> <img src="ElfClassy.jpg"> Elf Classy Lipstick $3 <br> <img src="SkyPink.jpg"> NYX Sky Pink lipstick $4, compared to Mac angel $19​
- <p><h3>metallic​</h3></p>  <img src="ColourpopLightsOut.jpg"> Colour pop Lights Out $6, compared to Anastasias Beverly Hills Gilded $16​<br> <img src="ChromaticAddict.jpg"> Milani Chromatic Addict $9,Compared to Kiley Jenners King K $18​<br>  <img src="MilaniMaterialistic.jpg"> Milani Materialistic $9,compared to Kiley Jenners Reign $18​<br>
- <p><h3>lip crayons</h3></p>  <img src="SoniaKashuk.jpg"> Sonia Kashuk velvet lip crayons $7.99, compared to Nars Velvet matte lip pencil $26​​<br><img src="NYXEnamored.jpg"> NYX Enamored $6.50, compared to Gerard Underworld $20​`;}
+  `<p><h3>Matte​ Lipcream</p></h3> <div class="polaroid2"> <img src="MaybellineEctasy.jpg" alt= "Maybelline Fuschsia Ectasy" style="width:100%">
+  <div class="center">
+  <p> Maybelline Fuschsia Ectasy <br> Price: $8.00 </p> </div> </div>
+
+  <div class="polaroid2"> <img src="toofaceditshappening.jpg" alt= "Too Faced Its Happening Matte Lipstick" style="width:100%">
+  <div class="center">
+  <p> In Comparison to the Too Faced It's happening Matte Lipstick</p> </div> </div>
+
+
+
+  <p><h3>Lip gloss​</p></h3> <div class="polaroid2"> <img src="ColourpopBadHabit.jpg" alt= "Colour Pop Ultra Matte Lip" style="width:100%">
+  <div class="center">
+  <p> Colour Pop Ultra Matte Lip <br> Price: $7.00 </p> </div> </div>
+
+  <div class="polaroid2"> <img src="DoseOfColorsLipsMatte.jpeg" alt= "Dose Of Colors Matte Lips" style="width:100%">
+  <div class="center">
+  <p> In Comparison to the Dose of colors Matte Lips <br> Price: $18​.00 </p> </div> </div>
+
+  ​<p><h3>Lipstick</p></h3> <div class="polaroid2"> <img src="Dnude.jpg" alt= "Elf Mineral Lipstick" style="width:100%">
+  <div class="center">
+  <p> Elf Mineral Lipstick <br> Price: $3.00 </p> </div> </div>
+
+  <div class= "polaroid2"> <img src="MacCremeLipstick.jpeg" alt="Mac Creme Lipstick" style="width100%">
+  <div class="center">
+  <p> In Comparison to the Mac Creme Lipstick <br> Price: $19.00 </p> </div> </div>
+
+  <p><h3>metallic​</h3></p> <div class="polaroid2">  <img src="ColourpopLightsOut.jpg" alt= "Colour Pop Lights Out Ultra Metallic Lip" alt= " Colour Pop Ultra Metallic Lip" style="width:100%">
+  <div class="center">
+  <p> Colour Pop Lights Out Ultra Metallic Lip <br> Prices: $6.00 </p> </div> </div>
+
+
+  <div class= "polaroid2"> <img src="Anastasia'sBeverlyHillsGilded.jpeg" alt="Anastasia's Beverly Hills Gilded Lip Gloss" style="width:100%">
+  <div class="center">
+  <p> In Comparison to the Anastasia's Beverly Hills Gilded Lip Gloss <br> Prices: $16.00 </p> </div> </div>
+
+
+  <p><h3>lip crayons</h3></p> <div class="polaroid2"> <img src="SoniaKashuk.jpg" alt= "Sonia Kashuk Velvet Lip Crayon" style="width:100%">
+  <div class="center">
+  <p> Sonia Kashuk Velvet Lip Crayons <br> Prices: $7.99 </p> </div> </div>
+
+  <div class="polaroid2"> <img src="NarsVelvetMatteLipPencil.png" alt= "Nars Velvet Matte Lip Pencil" style="width:100%">
+  <div class="center">
+  <p>In comparison to the Nars Velvet Matte Lip Pencil <br> Price: $26​​.00 </p> </div> </div>
+
+ `;}
 }
 
   //eyes
+
 function FunctionEyes() {
   if (document.getElementById("EyesText").innerHTML != ""){
   document.getElementById("EyesText").innerHTML = "";
   }
   else{document.getElementById("EyesText").innerHTML =
-    `​<p><h3>Eyeliner</h3></p> <img src="FlowerBeautyEyeliner.jpg"> Flower Beauty on your mark liquid eyeliner $6,compare to Stilas stay all day waterproof eyeliner $22 <br> <img src="ElfPen.jpg"> Elf eyeliner pen $2,compare to Stilas stay all day waterproof eyeliner $22
-    ​<p><h3>Eyebrows​</p></h3> <img src="NYXMicrobrow.jpg"> NYX Microbrow pencil $10,compared to Anastasia Brow Wiz $21​<br> <img src="NYXPomade.jpg"> NYX Pomade 6.99$, compared to Anastasia Beverly Hills brow Pomade $18
-    ​<p><h3>Mascara</p></h3> <img src="LorealParis.jpg"> Loreal paris Voluminous Carbon Black $6, compared to the Diorshow ($27.50)
-    <p><h3>Eyeshadow and Extra</p></h3> <img src="MilaniEye.jpg"> Milano eye shadow primer $6.50, compared to urban decay primer potion $20<br> <img src="W7Buff.jpg">  W7 In The Buff Palette in Lightly Toasted $8 compared to the naked palette $54​` ;}
+    `​<p><h3>Eyeliner</h3></p> <div class="polaroid"> <img src="FlowerBeautyEyeliner.jpg" alt= "Flower Beauty On Your Mark Liquid Eyeliner" style="width:100%">
+    <div class="center">
+    <p>Flower Beauty On Your Mark Liquid Eyeliner <br> Price: $6.00 </p> </div> </div>
+
+
+    <div class="polaroid"> <img src="ElfPen.jpg" alt="Elf Eyeliner Pen" style="width:100%">
+    <div class="center">
+    <p>  Elf Eyeliner Pen <br> Price: $2.00</p> </div> </div>
+
+    <div class="polaroid"> <img src="StilaStayAllDay.png" alt="Stila Stay All Day Waterproof Eyeliner" style="width:100%">
+    <div class="center">
+    <p> In Comparison to the Stila All Day Waterproof Eyeliner <br> Prices:$22.00 </p> </div> </div>
+
+    ​<p><h3> Eyebrows ​</p></h3> <div class="polaroid2"> <img src="NYXMicrobrow.jpg" alt= "Nyx Microbrow Pencil" style="width:100%">
+    <div class="center">
+    <p> Nyx Microbrow Pencil <br> Prices: $10.00 </p> </div> </div>
+
+    <div class="polaroid2"> <img src="BrowWiz.jpg" alt="Anastasia Beverly Hills Brow Wiz" style="width:100%">
+    <div class="center">
+    <p> In Comparison to the Anastasia Beverly Hills Brow Wiz <br> Prices:$21.00 </p> </div> </div>
+
+    <div class="polaroid2"> <img src="NYXPomade.jpg" alt="Nyx Eyebrow Pomade" style="width:100%">
+    <div class="center">
+    <p> Nyx Tame and Frame Pomade <br> Prices:$6.99 </p> </div> </div>
+
+    <div class="polaroid2"> <img src="ABHPomade.jpg" alt="Anastasia Beverly Hills Pomade" style="width:100%">
+    <div class="center">
+    <p> In Comparison to the Anastasia Beverly Hills Eyebrow Pomade <br> Prices:$18.00 </p> </div> </div>
+
+    ​<p><h3>Mascara</p></h3> <div class="polaroid2"> <img src="LorealParis.jpg" alt= "Loreal Paris Voluminous Mascara" style="width:100%">
+    <div class="center">
+    <p> Loreal Paris Voluminous Mascara <br> Prices: $6.00 </p> </div> </div>
+
+    <div class="polaroid2"> <img src="DiorsShow.jpeg" alt="Dior Show Mascara" style="width:100%">
+    <div class="center">
+    <p> In Comparison to the Dior Show Mascara <br> Prices:$27.50 </p> </div> </div>
+
+
+
+    <p><h3> Eyeshadow </p></h3> <div class="polaroid2"> <img src="MilaniEye.jpg" alt= "Milani Eyeshadow Primer" style="width:100%">
+    <div class="center">
+    <p> Milani Eye Shadow Primer <br> Price: $6.50 </p> </div> </div>
+
+    <div class="polaroid2"> <img src="PrimerPotion.jpeg" alt="Urban Decay Primer Potion" style="width:100%">
+    <div class="center">
+    <p> In Comparison to the Urban Decay Primer Potion <br> Prices:$20.00 </p> </div> </div>
+
+
+    <div class="polaroid2"> <img src="W7Buff.jpg" alt="W7 In the Buff Pallette" style="width:100%">
+    <div class="center">
+    <p> W7 In The Buff Palette <br> Prices: $8.00 </p> </div> </div>
+
+    <div class="polaroid2"> <img src="EyeshadowNakedPalette.jpeg" alt="Naked Eyeshadow Palette" style="width:100%">
+    <div class="center">
+    <p> In Comparison to the Naked Eyeshadow Palette $54​</p> </div> </div>` ;}
   }
