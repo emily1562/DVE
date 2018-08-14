@@ -100,20 +100,27 @@ height: 400px; */
   font-size: 15px;
 }
 
+h4 {
+  font-family: 'Montserrat'
+}
+
 .SortByButton{
   float:left;
   font-family: 'Great Vibes', cursive;
   background-color:#ff9999 ; /*purple/pinkish*/
   border: none;
   color: white;
-  padding: 15px 20px;
+  padding: 20px 35px;
   text-decoration: none;
   font-size: 18px;
   text-align: center;
+  display:inline;
+  margin:100px 30px 50px 150px;
   cursor: pointer;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+<<<<<<< HEAD
 #BodyFontsNews{
   font-family: 'Montserrat', sans-serif;
   text-align: center;
@@ -121,6 +128,23 @@ height: 400px; */
   font-size: 15px;
 }
 
+=======
+.SortByButtonSkin{
+float:left;
+font-family: 'Great Vibes', cursive;
+background-color:#ff9999 ; /*purple/pinkish*/
+border: none;
+color: white;
+padding: 20px 35px;
+text-decoration: none;
+font-size: 18px;
+text-align: center;
+display:inline;
+margin:100px 30px 50px 100px;
+cursor: pointer;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+>>>>>>> fc115cd97995ad288ae3c7c356886730d8654332
 /*Tutorials*/
 
 /* Awarness*/

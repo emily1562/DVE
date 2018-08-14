@@ -8,12 +8,10 @@ else{document.getElementById("TestText").innerHTML = "test";
 }
 }*/
 
-//Face
+                  //!!!!!!!!!!!!!!!!!     Face    !!!!!!!!!!!!!!!!!!!!!!!
+
 function FunctionFace() {
-  if (document.getElementById("FaceText").innerHTML != ""){
-  document.getElementById("FaceText").innerHTML = "";
-  }
-  else{document.getElementById("FaceText").innerHTML = `<h3>Primer</h3><br>
+  var Face = `<br><br><br><br><br><br><br><br><br><br><br><h3>Primer</h3><br>
   ​<div class= "polaroid2">
   <img src="POREfessional.jpg" alt= "Benefit Face Primer" style="width:100%">
   <div class="center"><div class="container">
@@ -73,14 +71,17 @@ function FunctionFace() {
   <br>​Buy it at <a href="https://www.sephora.com/product/translucent-loose-setting-powder-P109908?icid2=products%20grid:p109908:product">Sephora</a>.
   </div></div></div>
 `
-  ;}
-}
-  //cheek
-function FunctionCheeks() {
-  if (document.getElementById("CheeksText").innerHTML != ""){
-  document.getElementById("CheeksText").innerHTML = "";
+  if (document.getElementById("TextMakeup").innerHTML == ""){
+  document.getElementById("TextMakeup").innerHTML = Face;
   }
-  else{document.getElementById("CheeksText").innerHTML =`<p><h3>Highlighter</h3>​</p>​
+  else{document.getElementById("TextMakeup").innerHTML = "";}
+}
+
+
+                      //!!!!!!!!!!!!!!!!    cheek   !!!!!!!!!!!!!!!!!!!!!!!!!
+
+function FunctionCheeks() {
+  var Cheeks = `<p><h3>Highlighter</h3>​</p>​
   <div class= "polaroid2">
   <img src="BeccaShimmer.jpg" alt= "Becca, Shimmering Skin Perfector, Pressed Highlighter" style="width:100%">
   <div class="center"><div class="container">
@@ -119,14 +120,15 @@ function FunctionCheeks() {
 <br>​Buy it at <a href="https://www.sephora.com/product/blush-P2855?skuId=1900190&icid2=products%20grid:p2855">Sephora</a>.
 </div></div></div>
   `
-    ;}
+  if (document.getElementById("TextMakeup").innerHTML == ""){
+  document.getElementById("TextMakeup").innerHTML = Cheeks;
+  }
+  else{document.getElementById("TextMakeup").innerHTML ="";}
 }
-  //lips
+
+            //!!!!!!!!!!!!!!!!!!!!!!!!!!!     lips      !!!!!!!!!!!!!!!!!!!!!
   function FunctionLips() {
-    if (document.getElementById("LipText").innerHTML != ""){
-    document.getElementById("LipText").innerHTML = "";
-    }
-    else{document.getElementById("LipText").innerHTML = `<p><h3>lip gloss</h3>​</p>​
+    var Lips = `<br><br><br><br><br><br><br><br><br><br><h3>lip gloss</h3>​<br>
     <div class= "polaroid2">
     <img src="AnastasiaLL.jpg" alt= "Anastasia, Liquid Lipstick" style="width:100%">
     <div class="center"><div class="container">
@@ -141,14 +143,14 @@ function FunctionCheeks() {
     <br>​Buy it at <a href="https://www.sephora.com/product/gloss-bomb-universal-lip-luminizer-P67988453?icid2=products%20grid:p67988453:product">Sephora</a>.
     </div></div></div>
 `
-    ;}//pics start
+    if (document.getElementById("TextMakeup").innerHTML == ""){
+    document.getElementById("TextMakeup").innerHTML = Lips;
+    }
+    else{document.getElementById("TextMakeup").innerHTML = "" ;}
 }
   //eyes
   function FunctionEyes() {
-    if (document.getElementById("EyesText").innerHTML != ""){
-    document.getElementById("EyesText").innerHTML = "";
-    }
-    else{document.getElementById("EyesText").innerHTML = `<p><h3>Eyeshadow</h3>​</p>​
+    var Eyes = `<p><h3>Eyeshadow</h3>​</p>​
     <div class= "polaroid2">
     <img src="ABHGlamEyeshadow.jpg" alt= "Anastasia Beverly Hills, Soft Glam Eyeshadow Palette" style="width:100%">
     <div class="center"><div class="container">
@@ -192,5 +194,9 @@ function FunctionCheeks() {
     <br>Anastasia Beverly Hills, Eyebrow Dipbrow Pomade<br>Price 18$
     <br>​Buy it at <a href="https://www.sephora.com/product/dipbrow-pomade-P384060?icid2=top-rated%20makeup:p384060:product">Sephora</a>
     </div></div></div>`
+    if (document.getElementById("TextMakeup").innerHTML == ""){
+    document.getElementById("TextMakeup").innerHTML = Eyes;
+    }
+    else{document.getElementById("TextMakeup").innerHTML = ""
     ;}
 }
