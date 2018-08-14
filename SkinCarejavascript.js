@@ -146,7 +146,7 @@ function Submit(){
   else if (SkinType == "Combination" && Concern == "Acne & Blemishes") {
     document.getElementById("Results").innerHTML = `<h3>Recommended products based on survey reults:</h3>
     <div class= "polaroid2">
-    <br><img src="NeutrogenaAcne.jxr" alt= "Neutrogena Oil Free Acne Wash" style="width:100%">
+    <br><img src="NeutrogenaAcne.jpg" alt= "Neutrogena Oil Free Acne Wash" style="width:100%">
     <div class="center"><div class="container">
     <br>Neutrogena Oil Free Acne Wash<br>Price $5-$7
     <br>Find it at <a href="https://www.target.com/p/neutrogena-174-oil-free-acne-wash-9-1oz/-/A-12921121">Target</a>.
@@ -237,7 +237,7 @@ function FunctionCleanser() {
   </div></div></div>
 
   <div class= "polaroid">
-  <br><br><img src="NeutrogenaAcne.jxr" alt= "Neutrogena Oil Free Acne Wash" style="width:100%">
+  <br><br><img src="NeutrogenaAcne.jpg" alt= "Neutrogena Oil Free Acne Wash" style="width:100%">
   <div class="center"><div class="container">
   <br>Neutrogena Oil Free Acne Wash<br>Price $5-$7
   <br>Find it at <a href="https://www.target.com/p/neutrogena-174-oil-free-acne-wash-9-1oz/-/A-12921121">Target</a>.
