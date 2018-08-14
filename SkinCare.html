@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 
 <html>
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script"rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
  <link rel= "StyleSheet"; href = "Headers.css"> <!-- style sheet -->
  <link rel= "StyleSheet"; href = "StyleSheetMK.css"> <!-- style sheet MK-->
  <script src="java.js"></script>
  <script src="SkinCarejavascript.js"></script>
+
 <head>
 </head>
 <!-- title-->
@@ -48,7 +51,8 @@
   </div>
 </div>
 
-<br></br>
+
+<h4> Sort By ... </h4>
 
     <!--buttons/sort by
 Sort by...
@@ -58,25 +62,23 @@ Sort by...
 
 
 <!--Cleansers -->
-<div id= "Cleanser">
-  <button onclick="FunctionCleanser()"> Cleanser</button>
-  <div id="CleanserTexts"></div><br></div>
+  <button class="SortByButtonSkin" onclick="FunctionCleanser()"> Cleanser</button>
+  <div id="CleanserTexts"></div>
 
 <!--Exfoliator -->
-    <div id= "Exfoliators">
-      <button onclick="FunctionExfoliators()"> Exfoliators </button>
-      <div id="ExfoliatorsText"></div><br></div>
+      <button class="SortByButtonSkin" onclick="FunctionExfoliators()"> Exfoliators </button>
+      <div id="ExfoliatorsText"></div>
 
 <!-- Moisturizers -->
-  <div id= "Moisturizers">
-    <button onclick="FunctionMoisturizers()"> Moisturizers </button>
-    <div id="MoisturizersText"></div><br></div>
+
+    <button class="SortByButtonSkin" onclick="FunctionMoisturizers()"> Moisturizers </button>
+    <div id="MoisturizersText"></div>
 
 
 <!-- Others -->
-  <div id= "Others">
-  <button onclick="FunctionOthers()"> Other Products (toners,masks,wipes) </button>
-  <div id="OthersText"></div><br></div>
+
+  <button class="SortByButtonSkin" onclick="FunctionOthers()"> Other Products (toners,masks,wipes) </button>
+  <div id="OthersText"></div>
 
 
 </body>

@@ -106,15 +106,31 @@ height: 400px; */
   background-color:#ff9999 ; /*purple/pinkish*/
   border: none;
   color: white;
-  padding: 15px 20px;
+  padding: 20px 35px;
   text-decoration: none;
   font-size: 18px;
   text-align: center;
+  display:inline;
+  margin:100px 30px 50px 150px;
   cursor: pointer;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
+.SortByButtonSkin{
+float:left;
+font-family: 'Great Vibes', cursive;
+background-color:#ff9999 ; /*purple/pinkish*/
+border: none;
+color: white;
+padding: 20px 35px;
+text-decoration: none;
+font-size: 18px;
+text-align: center;
+display:inline;
+margin:100px 30px 50px 100px;
+cursor: pointer;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 /*Tutorials*/
 
 /* Awarness*/
