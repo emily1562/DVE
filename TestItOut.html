@@ -2,11 +2,16 @@
 
 <html>
 <link rel ="stylesheet"; href = "Headers.css">
-<script src="testitoutjavascript.js"></script>
-<!-- Only for the Reactstarter code,actual API Drawing in testitout.js  -->
-<script src="like_button.js"></script>
+<Link rel ="stylesheet"; href="TestitOutCSS.css">
+<script src="java.js"></script>
+
+<!-- Literally Canvas -->
 
 <head>
+  <title>Literally Canvas</title>
+  <link rel="stylesheet" href="_assets/literallycanvas.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no" />
 </head>
 
 <body>
@@ -26,17 +31,30 @@
 
 <!-- Upload Image  -->
 <form>
-  <input type="file" name="pic" accept="image/*" onchange="handleFiles(this.files)">
-</form>
+  <input  id="pic" type="file" onchange="handleFiles(this.files)" accept="image/*">
+  <div id="holder"></div>
 
-<div id= "holder">
+<!-- Literally Canvas API -->
+<div class="fs-container">
+  <div id="lc"></div>
 </div>
 
-<!-- Drawing API -->
-<div id= "DrawingAPI">
-<!-- first two link load React-->
-<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
-<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+<!-- you really ought to include react-dom, but for react 0.14 you don't strictly have to. -->
+<script src="_js_libs/react-0.14.3.js"></script>
+<script src="_js_libs/literallycanvas.js"></script>
+<script src="testitoutjavascript.js"></script>
+
+<script>
+  var lc = LC.init(document.getElementById("lc"), {
+    imageURLPrefix: '_assets/lc-images',
+    toolbarPosition: 'bottom',
+    defaultStrokeWidth: 2,
+    strokeWidths: [1, 2, 3, 5, 30]
+  });
+  </script>
+
+<!-- Adding images to API -->
+
 
 </body>
 

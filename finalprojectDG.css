@@ -132,6 +132,24 @@ body, a{
   height: 250px;
 }
 
+.parallax7{
+  background-image: url("WomensMarch.jpeg");
+
+  height: 250px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 800px 400px;
+}
+
+ #WomensMarch{
+  width: 100px;
+  height: 250px;
+}
+
+
+
 
 .parallax6{
   background-image: url("aboutus.jpeg");
