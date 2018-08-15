@@ -293,16 +293,16 @@ function FunctionExfoliators() {
   var Exfoliators = `  <!-- Acne and Blemishes -->
   <br><br><br><br><br><br><br><br><br><br><br><p><h3>Acne and Blemishes</p></h3><br>
   <div class= "polaroid">
-  <img src="KateEx.jxr" alt= "Kate Somerville ExfoliKate® Intensive Exfoliating Treatment" style="width:100%">
+  <img src="KateSomerville.jpg" alt= "Kate Somerville ExfoliKate® Intensive Exfoliating Treatment" style="width:100%">
   <div class="center"><div class="container">
   <br>Kate Somerville ExfoliKate® Intensive Exfoliating Treatment<br>Price $24
-  <br>Find it at <a href="https://www.sephora.com/product/exfolikate-intensive-exfoliating-treatment-P232915?skuId=1284629&icid2=products%20grid:p232915">Sephora/a>.
+  <br>Find it at <a href="https://www.sephora.com/product/exfolikate-intensive-exfoliating-treatment-P232915?skuId=1284629&icid2=products%20grid:p232915">Sephora</a>.
   </div></div></div>
 
   <div class= "polaroid">
   <br><br><img src="UmbrianClay.jpg" alt= "FRESH Umbrian Clay Pore Purifying Face Exfoliator" style="width:100%">
   <div class="center"><div class="container">
-  <br>FRESH Umbrian Clay Pore Purifying Face Exfoliator<br>Price $33
+  <br> FRESH Umbrian Clay Pore Purifying Face Exfoliator<br>Price $33
   <br>Find it at <a href="https://www.sephora.com/product/umbrian-clay-mattifying-face-exfoliant-P379065?skuId=1524073&keyword=FRESH%20Umbrian%20Clay%20Pore%20Purifying%20Face%20Exfoliator">Sephora</a>.
   </div></div></div>
 
