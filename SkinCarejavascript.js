@@ -42,14 +42,14 @@ function Others(){
 function Submit(){
   if (SkinType == "Oily" && Concern == "Acne & Blemishes") {
   document.getElementById("Results").innerHTML = `<h3>Recommended products based on survey reults:</h3>
-    <div class= "polaroid2">
+    <div class= "polaroid3">
     <br><img src="DeepCleans.jpg" alt="Tatcha The Deep Cleanse" style="width:100%">
     <div class="center"><div class="container">
     <br> Tatcha The Deep Cleanse<br>price $38
     <br>Find it at <a href="https://www.sephora.com/product/the-deep-cleanse-P427536?skuId=2023646&icid2=products%20grid:p427536">Sephora</a>.
     </div></div></div>
 
-    <div class= "polaroid2">
+    <div class= "polaroid3">
     <br><img src="CeraVeFoam.jpg" alt= "CeraVe Foaming Facial Cleanser" style="width:100%">
     <div class="center"><div class="container">
     <br>CeraVe Foaming Facial Cleanser<br>Price $11
@@ -60,14 +60,14 @@ function Submit(){
   //Oily and anti-aging donee
   else if(SkinType == "Oily" && Concern == "Anti-Aging"){
     document.getElementById("Results").innerHTML = `<h3>Recommended products based on survey reults:</h3>
-    <div class= "polaroid2">
+    <div class= "polaroid3">
     <br><img src="Aveeno.jpg" alt= "Aveeno Absolutely Ageless Facial Nourishing Anti-Aging Cleanser" style="width:100%">
     <div class="center"><div class="container">
     <br>Aveeno Absolutely Ageless Facial Nourishing Anti-Aging Cleanser<br>Price $8
     <br>Find it at <a href="https://www.target.com/p/aveeno-174-absolutely-ageless-153-facial-nourishing-anti-aging-cleanser-5-2-fl-oz/-/A-49119447">Target</a>.
     </div></div></div>
 
-    <div class= "polaroid2">
+    <div class= "polaroid3">
     <br><br><img src="LotusYouth.jpg" alt= "Fresh Lotus Youth Preserve Moisturizer" style="width:100%">
     <div class="center"><div class="container">
     <br>Fresh Lotus Youth Preserve Moisturizer<br>$45
@@ -77,14 +77,14 @@ function Submit(){
   //Oily and Others donee donee
   else if(SkinType == "Oily" && Concern == "Others"){
     document.getElementById("Results").innerHTML = `<h3>Recommended products based on survey reults:</h3>
-    <div class= "polaroid2">
+    <div class= "polaroid3">
     <br><img src="CeraVeFoam.jpg" alt= "CeraVe Foaming Facial Cleanser" style="width:100%">
     <div class="center"><div class="container">
     <br>CeraVe Foaming Facial Cleanser<br>Price $11
     <br>Find it at <a href="https://www.target.com/p/cerave-foaming-facial-cleanser-for-normal-to-oily-skin-fragrance-free-16oz/-/A-51148110 ">Target</a>.
     </div></div></div>
 
-    <div class= "polaroid2">
+    <div class= "polaroid3">
     <img src="Cucumber.jpg" alt= "Kiehl's Cucumber Herbal Alcohol-Free Toner" style="width:100%">
     <div class="center"><div class="container">
     <br>Kiehl's since 1851 Cucumber Herbal Alcohol-Free Toner<br>Price $16
@@ -94,14 +94,14 @@ function Submit(){
   }//Dry and Acne done done
   else if (SkinType == "Dry" && Concern == "Acne & Blemishes") {
       document.getElementById("Results").innerHTML = `<h3>Recommended products based on survey reults:</h3>
-      <div class= "polaroid2">
+      <div class= "polaroid3">
       <br><img src="DeepCleans.jpg" alt= "Tatcha The Deep Cleanse" style="width:100%">
       <div class="center"><div class="container">
       <br> Tatcha The Deep Cleanse<br>price $38
       <br>Find it at <a href="https://www.sephora.com/product/the-deep-cleanse-P427536?skuId=2023646&icid2=products%20grid:p427536">Sephora</a>.
       </div></div></div>
 
-      <div class= "polaroid2">
+      <div class= "polaroid3">
       <img src="Clean&Clear.jpg" alt= "Clean & Clear Essentials Dual Action Facial Moisturizer" style="width:100%">
       <div class="center"><div class="container">
       <br>Clean & Clear Essentials Dual Action Facial Moisturizer<br>Price $5
@@ -111,14 +111,14 @@ function Submit(){
   }//dry and AntiAging done donee
   else if(SkinType == "Dry" && Concern == "Anti-Aging"){
       document.getElementById("Results").innerHTML = `<h3>Recommended products based on survey reults:</h3>
-      <div class= "polaroid2">
+      <div class= "polaroid3">
       <br><img src="DeepCleans.jpg" alt= "Tatcha The Deep Cleanse" style="width:100%">
       <div class="center"><div class="container">
       <br> Tatcha The Deep Cleanse<br>price $38
       <br>Find it at <a href="https://www.sephora.com/product/the-deep-cleanse-P427536?skuId=2023646&icid2=products%20grid:p427536">Sephora</a>.
       </div></div></div>
 
-      <div class= "polaroid2">
+      <div class= "polaroid3">
       <br><br><img src="LotusYouth.jpg" alt= "Fresh Lotus Youth Preserve Moisturizer" style="width:100%">
       <div class="center"><div class="container">
       <br>Fresh Lotus Youth Preserve Moisturizer<br>$45
@@ -128,14 +128,14 @@ function Submit(){
   }//dry and others donee donee
   else if(SkinType == "Dry" && Concern == "Others"){
       document.getElementById("Results").innerHTML = `<h3>Recommended products based on survey reults:</h3>
-      <div class= "polaroid2">
+      <div class= "polaroid3">
       <br><img src="CeraVeHydrating.jpg" alt= "CeraVe Hydrating Facial Cleanser" style="width:100%">
       <div class="center"><div class="container">
       <br>CeraVe Hydrating Facial Cleanser<br>Price $11
       <br>Find it at <a href="https://www.target.com/p/cerave-hydrating-facial-cleanser-for-normal-to-dry-skin-fragrance-free-12oz/-/A-13977968">Target</a>.
       </div></div></div>
 
-      <div class= "polaroid2">
+      <div class= "polaroid3">
       <br><br><img src="AveenoUltra.jpg" alt= "Aveeno Ultra Calming Foaming Cleanser for Sensitive Skin" style="width:100%">
       <div class="center"><div class="container">
       <br>Aveeno Ultra Calming Foaming Cleanser for Sensitive Skin<br>Price $7
@@ -145,14 +145,14 @@ function Submit(){
   }//combination and Acne donee donee
   else if (SkinType == "Combination" && Concern == "Acne & Blemishes") {
     document.getElementById("Results").innerHTML = `<h3>Recommended products based on survey reults:</h3>
-    <div class= "polaroid2">
+    <div class= "polaroid3">
     <br><img src="NeutrogenaAcne.jpg" alt= "Neutrogena Oil Free Acne Wash" style="width:100%">
     <div class="center"><div class="container">
     <br>Neutrogena Oil Free Acne Wash<br>Price $5-$7
     <br>Find it at <a href="https://www.target.com/p/neutrogena-174-oil-free-acne-wash-9-1oz/-/A-12921121">Target</a>.
     </div></div></div>
 
-    <div class= "polaroid2">
+    <div class= "polaroid3">
     <br><br><img src="DeepCleans.jpg" alt= "Tatcha The Deep Cleanse" style="width:100%">
     <div class="center"><div class="container">
     <br> Tatcha The Deep Cleanse<br>price 38
@@ -162,14 +162,14 @@ function Submit(){
   }//combination and Anti-aging done donee
   else if(SkinType == "Combination" && Concern == "Anti-Aging"){
     document.getElementById("Results").innerHTML = `<h3>Recommended products based on survey reults:</h3>
-    <div class= "polaroid2">
+    <div class= "polaroid3">
     <br><img src="Renewal.jpg" alt= "Burt’s Bees Renewal Cleanser" style="width:100%">
     <div class="center"><div class="container">
     <br>Burt’s Bees Renewal Cleanser<br>Price $9
     <br>Find it at <a href="https://www.target.com/p/burt-s-bees-renewal-cleanser-6-oz/-/A-16367046">Target</a>.
     </div></div></div>
 
-    <div class= "polaroid2">
+    <div class= "polaroid3">
     <br><br><img src="Aveeno.jpg" alt= "Aveeno Absolutely Ageless Facial Nourishing Anti-Aging Cleanser" style="width:100%">
     <div class="center"><div class="container">
     <br>Aveeno Absolutely Ageless Facial Nourishing Anti-Aging Cleanser<br>Price $8
@@ -179,14 +179,14 @@ function Submit(){
   }//combination and other
   else if (SkinType == "Combination" && Concern == "Others") {
       document.getElementById("Results").innerHTML = `<h3>Recommended products based on survey reults:</h3>
-      <div class= "polaroid2">
+      <div class= "polaroid3">
       <br><img src="CeraVeFoam.jpg" alt= "CeraVe Foaming Facial Cleanser" style="width:100%">
       <div class="center"><div class="container">
       <br>CeraVe Foaming Facial Cleanser<br>Price $11
       <br>Find it at <a href="https://www.target.com/p/cerave-foaming-facial-cleanser-for-normal-to-oily-skin-fragrance-free-16oz/-/A-51148110 ">Target</a>.
       </div></div></div>
 
-      <div class= "polaroid2">
+      <div class= "polaroid3">
       <br><br><img src="L'Oreal.jpg" alt= "L'Oreal® Paris Exfoliate & Refine Pores Pure Clay Mask" style="width:100%">
       <div class="center"><div class="container">
       <br>L'Oreal® Paris Exfoliate & Refine Pores Pure Clay Mask<br>Price 10$
