@@ -30,6 +30,19 @@ padding: 15px 32px;
 }
 
  /* Survey */
+ .SubmitButton{
+   padding: 5px 5px;
+   background-color:gray;
+   color: white;
+   font-size: 10px;
+   text-decoration: none;
+   text-align: center;
+   display: inline-block;
+ }
+ .SurveyQuestions {
+
+ }
+
 .SurveyButton {
   display: block; margin: 0 auto;
   background-color:#D358F7 ; /*purple/pinkish*/
@@ -67,6 +80,7 @@ padding: 10px;
 
 #myDIV{
   display: none;
+  text-align: center;
 }
 
 .center{
