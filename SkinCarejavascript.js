@@ -9,8 +9,8 @@ function SurveyButton() {
 }
 
 // calling each things from the survey
-var SkinType = "test";
-var Concern = "";
+/*var SkinType = "test";
+var Concern = "";*/
 
 function Oily(){
 SkinType = "Oily";
