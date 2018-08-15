@@ -81,7 +81,8 @@ function FunctionFace() {
                       //!!!!!!!!!!!!!!!!    cheek   !!!!!!!!!!!!!!!!!!!!!!!!!
 
 function FunctionCheeks() {
-  var Cheeks = `<p><h3>Highlighter</h3>​</p>​
+  var Cheeks = `<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <p><h3>Highlighter</h3>​</p>​
   <div class= "polaroid2">
   <img src="BeccaShimmer.jpg" alt= "Becca, Shimmering Skin Perfector, Pressed Highlighter" style="width:100%">
   <div class="center"><div class="container">
@@ -128,7 +129,7 @@ function FunctionCheeks() {
 
             //!!!!!!!!!!!!!!!!!!!!!!!!!!!     lips      !!!!!!!!!!!!!!!!!!!!!
   function FunctionLips() {
-    var Lips = `<br><br><br><br><br><br><br><br><br><br><h3>lip gloss</h3>​<br>
+    var Lips = `<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><h3>lip gloss</h3>​<br>
     <div class= "polaroid2">
     <img src="AnastasiaLL.jpg" alt= "Anastasia, Liquid Lipstick" style="width:100%">
     <div class="center"><div class="container">
@@ -150,7 +151,7 @@ function FunctionCheeks() {
 }
   //eyes
   function FunctionEyes() {
-    var Eyes = `<p><h3>Eyeshadow</h3>​</p>​
+    var Eyes = `<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><p><h3>Eyeshadow</h3>​</p>​
     <div class= "polaroid2">
     <img src="ABHGlamEyeshadow.jpg" alt= "Anastasia Beverly Hills, Soft Glam Eyeshadow Palette" style="width:100%">
     <div class="center"><div class="container">
