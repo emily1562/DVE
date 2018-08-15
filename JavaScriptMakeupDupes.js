@@ -14,7 +14,7 @@
    //FACEE         //FACEE           //FACEE         //FACEE          //FACEE
 
 function FunctionFace() {
-  var Face = `<br><br><br><br><br><br><br><br><br><br><p><h3>contour</h3></p><div class= "polaroid2"> <img src="DUPES_NYXcontourPalette_V.jpg" alt= "NYX Cream Contour Palette" style="width:100%">
+  var Face = `<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><p><h3>contour</h3></p><div class= "polaroid2"> <img src="DUPES_NYXcontourPalette_V.jpg" alt= "NYX Cream Contour Palette" style="width:100%">
   <div class="container">
   <p> NYX highlight and Contour HD Palette <br> Price: $25.00</p> </div> </div>
 
@@ -78,7 +78,7 @@ function FunctionFace() {
   //CHEEK     //CHEEK       //CHEEK         //CHEEK         //CHEEK       //CHEEK
 
   function FunctionCheeks() {
-    var Cheeks =  `<h3>highlighter</h3> <div class="polaroid"> <img src="ColorPopHighlight.png" alt= "Colourpop Pearlized-Scrumptious Highlighter" style= "width:100%">
+    var Cheeks =  `<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><h3>highlighter</h3> <div class="polaroid"> <img src="ColorPopHighlight.png" alt= "Colourpop Pearlized-Scrumptious Highlighter" style= "width:100%">
       <div class="container">
       <p> Colourpop Pearlized-Scrumptious Highlighter <br> Price:$8.00</p> </div> </div>
 
