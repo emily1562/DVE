@@ -30,13 +30,6 @@ padding: 15px 32px;
 }
 
  /* Survey */
- .SubmitButton {
-   background-color:grey;
-   color: white;
-   text-decoration: none;
-   border: none;
-  }
-
 .SurveyButton {
   display: block; margin: 0 auto;
   background-color:#D358F7 ; /*purple/pinkish*/
@@ -45,7 +38,7 @@ padding: 15px 32px;
   padding: 15px 20px;
   padding: 15px 32px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 18px;
   font-family: 'Lobster', cursive;
   text-align: center;
   cursor: pointer;
@@ -149,6 +142,13 @@ img.picEdit{
 
 .arrangeText{
   text-align: left;
+
+}
+
+.aboutUspic{
+  height: 350px;
+  width: 30%;
+  padding: 10px;
 }
 
 
