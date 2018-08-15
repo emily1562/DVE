@@ -104,7 +104,7 @@ height: 400px; */
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   display: block;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 h4 {
@@ -130,13 +130,24 @@ h4 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-<<<<<<< HEAD
 #BodyFontsNews{
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   display: block;
-  font-size: 15px;
+  font-size: 18px;
 }
+
+img.picEdit{
+  position: relative;
+  float: center;
+  width: 400px;
+  height: 250px;
+  background-position: 50% 50%;
+  background-repeat:   no-repeat;
+  background-size:     cover;
+}
+
+
 
 
 .SortByButtonSkin{
